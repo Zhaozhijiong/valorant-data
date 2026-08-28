@@ -1,0 +1,661 @@
+[
+  {
+    "id": 1,
+    "name": "标配",
+    "name_en": "Classic",
+    "type": "佩枪",
+    "price_text": "免费",
+    "price": 0,
+    "magazine": 12,
+    "penetration": "低",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 6.75,
+      "equipping_speed": 0.75,
+      "loading_speed": 1.75,
+      "moving_speed": 5.73,
+      "trajectory_deflection": 0.4,
+      "sup_trajectory_deflection": 0.4
+    },
+    "damage": [
+      {
+        "distance": "0-20米",
+        "head": 78,
+        "body": 26,
+        "leg": 22
+      },
+      {
+        "distance": "20-50米",
+        "head": 66,
+        "body": 22,
+        "leg": 18
+      }
+    ],
+    "description": "标配是所有玩家在每一轮开始（上一轮没有存活的前提下）的初始枪械。\n\n这把手枪威力比较弱，但是因为这是每一轮的初始武器，在玩家没有足够的钱买其他的武器的时候，使用本武器可以为以后买其他武器进行存钱。在游戏里，它的伤害很小。打头需要2-3枪才可杀敌，打身子和腿则分别需要7枪和8枪。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/classic.png"
+  },
+  {
+    "id": 2,
+    "name": "短炮",
+    "name_en": "Shorty",
+    "type": "佩枪",
+    "price_text": "300",
+    "price": 300,
+    "magazine": 2,
+    "penetration": "低",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 3,
+      "equipping_speed": 0.75,
+      "loading_speed": 1.75,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 4,
+      "sup_trajectory_deflection": 4
+    },
+    "damage": [
+      {
+        "distance": "0-7米",
+        "head": 22,
+        "body": 11,
+        "leg": 9
+      },
+      {
+        "distance": "7-15米",
+        "head": 12,
+        "body": 6,
+        "leg": 5
+      },
+      {
+        "distance": "15-50米",
+        "head": 6,
+        "body": 3,
+        "leg": 2
+      }
+    ],
+    "description": "短炮是游戏中可以购买的最便宜的武器，只要300块。它是一把具有低穿透力的半自动霰弹枪。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/shorty.png"
+  },
+  {
+    "id": 3,
+    "name": "狂怒",
+    "name_en": "Frenzy",
+    "type": "佩枪",
+    "price_text": "450",
+    "price": 450,
+    "magazine": 15,
+    "penetration": "低",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 10,
+      "equipping_speed": 1,
+      "loading_speed": 1.5,
+      "moving_speed": 5.73,
+      "trajectory_deflection": 0.45,
+      "sup_trajectory_deflection": 0.45
+    },
+    "damage": [
+      {
+        "distance": "0-20米",
+        "head": 78,
+        "body": 26,
+        "leg": 22
+      },
+      {
+        "distance": "20-50米",
+        "head": 63,
+        "body": 21,
+        "leg": 17
+      }
+    ],
+    "description": "狂怒是一把价格低、弹夹容量小的全自动手枪。它的伤害比较高，通常打身体7-8枪、打头3枪即可毙命。它在近距离的情况下非常有用，泼水即可。中远距离需要你使用爆破开火模式、或者点射。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/frenzy.png"
+  },
+  {
+    "id": 4,
+    "name": "鬼魅",
+    "name_en": "Ghost",
+    "type": "佩枪",
+    "price_text": "500",
+    "price": 500,
+    "magazine": 13,
+    "penetration": "中",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 6.75,
+      "equipping_speed": 0.75,
+      "loading_speed": 1.5,
+      "moving_speed": 5.73,
+      "trajectory_deflection": 0.3,
+      "sup_trajectory_deflection": 0.3
+    },
+    "damage": [
+      {
+        "distance": "0-30米",
+        "head": 105,
+        "body": 30,
+        "leg": 25
+      },
+      {
+        "distance": "30-50米",
+        "head": 87,
+        "body": 25,
+        "leg": 21
+      }
+    ],
+    "description": "鬼魅是一把相对便宜的半自动手枪，它伤害高，弹夹容量小。通常打头两发、打身体5-6发可以杀敌。鬼魅通常是附带消音器，来帮助提高它的准确度、减少射击声音覆盖范围，对于阴人射击比较有用。这把枪是可以作为可靠的备用武器，它的高于大部分同类枪械的准确度、良好的伤害允许你应对大多数情形。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/ghost.png"
+  },
+  {
+    "id": 5,
+    "name": "正义",
+    "name_en": "Sheriff",
+    "type": "佩枪",
+    "price_text": "800",
+    "price": 800,
+    "magazine": 6,
+    "penetration": "高",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 4,
+      "equipping_speed": 1,
+      "loading_speed": 2.25,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 0.25,
+      "sup_trajectory_deflection": 0.25
+    },
+    "damage": [
+      {
+        "distance": "0-30米",
+        "head": 159,
+        "body": 55,
+        "leg": 46
+      },
+      {
+        "distance": "30-50米",
+        "head": 145,
+        "body": 50,
+        "leg": 42
+      }
+    ],
+    "description": "正义是游戏中最贵的手枪，价格是800。它弹夹小，杀伤力大，后坐力也很强。是半自动手枪。这把手枪在eco局和手枪局非常有用，因为它相对于其他手枪的单发伤害性价比高。打腿部4枪、驱干3枪、打头1枪（30米以内情况下）即可毙命。正义的主要缺点是出枪慢、后坐力高。它是所有手枪中后坐力最高的，而且等待后坐力恢复的时间也比较长。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/sheriff.png"
+  },
+  {
+    "id": 6,
+    "name": "蜂刺",
+    "name_en": "Stinger",
+    "type": "冲锋枪",
+    "price_text": "1100",
+    "price": 1100,
+    "magazine": 20,
+    "penetration": "低",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 16,
+      "equipping_speed": 0.75,
+      "loading_speed": 2.25,
+      "moving_speed": 5.73,
+      "trajectory_deflection": 0.65,
+      "sup_trajectory_deflection": 0.35
+    },
+    "damage": [
+      {
+        "distance": "0-15米",
+        "head": 67,
+        "body": 27,
+        "leg": 22
+      },
+      {
+        "distance": "15-50米",
+        "head": 57,
+        "body": 23,
+        "leg": 19
+      }
+    ],
+    "description": "蜂刺是一把游戏中的较为便宜又具有较强近距离战斗能力的冲锋枪武器。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/stinger.png"
+  },
+  {
+    "id": 7,
+    "name": "骇灵",
+    "name_en": "Spectre",
+    "type": "冲锋枪",
+    "price_text": "1600",
+    "price": 1600,
+    "magazine": 30,
+    "penetration": "中",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 13.33,
+      "equipping_speed": 0.75,
+      "loading_speed": 2.25,
+      "moving_speed": 5.73,
+      "trajectory_deflection": 0.4,
+      "sup_trajectory_deflection": 0.25
+    },
+    "damage": [
+      {
+        "distance": "0-15米",
+        "head": 78,
+        "body": 26,
+        "leg": 22
+      },
+      {
+        "distance": "15-30米",
+        "head": 66,
+        "body": 22,
+        "leg": 18
+      },
+      {
+        "distance": "30-50米",
+        "head": 60,
+        "body": 20,
+        "leg": 17
+      }
+    ],
+    "description": "骇灵是一种价格适中的冲锋枪。它装有消音器，降低了能被敌人听见的声音范围。与蜂刺相比，它精确度更高，表面穿透能力更强，它的弹夹容量也比蜂刺更大，然而它的单发伤害相对地也更低。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/spectre.png"
+  },
+  {
+    "id": 8,
+    "name": "雄鹿",
+    "name_en": "Bucky",
+    "type": "霰弹枪",
+    "price_text": "850",
+    "price": 850,
+    "magazine": 5,
+    "penetration": "低",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 1.1,
+      "equipping_speed": 1,
+      "loading_speed": null,
+      "moving_speed": 5.06,
+      "trajectory_deflection": 3,
+      "sup_trajectory_deflection": 3
+    },
+    "damage": [
+      {
+        "distance": "0-8米",
+        "head": 34,
+        "body": 17,
+        "leg": 14
+      },
+      {
+        "distance": "8-12米",
+        "head": 26,
+        "body": 23,
+        "leg": 11
+      },
+      {
+        "distance": "12-50米",
+        "head": 18,
+        "body": 9,
+        "leg": 7
+      }
+    ],
+    "description": "雄鹿是一把霰弹枪。它有两种射击模式，其次射击模式（或称第二射击模式，默认为鼠标右键）采用空爆方式，即在子弹飞行一段距离后，会进行空爆散射，因此对于中距离的敌人杀伤力更强。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bucky.png"
+  },
+  {
+    "id": 9,
+    "name": "判官",
+    "name_en": "Judge",
+    "type": "霰弹枪",
+    "price_text": "1850",
+    "price": 1850,
+    "magazine": 5,
+    "penetration": "低",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 3.5,
+      "equipping_speed": 1,
+      "loading_speed": 2.2,
+      "moving_speed": 5.06,
+      "trajectory_deflection": 2.5,
+      "sup_trajectory_deflection": 2.5
+    },
+    "damage": [
+      {
+        "distance": "0-10米",
+        "head": 34,
+        "body": 17,
+        "leg": 14
+      },
+      {
+        "distance": "10-15米",
+        "head": 20,
+        "body": 10,
+        "leg": 8
+      },
+      {
+        "distance": "15-50米",
+        "head": 14,
+        "body": 7,
+        "leg": 5
+      }
+    ],
+    "description": "判官是游戏中最贵的霰弹枪，价格是1850，它是带有中等穿透力的全自动霰弹枪。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/judge.png"
+  },
+  {
+    "id": 10,
+    "name": "獠犬",
+    "name_en": "Bulldog",
+    "type": "步枪",
+    "price_text": "2050",
+    "price": 2050,
+    "magazine": 24,
+    "penetration": "中",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 10,
+      "equipping_speed": 1,
+      "loading_speed": 2.5,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 0.3,
+      "sup_trajectory_deflection": 0.3
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 115,
+        "body": 35,
+        "leg": 29
+      }
+    ],
+    "description": "獠犬是一把全自动步枪，也是游戏中三把全自动步枪中最便宜的一把，它的弹夹有24发的容量，射速也比较好，并且带有一个三连发的次射击模式，并且这个模式是开镜（ADS）的，在ADS下，它的后坐力降低、准确度提升。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bulldog.png"
+  },
+  {
+    "id": 11,
+    "name": "戍卫",
+    "name_en": "Guardian",
+    "type": "步枪",
+    "price_text": "2250",
+    "price": 2250,
+    "magazine": 12,
+    "penetration": "高",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 5.25,
+      "equipping_speed": 1,
+      "loading_speed": 2.5,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 0.1,
+      "sup_trajectory_deflection": 0
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 195,
+        "body": 65,
+        "leg": 49
+      }
+    ],
+    "description": "戍卫是一把半自动步枪，价格是2250。它也是目前游戏中唯一的一把半自动步枪，支持1.5倍开镜。同时相较于其他步枪，它的单发伤害也是最高的",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/guardian.png"
+  },
+  {
+    "id": 12,
+    "name": "幻影",
+    "name_en": "Phantom",
+    "type": "步枪",
+    "price_text": "2900",
+    "price": 2900,
+    "magazine": 30,
+    "penetration": "中",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 11,
+      "equipping_speed": 1,
+      "loading_speed": 2.5,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 0.2,
+      "sup_trajectory_deflection": 0.11
+    },
+    "damage": [
+      {
+        "distance": "0-20米",
+        "head": 156,
+        "body": 39,
+        "leg": 33
+      },
+      {
+        "distance": "20米以上",
+        "head": 140,
+        "body": 35,
+        "leg": 29
+      }
+    ],
+    "description": "幻影是一把价格为2900的步枪。它比同样价格的狂徒单发伤害更低，但是枪口更稳，弹道散射更小，枪声也更低。\n在近距离情况下，幻影威力强大，可以一枪致命。在长距离的情况下，打腿要6枪，打身体要5枪，打头要2枪。\n幻影在起枪之后的回合中经常会看到。由于开机瞄之后后坐力更小、准确度更高，因此用于蹲点防守很适合。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/phantom.png"
+  },
+  {
+    "id": 13,
+    "name": "狂徒",
+    "name_en": "Vandal",
+    "type": "步枪",
+    "price_text": "2900",
+    "price": 2900,
+    "magazine": 25,
+    "penetration": "中",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 9.75,
+      "equipping_speed": 1,
+      "loading_speed": 2.5,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 0.25,
+      "sup_trajectory_deflection": 0.157
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 160,
+        "body": 40,
+        "leg": 34
+      }
+    ],
+    "description": "狂徒是价格2900的一把全自动步枪。它是幻影的对位枪械，拥有独一无二的高伤害输出，面对敌人头部一击致命。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/vandal.png"
+  },
+  {
+    "id": 14,
+    "name": "飞将",
+    "name_en": "Marshal",
+    "type": "狙击枪",
+    "price_text": "950",
+    "price": 950,
+    "magazine": 5,
+    "penetration": "中",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 1.5,
+      "equipping_speed": 1.25,
+      "loading_speed": null,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 1,
+      "sup_trajectory_deflection": 0
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 202,
+        "body": 101,
+        "leg": 85
+      }
+    ],
+    "description": "飞将，它是一把“轻狙”，只要950的价格，相较于更贵的“大狙”冥驹，它只需要其四分之一的价格，可以获得其三分之二的伤害数值，而且，它的单发射速也比大狙快一倍。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/marshal.png"
+  },
+  {
+    "id": 15,
+    "name": "冥驹",
+    "name_en": "Operator",
+    "type": "狙击枪",
+    "price_text": "4700",
+    "price": 4700,
+    "magazine": 5,
+    "penetration": "高",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 0.6,
+      "equipping_speed": 1.5,
+      "loading_speed": 3.7,
+      "moving_speed": 5.13,
+      "trajectory_deflection": 5,
+      "sup_trajectory_deflection": 0
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 255,
+        "body": 150,
+        "leg": 120
+      }
+    ],
+    "description": "冥驹拥有本游戏中所有武器里面最高的单发伤害，这使它成为所有敌人中不可忽视的一股力量，当然它也是最贵的武器，价值4700。\n这把狙击枪拥有两种开镜倍率，2.5倍和5倍，2.5倍可以给你更大的视野范围，而5倍镜则可以让你更好处理细小的角落。\n这把枪的缺点是射速极低，当敌人报复时，它将变成一个致命弱点。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/operator.png"
+  },
+  {
+    "id": 16,
+    "name": "战神",
+    "name_en": "Ares",
+    "type": "机枪",
+    "price_text": "1600",
+    "price": 1600,
+    "magazine": 50,
+    "penetration": "高",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": 13,
+      "equipping_speed": 1.25,
+      "loading_speed": 3.25,
+      "moving_speed": 5.13,
+      "trajectory_deflection": 1,
+      "sup_trajectory_deflection": 0.9
+    },
+    "damage": [
+      {
+        "distance": "0-30米",
+        "head": 75,
+        "body": 30,
+        "leg": 25
+      },
+      {
+        "distance": "30-50米",
+        "head": 70,
+        "body": 28,
+        "leg": 23
+      }
+    ],
+    "description": "战神是游戏中两把重机枪中的相对便宜一把，它拥有一个完美名字——战神(Ares)，要知道，这是无畏契约这款游戏的开发代号！",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/ares.png"
+  },
+  {
+    "id": 17,
+    "name": "奥丁",
+    "name_en": "Odin",
+    "type": "机枪",
+    "price_text": "3200",
+    "price": 3200,
+    "magazine": 100,
+    "penetration": "高",
+    "fire_mode": "全自动",
+    "stats": {
+      "firing_speed": null,
+      "equipping_speed": 1.25,
+      "loading_speed": 5,
+      "moving_speed": 5.13,
+      "trajectory_deflection": 0.8,
+      "sup_trajectory_deflection": 0.79
+    },
+    "damage": [
+      {
+        "distance": "0-30米",
+        "head": 95,
+        "body": 38,
+        "leg": 32
+      },
+      {
+        "distance": "30-50米",
+        "head": 77,
+        "body": 31,
+        "leg": 26
+      }
+    ],
+    "description": "奥丁是游戏中两把重机枪中相对较贵的一把，相对于另一把重机枪战神，价格几乎是其两倍左右，同样的，它也有两倍于战神的弹夹容量，和更高的杀伤力。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/odin.png"
+  },
+  {
+    "id": 19,
+    "name": "莽侠",
+    "name_en": "Outlaw",
+    "type": "狙击枪",
+    "price_text": "2400",
+    "price": 2400,
+    "magazine": 2,
+    "penetration": "高",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 2.75,
+      "equipping_speed": 1.25,
+      "loading_speed": 3.8,
+      "moving_speed": 5.4,
+      "trajectory_deflection": 3.5,
+      "sup_trajectory_deflection": 0
+    },
+    "damage": [
+      {
+        "distance": "--",
+        "head": 238,
+        "body": 140,
+        "leg": 119
+      }
+    ],
+    "description": "一款高杀伤力、主打中距离的狙击步枪，可以连续射出两发子弹。但较长的装弹时间很可能会让你陷入困境，因此要谨慎选择射击的时机。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/outlaw.png"
+  },
+  {
+    "id": 20,
+    "name": "追猎",
+    "name_en": "Bandit",
+    "type": "佩枪",
+    "price_text": "600",
+    "price": 600,
+    "magazine": 8,
+    "penetration": "中",
+    "fire_mode": "半自动",
+    "stats": {
+      "firing_speed": 5.1,
+      "equipping_speed": 0.75,
+      "loading_speed": 1.5,
+      "moving_speed": 5.74,
+      "trajectory_deflection": 0.275,
+      "sup_trajectory_deflection": 0.275
+    },
+    "damage": [
+      {
+        "distance": "0-10米",
+        "head": 152,
+        "body": 39,
+        "leg": 33
+      },
+      {
+        "distance": "10-30米",
+        "head": 128,
+        "body": 39,
+        "leg": 33
+      },
+      {
+        "distance": "30-50米",
+        "head": 112,
+        "body": 34,
+        "leg": 28
+      }
+    ],
+    "description": "这是一把以精准著称的佩枪，只要精准命中头部即可一枪毙命，专为预算有限却想在对战中逆风翻盘的玩家打造。追猎的定位介于鬼魅与正义之间，在半起局中，无论偏向技能运用还是枪法对拼，都能提供更多选择。",
+    "icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bandit.png"
+  }
+]

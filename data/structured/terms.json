@@ -1,0 +1,886 @@
+[
+  {
+    "id": 1,
+    "category": "战术术语",
+    "name": "默认",
+    "description": "对于进攻方来说：开局各自分派进攻队员盯防对方的非常规前压，并且可由人多的一侧利用可恢复道具进行银幕消失后区域的抢夺。对于防守方来说：可以利用开局烟雾以及可恢复道具短暂控制中立区域，干扰进攻方的意图。",
+    "images": [],
+    "video_id": "term_id1"
+  },
+  {
+    "id": 2,
+    "category": "战术术语",
+    "name": "转点",
+    "description": "在遇到防守重侧或包点难进的情况下，进攻方转而对另一个点发起进攻，寻找机会。",
+    "images": [],
+    "video_id": "term_id2"
+  },
+  {
+    "id": 3,
+    "category": "战术术语",
+    "name": "爆弹",
+    "description": "也叫提点、rush，以最快的速度冲进包点，形成包点局部的多打少，寻求击杀以及下包。",
+    "images": [],
+    "video_id": "term_id3"
+  },
+  {
+    "id": 4,
+    "category": "战术术语",
+    "name": "Fake",
+    "description": "也叫假打，进攻方对一个点使用少量技能骗防守人员回防，同时另一边的队友进攻防守弱势点位。",
+    "images": [],
+    "video_id": "term_id4"
+  },
+  {
+    "id": 5,
+    "category": "战术术语",
+    "name": "静音接触",
+    "description": "进攻方在不使用技能和道具的情况下进行静音侦查，避免泄露行动信息以寻求出其不意的击杀。",
+    "images": [],
+    "video_id": "term_id5"
+  },
+  {
+    "id": 6,
+    "category": "战术术语",
+    "name": "单摸",
+    "description": "玩家独自进行搜索、收集信息或寻求击杀的行为。限制对方的可活动范围，分担队友压力。",
+    "images": [],
+    "video_id": "term_id6"
+  },
+  {
+    "id": 7,
+    "category": "战术术语",
+    "name": "绕后",
+    "description": "玩家抓住对方的防守漏洞，目的在绕到敌人的背后或侧翼进行出其不意的攻击。",
+    "images": [],
+    "video_id": "term_id7"
+  },
+  {
+    "id": 8,
+    "category": "战术术语",
+    "name": "双拉",
+    "description": "和队友两个人同时走出掩体和对面对枪。",
+    "images": [],
+    "video_id": "term_id8"
+  },
+  {
+    "id": 9,
+    "category": "战术术语",
+    "name": "拉人",
+    "description": "贤者利用大招复活队友，或者拉起开启无效指令倒地的KO",
+    "images": [],
+    "video_id": "term_id9"
+  },
+  {
+    "id": 10,
+    "category": "战术术语",
+    "name": "封烟",
+    "description": "烟位使用烟雾技能封锁敌人视线、分割战场，有效地控制敌人的行动，掩护队友提供进攻或撤退。",
+    "images": [],
+    "video_id": "term_id10"
+  },
+  {
+    "id": 11,
+    "category": "战术术语",
+    "name": "丢闪",
+    "description": "使用闪光弹或类似技能来暂时致盲敌人，以便发起进攻或掩护队友。",
+    "images": [],
+    "video_id": "term_id11"
+  },
+  {
+    "id": 12,
+    "category": "交流术语",
+    "name": "ns",
+    "description": "“Nice Shot\"，即“好枪”",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id12.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 13,
+    "category": "交流术语",
+    "name": "nt",
+    "description": "\"Nice Try\"，即“好尝试”，多用残局中未能获胜的情况",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id13.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 14,
+    "category": "交流术语",
+    "name": "AFK",
+    "description": "\"Away From Keyboard\"，玩家在游戏中挂机或离开键盘",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id14.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 15,
+    "category": "交流术语",
+    "name": "GLHF",
+    "description": "“Good Luck, Have Fun”，“祝你好运，游戏愉快”，通常在游戏开局使用，表达对队友和对手的良好祝愿。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id15.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 16,
+    "category": "交流术语",
+    "name": "ECO/经济局",
+    "description": "不购买或仅购买手枪和少量防具节省资金，确保下一回合能拥有足够的资金。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id16.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 17,
+    "category": "交流术语",
+    "name": "保枪",
+    "description": "残局时，回防路线几乎全被封死，玩家选择保持存活而不冒险进行战斗，避免枪械损失，保证下回合的枪械装备。",
+    "images": [],
+    "video_id": "term_id17"
+  },
+  {
+    "id": 18,
+    "category": "交流术语",
+    "name": "手枪局",
+    "description": "每个半场的第一回合，队伍资金有限，只能选择手枪和小甲的对局回合。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id18.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 19,
+    "category": "交流术语",
+    "name": "纯e",
+    "description": "完全不购买任何装备，仅用标配进行游戏的对局。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id19.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 20,
+    "category": "交流术语",
+    "name": "半起局",
+    "description": "保证下一回合一定能起出全甲道具的同时，部分队友购买枪和装备，部分队友不进行购买。节省资金的同时，依然保持一定的战斗力。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id20.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 21,
+    "category": "操作术语",
+    "name": "peek",
+    "description": "从掩体以小身位拉出，查看敌人位置或对枪",
+    "images": [],
+    "video_id": "term_id21"
+  },
+  {
+    "id": 22,
+    "category": "操作术语",
+    "name": "swing/大拉",
+    "description": "面对对方可能存在的预瞄枪位，直接选择快速的跑出掩体，拉出大身位，干扰对面的预瞄枪线",
+    "images": [],
+    "video_id": "term_id22"
+  },
+  {
+    "id": 23,
+    "category": "操作术语",
+    "name": "蹲拉",
+    "description": "蹲着拉出掩体进行对枪",
+    "images": [],
+    "video_id": "term_id23"
+  },
+  {
+    "id": 24,
+    "category": "操作术语",
+    "name": "近大远小",
+    "description": "对枪的劣势枪位。指游戏中在靠近交战掩体时，玩家的视野会被掩体遮挡，而离掩体较远的玩家则可以看到更多的区域。因此，玩家在搜点时应尽量远离掩体，以获得更广阔的视野。",
+    "images": [],
+    "video_id": "term_id24"
+  },
+  {
+    "id": 25,
+    "category": "操作术语",
+    "name": "广角",
+    "description": "对枪时远离近距离掩体，向后或者侧边移动，避免近大远小。",
+    "images": [],
+    "video_id": "term_id25"
+  },
+  {
+    "id": 26,
+    "category": "操作术语",
+    "name": "旋转跳",
+    "description": "peek时快速旋转跳跃，瞬间躲入掩体，拿取敌方信息或骗敌人开枪。",
+    "images": [],
+    "video_id": "term_id26"
+  },
+  {
+    "id": 27,
+    "category": "操作术语",
+    "name": "晃身",
+    "description": "在掩体后连续快速的小身位peek",
+    "images": [],
+    "video_id": "term_id27"
+  },
+  {
+    "id": 28,
+    "category": "地图通用术语",
+    "name": "X大/长",
+    "description": "通常指地图通往X包点的较为宽敞、主要的进攻路径，适合快速推进和大规模交火。例如莲华古城A大。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id28.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 29,
+    "category": "地图通用术语",
+    "name": "X小",
+    "description": "指通往X包点相对狭窄、次要的路径，可能更适合进行偷袭或侧翼包抄。例如亚海悬城A小。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id29.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 30,
+    "category": "地图通用术语",
+    "name": "中路",
+    "description": "地图中央，通常可以快速连通A，B包点的区域。例如霓虹町中路。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id30.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 31,
+    "category": "地图通用术语",
+    "name": "XY连通",
+    "description": "任意两个包点连通的部分。例如隐世修所AB连。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id31.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 32,
+    "category": "地图通用术语",
+    "name": "死点",
+    "description": "不靠侦察道具难以通过搜点排清的点位。例如莲华古城二楼下方，源工重镇二楼入口左侧。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id32.png",
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id32_2.jpeg"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 33,
+    "category": "地图通用术语",
+    "name": "攻/守重生点",
+    "description": "攻/守方每回合开始玩家所在的地方，以幽邃地窟为例。",
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id33.png",
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id33_2.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 34,
+    "category": "亚海悬城",
+    "name": "酒窖",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id34.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 35,
+    "category": "亚海悬城",
+    "name": "铁箱",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id35.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 36,
+    "category": "亚海悬城",
+    "name": "花园",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id36.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 37,
+    "category": "亚海悬城",
+    "name": "披萨",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 38,
+    "category": "亚海悬城",
+    "name": "一道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 39,
+    "category": "亚海悬城",
+    "name": "二道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 40,
+    "category": "亚海悬城",
+    "name": "市场/market",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 41,
+    "category": "亚海悬城",
+    "name": "船坞",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 42,
+    "category": "亚海悬城",
+    "name": "开关门",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 43,
+    "category": "莲华古城",
+    "name": "碎石",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 44,
+    "category": "莲华古城",
+    "name": "树屋",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 45,
+    "category": "莲华古城",
+    "name": "石门/A连",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 46,
+    "category": "莲华古城",
+    "name": "凹槽",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 47,
+    "category": "莲华古城",
+    "name": "A死点",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 48,
+    "category": "裂变峡谷",
+    "name": "下水道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 49,
+    "category": "裂变峡谷",
+    "name": "卫星",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 50,
+    "category": "裂变峡谷",
+    "name": "高低差",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 51,
+    "category": "裂变峡谷",
+    "name": "沙地",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 52,
+    "category": "裂变峡谷",
+    "name": "B二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 53,
+    "category": "森寒冬港",
+    "name": "厨房",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 54,
+    "category": "森寒冬港",
+    "name": "黄箱",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 55,
+    "category": "森寒冬港",
+    "name": "雪人",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 56,
+    "category": "森寒冬港",
+    "name": "橘区",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 57,
+    "category": "森寒冬港",
+    "name": "A前点/管道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 58,
+    "category": "深海明珠",
+    "name": "Art/画架",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 59,
+    "category": "深海明珠",
+    "name": "凹槽",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 60,
+    "category": "深海明珠",
+    "name": "底线",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 61,
+    "category": "深海明珠",
+    "name": "中门",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 62,
+    "category": "深海明珠",
+    "name": "A小",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 63,
+    "category": "深海明珠",
+    "name": "下水道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 64,
+    "category": "深海明珠",
+    "name": "屏幕",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 65,
+    "category": "深海明珠",
+    "name": "花店",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 66,
+    "category": "微风岛屿",
+    "name": "A二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 67,
+    "category": "微风岛屿",
+    "name": "VIP",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 68,
+    "category": "隐士修所",
+    "name": "车库",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 69,
+    "category": "隐士修所",
+    "name": "屏风",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 70,
+    "category": "源工重镇",
+    "name": "Hookah/水烟",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 71,
+    "category": "源工重镇",
+    "name": "Elbow",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 72,
+    "category": "源工重镇",
+    "name": "u hall/黑屋",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 73,
+    "category": "源工重镇",
+    "name": "浴室",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 74,
+    "category": "日落之城",
+    "name": "奶茶店",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 75,
+    "category": "日落之城",
+    "name": "Elbow/管道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 76,
+    "category": "日落之城",
+    "name": "市场",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 77,
+    "category": "日落之城",
+    "name": "红砖",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 78,
+    "category": "霓虹町",
+    "name": "电梯房",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 79,
+    "category": "霓虹町",
+    "name": "铁板",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 80,
+    "category": "霓虹町",
+    "name": "下水道",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 81,
+    "category": "霓虹町",
+    "name": "A二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 82,
+    "category": "霓虹町",
+    "name": "B二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 83,
+    "category": "霓虹町",
+    "name": "阅览室",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 84,
+    "category": "幽邃地窟",
+    "name": "通风管",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 85,
+    "category": "幽邃地窟",
+    "name": "高台",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 86,
+    "category": "幽邃地窟",
+    "name": "B二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 87,
+    "category": "幽邃地窟",
+    "name": "图书馆",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 88,
+    "category": "幽邃地窟",
+    "name": "A二楼",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 89,
+    "category": "幽邃地窟",
+    "name": "保安室",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 90,
+    "category": "幽邃地窟",
+    "name": "悬崖",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 91,
+    "category": "幽邃地窟",
+    "name": "B窗口",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  },
+  {
+    "id": 92,
+    "category": "幽邃地窟",
+    "name": "矮桥",
+    "description": null,
+    "images": [
+      "https://game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png"
+    ],
+    "video_id": null
+  }
+]
