@@ -1,0 +1,30 @@
+const PROXY = 'http://127.0.0.1:7897';
+const { writeFileSync } = await import('node:fs');
+const API = 'https://api.val.qq.com/go/agame/graphql/graphiQL';
+
+async function gql(query) {
+  const url = `${API}?query=${encodeURIComponent(query)}`;
+  const resp = await fetch(url, { proxy: PROXY, headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://val.qq.com/game-data.html', 'Accept': 'application/json' } });
+  return resp.text();
+}
+
+// tabs type schema
+const tabsSchema = await gql(`{ __type(name: "tabs") { fields { name type { kind name ofType { kind name } } } } }`);
+writeFileSync('../data/api_schema_tabs.json', tabsSchema);
+console.log('TABS SCHEMA:', tabsSchema.slice(0, 1500));
+
+// all agents with extra fields
+const q = `{
+  agents {
+    id
+    name
+    e_name
+    intent
+    gicp_tags
+    nationality
+    position_desc
+  }
+}`;
+const text = await gql(q);
+writeFileSync('../data/api_agents_extra.json', text);
+console.log('\nAGENTS EXTRA:', text.slice(0, 3000));

@@ -1,0 +1,1249 @@
+{
+	"data": {
+		"gun": {
+			"cli_size": 12,
+			"damage": [
+				{
+					"body": 26,
+					"distance": "0-20米",
+					"head": 78,
+					"leg": 22
+				},
+				{
+					"body": 22,
+					"distance": "20-50米",
+					"head": 66,
+					"leg": 18
+				}
+			],
+			"desc": "标配是所有玩家在每一轮开始（上一轮没有存活的前提下）的初始枪械。\n\n这把手枪威力比较弱，但是因为这是每一轮的初始武器，在玩家没有足够的钱买其他的武器的时候，使用本武器可以为以后买其他武器进行存钱。在游戏里，它的伤害很小。打头需要2-3枪才可杀敌，打身子和腿则分别需要7枪和8枪。",
+			"e_name": "Classic",
+			"equipping_speed": "0.75",
+			"firing_speed": "6.75",
+			"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/classic.png",
+			"loading_speed": "1.75",
+			"main_firing_mode": "半自动",
+			"moving_speed": "5.73",
+			"name": "标配",
+			"penetration_name": "低",
+			"price": "免费",
+			"skin": [
+				{
+					"e_name": "Resolution Classic",
+					"icon": "6D98B855-4EEA-2602-F26D-C1B594473F98",
+					"level": 0,
+					"name": "决意 标配"
+				},
+				{
+					"e_name": "Pistolinha Classic",
+					"icon": "2FF2A004-4A1B-BF7D-4184-F5B68DE24C99",
+					"level": 0,
+					"name": "小玩意 标配"
+				},
+				{
+					"e_name": "Striker Classic",
+					"icon": "3F4683D2-4EC5-333B-6CD1-898B2970269C",
+					"level": 0,
+					"name": "降维打击 标配"
+				},
+				{
+					"e_name": "Undercity Classic",
+					"icon": "747A6229-4F18-F170-AF78-719439BA122A",
+					"level": 2,
+					"name": "赛博迷城 标配"
+				},
+				{
+					"e_name": "Finesse Classic",
+					"icon": "C75C1D59-4DED-E50E-AFD7-30B84F2025F0",
+					"level": 0,
+					"name": "艺高胆大 标配"
+				},
+				{
+					"e_name": "Songsteel Classic",
+					"icon": "7C2AF542-42B2-920B-992B-CE9934B05CF3",
+					"level": 1,
+					"name": "天籁之钢 标配"
+				},
+				{
+					"e_name": "Shimmer Classic",
+					"icon": "C30108B4-4AD2-578E-1558-E9B8B2B515C9",
+					"level": 0,
+					"name": "许愿星砂 标配"
+				},
+				{
+					"e_name": "FIRE/arm Classic",
+					"icon": "5F83B61D-444B-EAD3-592C-A28CDC26D9D1",
+					"level": 0,
+					"name": "杀毒执行 标配"
+				},
+				{
+					"e_name": "Goldwing Classic",
+					"icon": "BD17826F-42C9-7011-76AE-87B024402C2A",
+					"level": 0,
+					"name": "金鸾之翼 标配"
+				},
+				{
+					"e_name": "Prime Classic",
+					"icon": "D9DCE0EC-464C-DF67-63A3-1F9A05D322AD",
+					"level": 2,
+					"name": "紫阙金琅 标配"
+				},
+				{
+					"e_name": "Avalanche Classic",
+					"icon": "4BD1574A-436B-EAFB-3611-588A44EF066A",
+					"level": 1,
+					"name": "寒冬兵器 标配"
+				},
+				{
+					"e_name": "Bound Classic",
+					"icon": "4BF58E6E-4218-7443-A786-DB99C5B3EDF1",
+					"level": 1,
+					"name": "缚魔武器 标配"
+				},
+				{
+					"e_name": "Prism III Classic",
+					"icon": "F2DFD614-4A97-FFAE-CC4A-F6B8F581D90D",
+					"level": 0,
+					"name": "异彩晶棱III 标配"
+				},
+				{
+					"e_name": "Smite Classic",
+					"icon": "6853E4E7-4241-A574-F4CD-0D9949008CFE",
+					"level": 0,
+					"name": "神罚 标配"
+				},
+				{
+					"e_name": "Spline Classic",
+					"icon": "8F71E44B-4EAE-3963-C71B-11A2167D34DC",
+					"level": 2,
+					"name": "无垠星环 标配"
+				},
+				{
+					"e_name": "Galleria Classic",
+					"icon": "AB72692D-4447-3CB0-E8A8-30AC11D82213",
+					"level": 0,
+					"name": "涂鸦艺廊 标配"
+				},
+				{
+					"e_name": "9 Lives Classic",
+					"icon": "E8C60959-49A8-6EFF-7983-2EA1955940B8",
+					"level": 0,
+					"name": "九命灵猫 标配"
+				},
+				{
+					"e_name": "Premiere Collision Classic",
+					"icon": "23DA120E-408D-2234-4CAC-58BCF1557752",
+					"level": 0,
+					"name": "超能冲撞 标配"
+				},
+				{
+					"e_name": "Random Favorite Skin",
+					"icon": "093E8873-4D3D-B63D-E98F-D29FC401C8BE",
+					"level": 0,
+					"name": "从个人最爱中随机选择"
+				},
+				{
+					"e_name": "Final Chamber Classic",
+					"icon": "528232A1-4D11-E724-5C1B-B3BB0C392C84",
+					"level": 0,
+					"name": "最终庇护 标配"
+				},
+				{
+					"e_name": "Kohaku \u0026 Matsuba Classic",
+					"icon": "CCBC3FDC-4117-0626-AECE-BE9AB47D961E",
+					"level": 1,
+					"name": "红鳞松叶 标配"
+				},
+				{
+					"e_name": "Daydreams Classic",
+					"icon": "241D4E4C-4786-A795-4A1D-24A59109A71C",
+					"level": 0,
+					"name": "白日幻梦 标配"
+				},
+				{
+					"e_name": "Cryostasis Classic",
+					"icon": "BA903A6D-41CE-494A-38B6-7188C10F9231",
+					"level": 2,
+					"name": "冰点凝冻 标配"
+				},
+				{
+					"e_name": "Panoramic Classic",
+					"icon": "6C3207AF-4C4A-13D6-9FF4-7DB41894E63E",
+					"level": 0,
+					"name": "彩梦之城 标配"
+				},
+				{
+					"e_name": "Intergrade Classic",
+					"icon": "C1C90D77-4BF4-89AF-8675-69971B388086",
+					"level": 0,
+					"name": "晶态集成 标配"
+				},
+				{
+					"e_name": "Red Alert Classic",
+					"icon": "900BECAB-4E59-38D1-C668-449A236142CC",
+					"level": 0,
+					"name": "烈火狂鲨 标配"
+				},
+				{
+					"e_name": "Kingdom Classic",
+					"icon": "E7644F3C-42D3-8336-5135-17A4883032FD",
+					"level": 1,
+					"name": "王国工设 标配"
+				},
+				{
+					"e_name": "Surge Classic",
+					"icon": "6B9217F8-412D-F482-B2FC-589575A743E2",
+					"level": 0,
+					"name": "激流先锋 标配"
+				},
+				{
+					"e_name": "Snowfall Classic",
+					"icon": "5BF9CF8C-40B7-26D1-A96D-04858DCF7972",
+					"level": 1,
+					"name": "浪漫雪国 标配"
+				},
+				{
+					"e_name": "Infinity Classic",
+					"icon": "32F3ECE6-4168-42D6-8E36-13B7DBC21FDA",
+					"level": 1,
+					"name": "无限竞技 标配"
+				},
+				{
+					"e_name": "Fiber Optic Classic",
+					"icon": "27FA060A-4F0D-F453-F0F8-7EB4F346CB4F",
+					"level": 0,
+					"name": "光导纤维 标配"
+				},
+				{
+					"e_name": "Radiant Crisis 001 Classic",
+					"icon": "5830B4B7-4F7B-F63B-FF47-61AAA2736484",
+					"level": 2,
+					"name": "源能者危机001 标配"
+				},
+				{
+					"e_name": "Forsaken Classic",
+					"icon": "8726B894-4AAB-8A7D-00AB-F18C3F202DEB",
+					"level": 2,
+					"name": "堕天遗武 标配"
+				},
+				{
+					"e_name": "VCT x 100T Classic",
+					"icon": "AD740A44-42FF-6D3E-0AEE-F8A1D5BD0FCA",
+					"level": 3,
+					"name": "VCT x 100T 标配"
+				},
+				{
+					"e_name": "VCT x BBL Classic",
+					"icon": "15E7A5A7-4FC9-7F3F-8EEE-85AF598059E3",
+					"level": 3,
+					"name": "VCT x BBL 标配"
+				},
+				{
+					"e_name": "VCT x BLD Classic",
+					"icon": "A0F3D3A6-4FB7-9605-99ED-BFB78E4C9E97",
+					"level": 3,
+					"name": "VCT x BLD 标配"
+				},
+				{
+					"e_name": "VCT x C9 Classic",
+					"icon": "21F01F86-4A71-2CBA-5566-5CBC7503E553",
+					"level": 3,
+					"name": "VCT x C9 标配"
+				},
+				{
+					"e_name": "VCT x DFM Classic",
+					"icon": "FBA9FA02-4E9F-B025-618B-298ACDA2B233",
+					"level": 3,
+					"name": "VCT x DFM 标配"
+				},
+				{
+					"e_name": "VCT x DRX Classic",
+					"icon": "287AFFAD-4512-837E-0AA7-1EB19CDF4FA2",
+					"level": 3,
+					"name": "VCT x DRX 标配"
+				},
+				{
+					"e_name": "VCT x EG Classic",
+					"icon": "ECD829CE-483C-AD61-E8D0-DC9AF8CDC2F4",
+					"level": 3,
+					"name": "VCT x EG 标配"
+				},
+				{
+					"e_name": "VCT x FNC Classic",
+					"icon": "DD22C4E7-41BA-7046-7265-22ADD8534077",
+					"level": 3,
+					"name": "VCT x FNC 标配"
+				},
+				{
+					"e_name": "VCT x FUR Classic",
+					"icon": "7BD5613B-4D2C-51E8-DF2F-F7AC66308960",
+					"level": 3,
+					"name": "VCT x FUR 标配"
+				},
+				{
+					"e_name": "VCT x FUT Classic",
+					"icon": "7D7E34DA-486C-A4D9-CFEB-3493F621BDE7",
+					"level": 3,
+					"name": "VCT x FUT 标配"
+				},
+				{
+					"e_name": "VCT x G2 Classic",
+					"icon": "82284255-4E4C-66DD-7FD8-6AA2FAAB5C57",
+					"level": 3,
+					"name": "VCT x G2 标配"
+				},
+				{
+					"e_name": "VCT x GEN Classic",
+					"icon": "EE36E82D-46A5-F24F-0CF7-2B8C2A8BB4AC",
+					"level": 3,
+					"name": "VCT x GEN 标配"
+				},
+				{
+					"e_name": "VCT x GE Classic",
+					"icon": "CE7736E1-41FD-EA36-0604-9EB57CFA9483",
+					"level": 3,
+					"name": "VCT x GE 标配"
+				},
+				{
+					"e_name": "VCT x GX Classic",
+					"icon": "DC43425B-4C3C-F90E-613B-46996C48EBA8",
+					"level": 3,
+					"name": "VCT x GX 标配"
+				},
+				{
+					"e_name": "VCT x KC Classic",
+					"icon": "12626B5C-45C2-092F-F6F1-C49D00A7843A",
+					"level": 3,
+					"name": "VCT x KC 标配"
+				},
+				{
+					"e_name": "VCT x KOI Classic",
+					"icon": "E72CDDAB-48DD-25A5-353F-D0B2A4132CA5",
+					"level": 3,
+					"name": "VCT x KOI 标配"
+				},
+				{
+					"e_name": "VCT x KRÜ Classic",
+					"icon": "43FFF892-4DE6-C14E-1717-DA8B7EF76031",
+					"level": 3,
+					"name": "VCT x KRÜ 标配"
+				},
+				{
+					"e_name": "VCT x LEV Classic",
+					"icon": "1DFCE43A-46AC-DCCB-5D3F-F3AB53BEF5E2",
+					"level": 3,
+					"name": "VCT x LEV 标配"
+				},
+				{
+					"e_name": "VCT x LOUD Classic",
+					"icon": "BB0DEFAF-4333-9B90-003C-1BA64CBC4E9D",
+					"level": 3,
+					"name": "VCT x LOUD 标配"
+				},
+				{
+					"e_name": "VCT x M8 Classic",
+					"icon": "706ADF5C-4141-DCD4-A0C2-02A2215FFE50",
+					"level": 3,
+					"name": "VCT x M8 标配"
+				},
+				{
+					"e_name": "VCT x MIBR Classic",
+					"icon": "B34B2A59-4D31-2964-9036-CA8117DB60C7",
+					"level": 3,
+					"name": "VCT x MIBR 标配"
+				},
+				{
+					"e_name": "VCT x NAVI Classic",
+					"icon": "EC376971-4C7A-D009-1CCB-1F8C157ADEFB",
+					"level": 3,
+					"name": "VCT x NAVI 标配"
+				},
+				{
+					"e_name": "VCT x NRG Classic",
+					"icon": "E0F37FAC-4123-CD2B-A809-5B9F82C06C8E",
+					"level": 3,
+					"name": "VCT x NRG 标配"
+				},
+				{
+					"e_name": "VCT x PRX Classic",
+					"icon": "9C2CBD91-4C54-3E6F-2279-F48FA881D220",
+					"level": 3,
+					"name": "VCT x PRX 标配"
+				},
+				{
+					"e_name": "VCT x RRQ Classic",
+					"icon": "085890EA-4189-9D7E-3E66-FAB8AD190B1B",
+					"level": 3,
+					"name": "VCT x RRQ 标配"
+				},
+				{
+					"e_name": "VCT x SEN Classic",
+					"icon": "E2A31B70-4678-59BA-B759-0D96B7EA2D75",
+					"level": 3,
+					"name": "VCT x SEN 标配"
+				},
+				{
+					"e_name": "VCT x T1 Classic",
+					"icon": "15659FD8-4B7F-5D93-956F-25B30AB3C75C",
+					"level": 3,
+					"name": "VCT x T1 标配"
+				},
+				{
+					"e_name": "VCT x TH Classic",
+					"icon": "394BB5F4-4EE7-B049-6FFD-019876285E9A",
+					"level": 3,
+					"name": "VCT x TH 标配"
+				},
+				{
+					"e_name": "VCT x TL Classic",
+					"icon": "4CF886AD-4807-5782-0E63-03B8CE91D724",
+					"level": 3,
+					"name": "VCT x TL 标配"
+				},
+				{
+					"e_name": "VCT x TLN Classic",
+					"icon": "D5F20A98-4495-E062-9FFF-3492B3F7867D",
+					"level": 3,
+					"name": "VCT x TLN 标配"
+				},
+				{
+					"e_name": "VCT x TS Classic",
+					"icon": "924F8323-46F4-7B2D-9D46-2EA8AEB05FDC",
+					"level": 3,
+					"name": "VCT x TS 标配"
+				},
+				{
+					"e_name": "VCT x VIT Classic",
+					"icon": "83C98D25-40D9-55E3-FC2E-7F99628A4E7F",
+					"level": 3,
+					"name": "VCT x VIT 标配"
+				},
+				{
+					"e_name": "VCT x ZETA Classic",
+					"icon": "385E2D5D-454A-4D05-96F3-B0A0F9936896",
+					"level": 3,
+					"name": "VCT x ZETA 标配"
+				},
+				{
+					"e_name": "VALORANT GO! Vol. 2 Classic",
+					"icon": "21189635-4F65-C3A5-ADB5-D1B7BB609C56",
+					"level": 2,
+					"name": "无畏契约GO！第二卷 标配"
+				},
+				{
+					"e_name": "Switchback Classic",
+					"icon": "BCEFCB4D-4CBC-C2BB-BD2C-DCB16A4B1C50",
+					"level": 0,
+					"name": "橙色疾影 标配"
+				},
+				{
+					"e_name": "Standard Classic",
+					"icon": "4B2D5B4F-4955-4208-286C-ABADEC250CDD",
+					"level": 0,
+					"name": "标准 标配"
+				},
+				{
+					"e_name": "Tacti-Series Classic",
+					"icon": "C23E8642-4E79-E440-CDF6-63B08DDE2708",
+					"level": 0,
+					"name": "战术熊与伙伴们 标配"
+				},
+				{
+					"e_name": "VCT x AG Classic",
+					"icon": "66784CEA-49B4-619B-9030-8E8DD9CEFBF3",
+					"level": 3,
+					"name": "VCT x AG 标配"
+				},
+				{
+					"e_name": "VCT x BLG Classic",
+					"icon": "CA8DE95B-43B8-B050-E2DC-25B8FD15DCD6",
+					"level": 3,
+					"name": "VCT x BLG 标配"
+				},
+				{
+					"e_name": "VCT x DRG Classic",
+					"icon": "050F9C28-4BAA-5A46-63B7-9D9C9041AB37",
+					"level": 3,
+					"name": "VCT x DRG 标配"
+				},
+				{
+					"e_name": "VCT x EDG Classic",
+					"icon": "75BDEE10-4CC4-7012-7BBC-5A880C33568B",
+					"level": 3,
+					"name": "VCT x EDG 标配"
+				},
+				{
+					"e_name": "VCT x FPX Classic",
+					"icon": "1DB4EA1C-4194-56D5-9D85-04B5B63EDACB",
+					"level": 3,
+					"name": "VCT x FPX 标配"
+				},
+				{
+					"e_name": "VCT x JDG Classic",
+					"icon": "8D19BC87-4171-578E-78F7-93939A89138E",
+					"level": 3,
+					"name": "VCT x JDG 标配"
+				},
+				{
+					"e_name": "VCT x NOVA Classic",
+					"icon": "35695D41-4FCE-125D-4C65-AF96F62A4AB3",
+					"level": 3,
+					"name": "VCT x NOVA 标配"
+				},
+				{
+					"e_name": "VCT x TE Classic",
+					"icon": "C3CC0697-45FE-0B01-416B-2A8997C5B187",
+					"level": 3,
+					"name": "VCT x TE 标配"
+				},
+				{
+					"e_name": "VCT x TEC Classic",
+					"icon": "104251F1-448D-150B-50D1-37BAA6C47C42",
+					"level": 3,
+					"name": "VCT x TEC 标配"
+				},
+				{
+					"e_name": "VCT x TYL Classic",
+					"icon": "16F10784-4276-41E1-0A2B-BCB9965B1434",
+					"level": 3,
+					"name": "VCT x TYL 标配"
+				},
+				{
+					"e_name": "VCT x WOL Classic",
+					"icon": "4E211DC7-43B1-FDEE-8C13-DC9D5517694D",
+					"level": 3,
+					"name": "VCT x WOL 标配"
+				},
+				{
+					"e_name": "Glitchpop Classic",
+					"icon": "BB1E1703-4EA1-9BE5-C145-4480A6B9F0D7",
+					"level": 3,
+					"name": "全息波普//2.0 标配"
+				},
+				{
+					"e_name": "Bubble Pop Classic",
+					"icon": "3D1E1A59-422C-7964-08E5-A58C0820F929",
+					"level": 1,
+					"name": "超能偶像 标配"
+				},
+				{
+					"e_name": "Reverie Classic",
+					"icon": "71609B67-426F-3814-9507-939165D3AD5A",
+					"level": 0,
+					"name": "琉璃幻梦 标配"
+				},
+				{
+					"e_name": "Steel Resolve Classic",
+					"icon": "E0AC9C7C-4F0A-C624-5020-318D287F86DA",
+					"level": 0,
+					"name": "钢铁意志 标配"
+				},
+				{
+					"e_name": "Nocturnum Classic",
+					"icon": "AB5245A7-4ABD-131B-2226-C3AD68B4E503",
+					"level": 3,
+					"name": "黯夜怪谈 标配"
+				},
+				{
+					"e_name": "Yoonseul Classic",
+					"icon": "E30F8BA2-4942-A618-7F3C-3CAD110A58DC",
+					"level": 0,
+					"name": "浮光跃金 标配"
+				},
+				{
+					"e_name": "Torque Classic",
+					"icon": "F99E97EC-4CFD-15BE-7A2D-B285DBDF49DF",
+					"level": 1,
+					"name": "荒土机兵 标配"
+				},
+				{
+					"e_name": "Black.Market Classic",
+					"icon": "BE7B4527-4270-224C-E571-CB9132F84B75",
+					"level": 2,
+					"name": "黑市 标配"
+				},
+				{
+					"e_name": "RGX 11z Pro Classic",
+					"icon": "EDA9DFED-4D9F-BF1F-9D47-8598AEEBD14D",
+					"level": 3,
+					"name": "RGX 11z Pro//2.0 标配"
+				},
+				{
+					"e_name": "VCT25 x 100T Classic",
+					"icon": "E11AB469-4DF5-C304-2800-D281D84BFDD7",
+					"level": 3,
+					"name": "VCT25 x 100T 标配"
+				},
+				{
+					"e_name": "VCT25 x AG Classic",
+					"icon": "427A79F6-4D66-4D2F-DDE2-7E83BE237CC8",
+					"level": 3,
+					"name": "VCT25 x AG 标配"
+				},
+				{
+					"e_name": "VCT25 x BBL Classic",
+					"icon": "137FE851-4502-DA4E-57D3-1C862FFEFEE2",
+					"level": 3,
+					"name": "VCT25 x BBL 标配"
+				},
+				{
+					"e_name": "VCT25 x BLG Classic",
+					"icon": "CE2AFE33-4AC9-15B0-F913-05B8D0892FDD",
+					"level": 3,
+					"name": "VCT25 x BLG 标配"
+				},
+				{
+					"e_name": "VCT25 x C9 Classic",
+					"icon": "E543DB36-4742-3C59-5406-D180A48ACA43",
+					"level": 3,
+					"name": "VCT25 x C9 标配"
+				},
+				{
+					"e_name": "VCT25 x DFM Classic",
+					"icon": "9F55DB68-48F0-F1EA-9BB6-A88975795634",
+					"level": 3,
+					"name": "VCT25 x DFM 标配"
+				},
+				{
+					"e_name": "VCT25 x DRG Classic",
+					"icon": "576CDDCF-4F19-9871-27F3-3D9B0914F580",
+					"level": 3,
+					"name": "VCT25 x DRG 标配"
+				},
+				{
+					"e_name": "VCT25 x DRX Classic",
+					"icon": "7162C726-43D5-0391-A9E0-48B40557B067",
+					"level": 3,
+					"name": "VCT25 x DRX 标配"
+				},
+				{
+					"e_name": "VCT25 x EDG Classic",
+					"icon": "B2890571-4841-9D5E-1892-A4B45E122E25",
+					"level": 3,
+					"name": "VCT25 x EDG 标配"
+				},
+				{
+					"e_name": "VCT25 x EG Classic",
+					"icon": "1ECBA8ED-4407-43F7-FB7B-A5AC98D37779",
+					"level": 3,
+					"name": "VCT25 x EG 标配"
+				},
+				{
+					"e_name": "VCT25 x FNC Classic",
+					"icon": "5FF7E93F-4A05-AE8C-3F44-0EA7CA2C699C",
+					"level": 3,
+					"name": "VCT25 x FNC 标配"
+				},
+				{
+					"e_name": "VCT25 x FPX Classic",
+					"icon": "234B7174-4A63-DE1C-F303-E19DE8333DD1",
+					"level": 3,
+					"name": "VCT25 x FPX 标配"
+				},
+				{
+					"e_name": "VCT25 x FUR Classic",
+					"icon": "4B894457-4DAB-3507-7474-6D95A8D72FCE",
+					"level": 3,
+					"name": "VCT25 x FUR 标配"
+				},
+				{
+					"e_name": "VCT25 x FUT Classic",
+					"icon": "904A412E-45BD-C3BE-EEE5-0F9E6CC8747F",
+					"level": 3,
+					"name": "VCT25 x FUT 标配"
+				},
+				{
+					"e_name": "VCT25 x G2 Classic",
+					"icon": "8B496186-4520-ECF0-2DE5-9AB35D4CB119",
+					"level": 3,
+					"name": "VCT25 x G2 标配"
+				},
+				{
+					"e_name": "VCT25 x GEN Classic",
+					"icon": "535421D7-46E7-51AF-6065-4FB85ED1820C",
+					"level": 3,
+					"name": "VCT25 x GEN 标配"
+				},
+				{
+					"e_name": "VCT25 x GE Classic",
+					"icon": "A9647BAD-4680-93A1-28F4-408E8164A228",
+					"level": 3,
+					"name": "VCT25 x GE 标配"
+				},
+				{
+					"e_name": "VCT25 x GX Classic",
+					"icon": "723249BE-4698-6D15-E98E-62BB5E977947",
+					"level": 3,
+					"name": "VCT25 x GX 标配"
+				},
+				{
+					"e_name": "VCT25 x JDG Classic",
+					"icon": "CCC5D324-40BB-045F-2276-A0ACA6F3634F",
+					"level": 3,
+					"name": "VCT25 x JDG 标配"
+				},
+				{
+					"e_name": "VCT25 x KC Classic",
+					"icon": "8313255F-4585-EBEF-0149-5CBB3841B828",
+					"level": 3,
+					"name": "VCT25 x KC 标配"
+				},
+				{
+					"e_name": "VCT25 x KOI Classic",
+					"icon": "A17A5CD9-49FE-FFE1-1BE8-968A7A565143",
+					"level": 3,
+					"name": "VCT25 x KOI 标配"
+				},
+				{
+					"e_name": "VCT25 x KRÜ Classic",
+					"icon": "6FBEB357-4CDD-7076-25FA-ADAAC4D00EF4",
+					"level": 3,
+					"name": "VCT25 x KRÜ 标配"
+				},
+				{
+					"e_name": "VCT25 x LEV Classic",
+					"icon": "27435ADA-4F57-7F6F-8CD4-3BBD9E4BF3CF",
+					"level": 3,
+					"name": "VCT25 x LEV 标配"
+				},
+				{
+					"e_name": "VCT25 x LOUD Classic",
+					"icon": "36A9432C-4719-59A6-4BEA-5094D57A2D0B",
+					"level": 3,
+					"name": "VCT25 x LOUD 标配"
+				},
+				{
+					"e_name": "VCT25 x M8 Classic",
+					"icon": "B8F2D47C-4CDA-DD3A-B99A-62A4F0531B5F",
+					"level": 3,
+					"name": "VCT25 x M8 标配"
+				},
+				{
+					"e_name": "VCT25 x MIBR Classic",
+					"icon": "65FB6FA8-46A2-3DC0-9413-2D9A3771E48F",
+					"level": 3,
+					"name": "VCT25 x MIBR 标配"
+				},
+				{
+					"e_name": "VCT25 x NAVI Classic",
+					"icon": "89678C1A-4141-91AB-AA15-B4B55BCCF880",
+					"level": 3,
+					"name": "VCT25 x NAVI 标配"
+				},
+				{
+					"e_name": "VCT25 x NOVA Classic",
+					"icon": "FD795F2F-4AEA-BB65-2148-C1884D2995C7",
+					"level": 3,
+					"name": "VCT25 x NOVA 标配"
+				},
+				{
+					"e_name": "VCT25 x NRG Classic",
+					"icon": "D88EECE7-4FA3-FAFB-2D54-998BE7427427",
+					"level": 3,
+					"name": "VCT25 x NRG 标配"
+				},
+				{
+					"e_name": "VCT25 x PRX Classic",
+					"icon": "BB2E15E6-465E-6069-E53B-3BB21F232022",
+					"level": 3,
+					"name": "VCT25 x PRX 标配"
+				},
+				{
+					"e_name": "VCT25 x RRQ Classic",
+					"icon": "8AB305FE-4824-DC53-09D0-5082E3EA56EC",
+					"level": 3,
+					"name": "VCT25 x RRQ 标配"
+				},
+				{
+					"e_name": "VCT25 x SEN Classic",
+					"icon": "9A160511-44EC-7FDA-7870-5B820A6FD514",
+					"level": 3,
+					"name": "VCT25 x SEN 标配"
+				},
+				{
+					"e_name": "VCT25 x T1 Classic",
+					"icon": "A586000E-41AA-C012-0C5E-B2865E367157",
+					"level": 3,
+					"name": "VCT25 x T1 标配"
+				},
+				{
+					"e_name": "VCT25 x TE Classic",
+					"icon": "2060A6C6-41D1-7AFF-B30B-61A4A54B2519",
+					"level": 3,
+					"name": "VCT25 x TE 标配"
+				},
+				{
+					"e_name": "VCT25 x TEC Classic",
+					"icon": "720C8EE7-4396-BCA2-BBC1-58B1C7DF9BF4",
+					"level": 3,
+					"name": "VCT25 x TEC 标配"
+				},
+				{
+					"e_name": "VCT25 x TH Classic",
+					"icon": "DB84133C-4E9E-FD78-3F6C-CCB4E295CA68",
+					"level": 3,
+					"name": "VCT25 x TH 标配"
+				},
+				{
+					"e_name": "VCT25 x TL Classic",
+					"icon": "A7FC9ACF-42A9-499B-B087-C4A67F314BDA",
+					"level": 3,
+					"name": "VCT25 x TL 标配"
+				},
+				{
+					"e_name": "VCT25 x TLN Classic",
+					"icon": "41C31FD5-4613-A688-F04A-A68CFBA4042E",
+					"level": 3,
+					"name": "VCT25 x TLN 标配"
+				},
+				{
+					"e_name": "VCT25 x TS Classic",
+					"icon": "3310B39F-4F24-6353-041D-84B9E3EE0436",
+					"level": 3,
+					"name": "VCT25 x TS 标配"
+				},
+				{
+					"e_name": "VCT25 x TYL Classic",
+					"icon": "66489D5C-42A0-1D5B-E2C1-699DCB85EAB4",
+					"level": 3,
+					"name": "VCT25 x TYL 标配"
+				},
+				{
+					"e_name": "VCT25 x VIT Classic",
+					"icon": "7BF665C5-4C2E-A535-530D-DFB5B13FBD84",
+					"level": 3,
+					"name": "VCT25 x VIT 标配"
+				},
+				{
+					"e_name": "VCT25 x WOL Classic",
+					"icon": "A0413997-4B19-5939-DAAB-9A92BD3E44F6",
+					"level": 3,
+					"name": "VCT25 x WOL 标配"
+				},
+				{
+					"e_name": "VCT25 x ZETA Classic",
+					"icon": "A83087D1-4365-1FD9-847A-87A482376E9F",
+					"level": 3,
+					"name": "VCT25 x ZETA 标配"
+				},
+				{
+					"e_name": "Neptune Classic",
+					"icon": "81D37303-4626-9AFB-4503-E6B8B10A7275",
+					"level": 2,
+					"name": "海洋之星//2.0 标配"
+				},
+				{
+					"e_name": "Refractrix Classic",
+					"icon": "516738B4-4B42-DB63-A603-F5837DFBBC39",
+					"level": 0,
+					"name": "折光棱晶 标配"
+				},
+				{
+					"e_name": "Sakura Classic",
+					"icon": "1BCFD66F-4EFF-E119-387E-94868AD48A29",
+					"level": 1,
+					"name": "樱花 标配"
+				},
+				{
+					"e_name": "Storm Maw Classic",
+					"icon": "B7C235A8-4F3F-381D-931F-9A983D4A1FD7",
+					"level": 0,
+					"name": "荒狼之颚 标配"
+				},
+				{
+					"e_name": "Spectrum Classic",
+					"icon": "E6A6EA31-4A05-8889-B065-D09A536AFFFD",
+					"level": 3,
+					"name": "电音光谱 标配"
+				},
+				{
+					"e_name": "VCT25 x 2G Classic",
+					"icon": "09B21BC6-493E-71B8-13FC-4C8DC7DF72D8",
+					"level": 3,
+					"name": "VCT25 x 2G 标配"
+				},
+				{
+					"e_name": "VCT25 x APK Classic",
+					"icon": "1CF6AFFF-467D-C021-7D32-89A0DFAEC0E0",
+					"level": 3,
+					"name": "VCT25 x APK 标配"
+				},
+				{
+					"e_name": "VCT25 x BOOM Classic",
+					"icon": "1A24538A-42AE-1720-A13B-2F9A8676CB45",
+					"level": 3,
+					"name": "VCT25 x BOOM 标配"
+				},
+				{
+					"e_name": "VCT25 x NS Classic",
+					"icon": "32192860-433F-A64A-6537-DEBA0F30F64F",
+					"level": 3,
+					"name": "VCT25 x NS 标配"
+				},
+				{
+					"e_name": "VCT25 x XLG Classic",
+					"icon": "C1BEE584-4EFA-37ED-4D13-70AD5103F23C",
+					"level": 3,
+					"name": "VCT25 x XLG 标配"
+				},
+				{
+					"e_name": "Divergence Classic",
+					"icon": "C3FECD19-4484-6C32-7255-9C89FDCDE00D",
+					"level": 3,
+					"name": "光荣异象 标配"
+				},
+				{
+					"e_name": "Gravitational Uranium Neuroblast",
+					"icon": "16B745AC-4E5F-10AB-32B0-FA8384ECB69F",
+					"level": 2,
+					"name": "万铀引力辐爆者 标配"
+				},
+				{
+					"e_name": "ATLAS // CMD Classic",
+					"icon": "61A4EAD7-4421-BE5A-5C86-E1BEDFEE5C96",
+					"level": 1,
+					"name": "阿特拉斯指挥部 标配"
+				},
+				{
+					"e_name": "Interhelm Classic",
+					"icon": "73DEDAC1-4E8D-E960-07FD-B3896C4E1C44",
+					"level": 1,
+					"name": "星际猎兵 标配"
+				},
+				{
+					"e_name": "Dolmir's Revenge Classic",
+					"icon": "FF89D8DB-408F-0BA8-152E-17B42D55F469",
+					"level": 3,
+					"name": "多弥尔的复仇 标配"
+				},
+				{
+					"e_name": "Orealis Classic",
+					"icon": "37453552-48A6-3518-EB2D-BF9B8A764523",
+					"level": 3,
+					"name": "宇宙幻景 标配"
+				},
+				{
+					"e_name": "Superset Classic",
+					"icon": "38BCCD91-481B-7EFA-2D03-168111F44299",
+					"level": 0,
+					"name": "超集系统 标配"
+				},
+				{
+					"e_name": "VCT26 x 100T Classic",
+					"icon": "382C188B-4F5B-192D-7B89-E8BFC9A25B0F",
+					"level": 3,
+					"name": "VCT26 x 100T 标配"
+				},
+				{
+					"e_name": "VCT26 x AG Classic",
+					"icon": "CCE9ECF0-4AAA-7310-C415-EF8556B014DD",
+					"level": 3,
+					"name": "VCT26 x AG 标配"
+				},
+				{
+					"e_name": "VCT26 x BBL Classic",
+					"icon": "2349D9E0-467A-7B2D-96BD-37BD3CB60267",
+					"level": 3,
+					"name": "VCT26 x BBL 标配"
+				},
+				{
+					"e_name": "VCT26 x BLG Classic",
+					"icon": "A16D925B-4080-336E-ED7E-89AA2F12B92F",
+					"level": 3,
+					"name": "VCT26 x BLG 标配"
+				},
+				{
+					"e_name": "VCT26 x C9 Classic",
+					"icon": "B3BCA22F-47E2-277F-F995-ABADB6B406AD",
+					"level": 3,
+					"name": "VCT26 x C9 标配"
+				},
+				{
+					"e_name": "VCT26 x DFM Classic",
+					"icon": "A96BCC36-46F4-CF8B-5EBC-FD8901FCEE23",
+					"level": 3,
+					"name": "VCT26 x DFM 标配"
+				},
+				{
+					"e_name": "VCT26 x DRG Classic",
+					"icon": "74AA2CC5-4978-69DC-CDB3-51914E9FE420",
+					"level": 3,
+					"name": "VCT26 x DRG 标配"
+				},
+				{
+					"e_name": "VCT26 x DRX Classic",
+					"icon": "10C92F2F-43A5-0F80-4678-22890482A711",
+					"level": 3,
+					"name": "VCT26 x DRX 标配"
+				},
+				{
+					"e_name": "VCT26 x EDG Classic",
+					"icon": "B19AE08B-44B5-4EC8-35F5-AF9DF91DDA02",
+					"level": 3,
+					"name": "VCT26 x EDG 标配"
+				},
+				{
+					"e_name": "VCT26 x EG Classic",
+					"icon": "F6C78871-4F59-E6E9-FD89-1B8329D48866",
+					"level": 3,
+					"name": "VCT26 x EG 标配"
+				},
+				{
+					"e_name": "VCT26 x FNC Classic",
+					"icon": "BAA058B9-49AC-C7CD-880C-41A7AC728809",
+					"level": 3,
+					"name": "VCT26 x FNC 标配"
+				},
+				{
+					"e_name": "VCT26 x FPX Classic",
+					"icon": "2A4FD4F0-467A-65AE-9741-FBBF60C9AF91",
+					"level": 3,
+					"name": "VCT26 x FPX 标配"
+				},
+				{
+					"e_name": "VCT26 x FUR Classic",
+					"icon": "E162669E-4868-00F7-549F-759087295B79",
+					"level": 3,
+					"name": "VCT26 x FUR 标配"
+				},
+				{
+					"e_name": "VCT26 x FUT Classic",
+					"icon": "BA1DA274-4ED1-4E0D-10F5-F8A0F7F92999",
+					"level": 3,
+					"name": "VCT26 x FUT 标配"
+				},
+				{
+					"e_name": "VCT26 x G2 Classic",
+					"icon": "D23447BF-410E-4F4E-D1DB-A7997BD7B298",
+					"level": 3,
+					"name": "VCT26 x G2 标配"
+				},
+				{
+					"e_name": "VCT26 x GEN Classic",
+					"icon": "51159878-4630-9FEB-8D60-9092812D27E2",
+					"level": 3,
+					"name": "VCT26 x GEN 标配"
+				},
+				{
+					"e_name": "VCT26 x GE Classic",
+					"icon": "C296E1EE-4E6F-E5E8-7C9B-A7864C995DFE",
+					"level": 3,
+					"name": "VCT26 x GE 标配"
+				},
+				{
+					"e_name": "VCT26 x GX Classic",
+					"icon": "F868EC3B-46FC-A6C3-4CCD-06A9A889CD41",
+					"level": 3,
+					"name": "VCT26 x GX 标配"
+				},
+				{
+					"e_name": "VCT26 x JDG Classic",
+					"icon": "DB5EE408-404E-BC93-3E4D-E7811170811F",
+					"level": 3,
+					"name": "VCT26 x JDG 标配"
+				},
+				{
+					"e_name": "VCT26 x KC Classic",
+					"icon": "15F2C715-40BC-AE2E-E4EB-DDA2B1F2BB79",
+					"level": 3,
+					"name": "VCT26 x KC 标配"
+				},
+				{
+					"e_name": "VCT26 x KRÜ Classic",
+					"icon": "238B5EE7-4B27-A078-5E24-F4B5508E1A66",
+					"level": 3,
+					"name": "VCT26 x KRÜ 标配"
+				},
+				{
+					"e_name": "VCT26 x LEV Classic",
+					"icon": "6C147067-4ADA-0626-4CC4-6BAD0C02348A",
+					"level": 3,
+					"name": "VCT26 x LEV 标配"
+				},
+				{
+					"e_name": "VCT26 x LOUD Classic",
+					"icon": "50E1B02D-4F19-1479-12F0-46ADDB7A828C",
+					"level": 3,
+					"name": "VCT26 x LOUD 标配"
+				},
+				{
+					"e_name": "VCT26 x M8 Classic",
+					"icon": "B8A7E9B5-4E90-1C79-4C1D-508FDF82FAF2",
+					"level": 3,
+					"name": "VCT26 x M8 标配"
+				},
+				{
+					"e_name": "VCT26 x MIBR Classic",
+					"icon": "8980AF0F-40FD-58CC-682A-CC83B975BAF5",
+					"level": 3,
+					"name": "VCT26 x MIBR 标配"
+				},
+				{
+					"e_name": "VCT26 x NAVI Classic",
+					"icon": "465B36EA-4E2C-0EEB-DB78-7BA7A5E75FBB",
+					"level": 3,
+					"name": "VCT26 x NAVI 标配"
+				},
+				{
+					"e_name": "VCT26 x NOVA Classic",
+					"icon": "1789DABC-47BB-9042-5DD8-CC89CF07D8FC",
+					"level": 3,
+					"name": "VCT26 x NOVA 标配"
+				},
+				{
+					"e_name": "VCT26 x NRG Classic",
+					"icon": "9B5FF901-40C7-D5A0-BA39-76BE1D3545B4",
+					"level": 3,
+					"name": "VCT26 x NRG 标配"
+				},
+				{
+					"e_name": "VCT26 x NS Classic",
+					"icon": "D2E9D879-4B08-4815-D95D-E1AA3385D27C",
+					"level": 3,
+					"name": "VCT26 x NS 标配"
+				},
+				{
+					"e_name": "VCT26 x PRX Classic",
+					"icon": "490A926F-48F7-EB42-6862-60BCF7A8E28C",
+					"level": 3,
+					"name": "VCT26 x PRX 标配"
+				},
+				{
+					"e_name": "VCT26 x RRQ Classic",
+					"icon": "A12676DB-4F97-3F6B-180E-7C9C3D591C43",
+					"level": 3,
+					"name": "VCT26 x RRQ 标配"
+				},
+				{
+					"e_name": "VCT26 x SEN Classic",
+					"icon": "26095B3D-4851-2752-D182-AE9ACA986F9F",
+					"level": 3,
+					"name": "VCT26 x SEN 标配"
+				},
+				{
+					"e_name": "VCT26 x T1 Classic",
+					"icon": "6E4AE4B6-43C8-3625-538B-3B9B84E8610F",
+					"level": 3,
+					"name": "VCT26 x T1 标配"
+				},
+				{
+					"e_name": "VCT26 x TE Classic",
+					"icon": "AE740EC9-4815-147D-EAC9-CB913141D8C9",
+					"level": 3,
+					"name": "VCT26 x TE 标配"
+				},
+				{
+					"e_name": "VCT26 x TEC Classic",
+					"icon": "251B5854-4F65-51A2-2C7E-569DBF157D57",
+					"level": 3,
+					"name": "VCT26 x TEC 标配"
+				},
+				{
+					"e_name": "VCT26 x TH Classic",
+					"icon": "457E000F-4B17-4BFE-AE96-61939FA8D244",
+					"level": 3,
+					"name": "VCT26 x TH 标配"
+				},
+				{
+					"e_name": "VCT26 x TL Classic",
+					"icon": "629DC7A1-4076-092A-4830-AFA7F9CEAD67",
+					"level": 3,
+					"name": "VCT26 x TL 标配"
+				},
+				{
+					"e_name": "VCT26 x TS Classic",
+					"icon": "38E2150C-4BD6-A6F6-6B06-8CA2D528C603",
+					"level": 3,
+					"name": "VCT26 x TS 标配"
+				},
+				{
+					"e_name": "VCT26 x TYL Classic",
+					"icon": "786F092C-4CA2-C690-B6FD-DAB6C3A7C4F8",
+					"level": 3,
+					"name": "VCT26 x TYL 标配"
+				},
+				{
+					"e_name": "VCT26 x VIT Classic",
+					"icon": "77502E15-4D88-05E3-48BE-D8A75D2F3CF0",
+					"level": 3,
+					"name": "VCT26 x VIT 标配"
+				},
+				{
+					"e_name": "VCT26 x WOL Classic",
+					"icon": "2DC31FD4-4382-9B13-12E6-DCAC36A68C69",
+					"level": 3,
+					"name": "VCT26 x WOL 标配"
+				},
+				{
+					"e_name": "VCT26 x XLG Classic",
+					"icon": "E2C24576-4FDB-4752-B1FA-0DB0B7F2A7E5",
+					"level": 3,
+					"name": "VCT26 x XLG 标配"
+				},
+				{
+					"e_name": "VCT26 x ZETA Classic",
+					"icon": "74A7CB8F-4E74-F130-623F-FDB8621AA479",
+					"level": 3,
+					"name": "VCT26 x ZETA 标配"
+				},
+				{
+					"e_name": "Headbanger Classic",
+					"icon": "AE10EE3C-417D-0552-D4BE-528BD11FAD85",
+					"level": 0,
+					"name": "重金属乐迷 标配"
+				},
+				{
+					"e_name": "Blackthorn Classic",
+					"icon": "905DF5BB-4F1C-4768-AB36-E692F05212A5",
+					"level": 3,
+					"name": "荆刺圣骸 标配"
+				},
+				{
+					"e_name": "VCT26 x FS Classic",
+					"icon": "1560E6F3-4324-5F3D-B1C5-EEBFE0AD32A9",
+					"level": 3,
+					"name": "VCT26 x FS 标配"
+				},
+				{
+					"e_name": "VCT26 x NV Classic",
+					"icon": "2FC3625D-4B67-3D68-5457-71B29E29B6B0",
+					"level": 3,
+					"name": "VCT26 x NV 标配"
+				},
+				{
+					"e_name": "VCT26 x PCF Classic",
+					"icon": "2EB09415-4CB9-12D3-E133-3A906396E2CE",
+					"level": 3,
+					"name": "VCT26 x PCF 标配"
+				},
+				{
+					"e_name": "VCT26 x VL Classic",
+					"icon": "7E6FE739-4FCA-5F05-4BA7-76A3FB810E20",
+					"level": 3,
+					"name": "VCT26 x VL 标配"
+				},
+				{
+					"e_name": "Nightline Classic",
+					"icon": "EB3EC5EB-4AF5-2F0B-2EED-488D01954659",
+					"level": 1,
+					"name": "子夜光隙 标配"
+				},
+				{
+					"e_name": "Tacti-Guild Classic",
+					"icon": "3FDD7B30-44A8-82FE-2678-2F8994F2670F",
+					"level": 0,
+					"name": "战术公会 标配"
+				},
+				{
+					"e_name": "Verdant Cafe Classic",
+					"icon": "C0B3B15B-473A-71E1-8471-348B66F1259F",
+					"level": 1,
+					"name": "绿意咖啡馆 标配"
+				}
+			],
+			"sup_trajectory_deflection": "0.4",
+			"trajectory_deflection": "0.4",
+			"type_name": "佩枪"
+		}
+	}
+}

@@ -1,0 +1,193 @@
+{
+	"data": {
+		"__schema": {
+			"queryType": {
+				"fields": [
+					{
+						"args": [
+							{
+								"name": "id",
+								"type": {
+									"kind": "SCALAR",
+									"name": "Int",
+									"ofType": null
+								}
+							},
+							{
+								"name": "e_name",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							},
+							{
+								"name": "guid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						],
+						"name": "agent"
+					},
+					{
+						"args": [
+							{
+								"name": "position",
+								"type": {
+									"kind": "ENUM",
+									"name": "agentPositionEnum",
+									"ofType": null
+								}
+							}
+						],
+						"name": "agents"
+					},
+					{
+						"args": [
+							{
+								"name": "id",
+								"type": {
+									"kind": "SCALAR",
+									"name": "Int",
+									"ofType": null
+								}
+							},
+							{
+								"name": "guid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						],
+						"name": "gun"
+					},
+					{
+						"args": [
+							{
+								"name": "type",
+								"type": {
+									"kind": "ENUM",
+									"name": "gunEnumType",
+									"ofType": null
+								}
+							},
+							{
+								"name": "penetration",
+								"type": {
+									"kind": "SCALAR",
+									"name": "Int",
+									"ofType": null
+								}
+							}
+						],
+						"name": "guns"
+					},
+					{
+						"args": [
+							{
+								"name": "guid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							},
+							{
+								"name": "map_id",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							},
+							{
+								"name": "id",
+								"type": {
+									"kind": "SCALAR",
+									"name": "Int",
+									"ofType": null
+								}
+							},
+							{
+								"name": "e_name",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						],
+						"name": "map"
+					},
+					{
+						"args": [],
+						"name": "maps"
+					},
+					{
+						"args": [],
+						"name": "maps_all"
+					},
+					{
+						"args": [
+							{
+								"name": "levelid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							},
+							{
+								"name": "guid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						],
+						"name": "skin"
+					},
+					{
+						"args": [
+							{
+								"name": "guids",
+								"type": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "LIST",
+										"name": null,
+										"ofType": {
+											"kind": "NON_NULL",
+											"name": null
+										}
+									}
+								}
+							}
+						],
+						"name": "skin_list"
+					},
+					{
+						"args": [
+							{
+								"name": "guid",
+								"type": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						],
+						"name": "title"
+					}
+				]
+			}
+		}
+	}
+}

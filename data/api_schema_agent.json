@@ -1,0 +1,220 @@
+{
+	"data": {
+		"__type": {
+			"fields": [
+				{
+					"name": "accessed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "avatar",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "bg_font",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "bg_url",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "big_pic",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "contract",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "Contract",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "desc",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "e_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "gicp_tags",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "guid",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "icon",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "id",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "intent",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "is_rookie_recommend",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "mark_status",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "mark_update_time_stamp",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "nationality",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "position",
+					"type": {
+						"kind": "ENUM",
+						"name": "agentPositionEnum",
+						"ofType": null
+					}
+				},
+				{
+					"name": "position_desc",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "position_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "skill",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "Skill",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "tabs",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "tabs",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "topicid",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "video_intent",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				}
+			]
+		}
+	}
+}

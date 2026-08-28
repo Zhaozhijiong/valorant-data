@@ -1,0 +1,14 @@
+{
+	"data": null,
+	"errors": [
+		{
+			"message": "Field \"skin_list\" argument \"guids\" of type \"[String!]!\" is required but not provided.",
+			"locations": [
+				{
+					"line": 1,
+					"column": 3
+				}
+			]
+		}
+	]
+}

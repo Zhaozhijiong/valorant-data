@@ -1,0 +1,267 @@
+{
+	"data": {
+		"agents": [
+			{
+				"e_name": "Breach",
+				"gicp_tags": "125294",
+				"id": 1,
+				"intent": "valpage://valorant_agent_detail?agentId=1",
+				"name": "铁臂",
+				"nationality": "瑞典",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Jett",
+				"gicp_tags": "125296",
+				"id": 2,
+				"intent": "valpage://valorant_agent_detail?agentId=2",
+				"name": "捷风",
+				"nationality": "韩国",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Raze",
+				"gicp_tags": "125297",
+				"id": 3,
+				"intent": "valpage://valorant_agent_detail?agentId=3",
+				"name": "雷兹",
+				"nationality": "巴西",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Omen",
+				"gicp_tags": "125295",
+				"id": 4,
+				"intent": "valpage://valorant_agent_detail?agentId=4",
+				"name": "幽影",
+				"nationality": "未知",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "Brimstone",
+				"gicp_tags": "125286",
+				"id": 5,
+				"intent": "valpage://valorant_agent_detail?agentId=5",
+				"name": "炼狱",
+				"nationality": "美国",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "Phoenix",
+				"gicp_tags": "125287",
+				"id": 6,
+				"intent": "valpage://valorant_agent_detail?agentId=6",
+				"name": "不死鸟",
+				"nationality": "英国",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Sage",
+				"gicp_tags": "125288",
+				"id": 7,
+				"intent": "valpage://valorant_agent_detail?agentId=7",
+				"name": "贤者",
+				"nationality": "中国",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Sova",
+				"gicp_tags": "125289",
+				"id": 8,
+				"intent": "valpage://valorant_agent_detail?agentId=8",
+				"name": "猎枭",
+				"nationality": "俄罗斯",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Viper",
+				"gicp_tags": "125290",
+				"id": 9,
+				"intent": "valpage://valorant_agent_detail?agentId=9",
+				"name": "蝰蛇",
+				"nationality": "美国",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "Cypher",
+				"gicp_tags": "125291",
+				"id": 10,
+				"intent": "valpage://valorant_agent_detail?agentId=10",
+				"name": "零",
+				"nationality": "摩洛哥",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Reyna",
+				"gicp_tags": "125292",
+				"id": 11,
+				"intent": "valpage://valorant_agent_detail?agentId=11",
+				"name": "芮娜",
+				"nationality": "墨西哥",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Killjoy",
+				"gicp_tags": "125293",
+				"id": 12,
+				"intent": "valpage://valorant_agent_detail?agentId=12",
+				"name": "奇乐",
+				"nationality": "德国",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Skye",
+				"gicp_tags": "125298",
+				"id": 13,
+				"intent": "valpage://valorant_agent_detail?agentId=13",
+				"name": "斯凯",
+				"nationality": "澳大利亚",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Yoru",
+				"gicp_tags": "125299",
+				"id": 14,
+				"intent": "valpage://valorant_agent_detail?agentId=14",
+				"name": "夜露",
+				"nationality": "日本",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Astra",
+				"gicp_tags": "125300",
+				"id": 15,
+				"intent": "valpage://valorant_agent_detail?agentId=15",
+				"name": "星礈",
+				"nationality": "加纳",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "KAY/O",
+				"gicp_tags": "125301",
+				"id": 16,
+				"intent": "valpage://valorant_agent_detail?agentId=16",
+				"name": "K/O",
+				"nationality": "另一条时间线的地球",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Chamber",
+				"gicp_tags": "125302",
+				"id": 17,
+				"intent": "valpage://valorant_agent_detail?agentId=17",
+				"name": "尚勃勒",
+				"nationality": "法国",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Neon",
+				"gicp_tags": "125303",
+				"id": 18,
+				"intent": "valpage://valorant_agent_detail?agentId=18",
+				"name": "霓虹",
+				"nationality": "菲律宾",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Fade",
+				"gicp_tags": "125304",
+				"id": 19,
+				"intent": "valpage://valorant_agent_detail?agentId=19",
+				"name": "黑梦",
+				"nationality": "土耳其",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Harbor",
+				"gicp_tags": "125305",
+				"id": 20,
+				"intent": "valpage://valorant_agent_detail?agentId=20",
+				"name": "海神",
+				"nationality": "印度",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "Gekko",
+				"gicp_tags": "125577",
+				"id": 21,
+				"intent": "valpage://valorant_agent_detail?agentId=21",
+				"name": "盖可",
+				"nationality": "美国",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Deadlock",
+				"gicp_tags": "127021",
+				"id": 22,
+				"intent": "valpage://valorant_agent_detail?agentId=22",
+				"name": "钢锁",
+				"nationality": "挪威",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Iso",
+				"gicp_tags": "131597",
+				"id": 23,
+				"intent": "valpage://valorant_agent_detail?agentId=23",
+				"name": "壹决",
+				"nationality": "中国",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Clove",
+				"gicp_tags": "133267",
+				"id": 24,
+				"intent": "valpage://valorant_agent_detail?agentId=24",
+				"name": "暮蝶",
+				"nationality": "英国",
+				"position_desc": "烟位"
+			},
+			{
+				"e_name": "Vyse",
+				"gicp_tags": "135576",
+				"id": 25,
+				"intent": "valpage://valorant_agent_detail?agentId=25",
+				"name": "维斯",
+				"nationality": "未知",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Tejo",
+				"gicp_tags": "136739",
+				"id": 26,
+				"intent": "valpage://valorant_agent_detail?agentId=26",
+				"name": "钛狐",
+				"nationality": "哥伦比亚",
+				"position_desc": "信息位"
+			},
+			{
+				"e_name": "Waylay",
+				"gicp_tags": "137589",
+				"id": 27,
+				"intent": "valpage://valorant_agent_detail?agentId=27",
+				"name": "幻棱",
+				"nationality": "泰国",
+				"position_desc": "突击位"
+			},
+			{
+				"e_name": "Veto",
+				"gicp_tags": "139885",
+				"id": 28,
+				"intent": "valpage://valorant_agent_detail?agentId=28",
+				"name": "禁灭",
+				"nationality": "塞内加尔",
+				"position_desc": "防守位"
+			},
+			{
+				"e_name": "Miks",
+				"gicp_tags": "141529",
+				"id": 29,
+				"intent": "valpage://valorant_agent_detail?agentId=29",
+				"name": "迷核",
+				"nationality": "欧洲中南部",
+				"position_desc": "烟位"
+			}
+		]
+	}
+}

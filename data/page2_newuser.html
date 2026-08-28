@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="《无畏契约》国服官方网站，又名VALORANT、瓦罗兰特，是《英雄联盟》开发商拳头游戏开发、腾讯代理、风靡全球的PC端战术射击力作。">
+<meta name="Keywords" content="valorant,无畏契约,瓦罗兰特,瓦洛兰特,val,riot,VALORANT官网,特战英豪 ">
+<title>无畏契约官方新手站-英雄介绍</title>
+<link rel="stylesheet" href="css/index.css" media="screen and (min-device-width: 1025px)">
+<link rel="stylesheet" href="css/index-m.css" media="screen and (max-device-width: 1024px)">
+<link rel="stylesheet" href="css/top.css">
+<script>
+    //mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+    (function (win, doc, mode) {
+        var std = 750;
+        if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+        if (mode == 'px') {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+            function adaptVP(a) { function c() { var c, d; return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window.screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window.devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a.bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(/Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(/Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 == d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b.mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0) } function d() { var e, f, g, h, c = "", d = !1; switch (b.mode) { case "apple": f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio; c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f + ",maximum-scale=" + f + ",user-scalable=no"; break; case "android-2.2": a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ? 375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window.screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth = e), b.mode = "android-dpi", d = !0; case "android-dpi": f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f + ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2"); break; case "android-scale": c = "width=" + b.uWidth + ", user-scalable=no" }g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g.name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h.length > 0 && h[0].appendChild(g) } function e() { var a = ""; for (key in b) a += key + ": " + b[key] + "; "; alert(a) } if (a) { var b = { uWidth: 0, dWidth: 0, ratio: 1, mode: "apple", userAgent: null, bConsole: !1 }; c(), d(), b.bConsole && e() } }; adaptVP({ uWidth: 750 });
+            }
+            win.addEventListener('resize', setFont, false)
+            setFont();
+        }
+        else if (mode == 'rem') {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+            };
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+        }
+    })(window, document, 'rem');
+</script>
+</head>
+<body>
+    <div class="wrapper page1_1">
+        <div class="header bg">
+            <a class="back_btn" href="./page1.html" onclick="LOLSendClickAT('page1_back','page1_back','返回');">返回</a>
+            <p class="title">英雄介绍</p>
+        </div>
+        <div class="content bg">
+            <div class="table_cont">
+                <div class="table_top">
+                    <table style="width: 100%;">
+                        <tbody style="width: 100%;">
+                            <tr>
+                                <td style="width: 25%;">英雄</td>
+                                <td style="width: 25%;">关键词</td>
+                                <td style="width: 40%;">简介</td>
+                                <td style="width: 10%;">介绍视频</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table_rep">
+                    <table style="width: 100%;">
+                        <tbody style="width: 100%;">
+                            <tr class="sort">
+                                <td style="width: 100%;" colspan="4">
+                                    <div class="sort_title">
+                                        <span>先锋</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero_sort_1.png" class="video_btn">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>钛狐</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero26.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">信息，震颤，伤害</td>
+                                <td style="width: 40%;">易上手的功能性先锋，擅长使用潜袭爬虫寻找并沉默敌人，点对点易释放的技能可以精准的帮助队友清理前方的障碍，威胁敌人可能存在的任何区域。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=3392299804102643347&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero26','hero26','钛狐');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>铁臂</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero1.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，震颤，伤害</td>
+                                <td style="width: 40%;">闪光型先锋，擅长使用剧震余波进行爆破，技能组合可以致盲和晕眩敌人，有效地进行干扰并控制战场，为队友创造机会。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=16625172301652493183&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero1','hero1','铁臂');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>猎枭</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero2.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">侦测，伤害</td>
+                                <td style="width: 40%;">拥有精准收集信息的能力。擅长用侦查箭与无人机探查敌人位置。猎枭的雷击箭具备强大的范围伤害能力，可以清理敌方道具以及消磨敌人血量。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=16055187639977641646&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero2','hero2','猎枭');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>斯凯</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero3.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，治疗，信息获取</td>
+                                <td style="width: 40%;">能操控技能探查敌人位置，收集战场信息，并为队伍提供持续治疗支持。可创造性极强的闪光技能可以提供无限的可能性，技能非常均衡的全能型先锋。</td>
+                                <td style="width: 10%;"><a href="JavaScript:TGDialogS('pop_wait');" style="display: block;" onclick="LOLSendClickAT('hero3','hero3','斯凯');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>K/O</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero4.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，压制，伤害</td>
+                                <td style="width: 40%;">上限很高的闪光型先锋。闪光、手雷和侦查技能使K/O能在任何情况下为团队提供全方位支持。一旦K/O启动大招“无效命令”，敌人将无法使用任何道具。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=487000375559480138&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero4','hero4','K/O');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>黑梦</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero5.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">侦测，致盲，致聋</td>
+                                <td style="width: 40%;">易上手的信息型先锋，拥有先锋中最易掌握的技能组，操作简单且不干扰队友。能有效搜寻并揭示敌人位置，为团队提供关键情报。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=481804654843145821&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero5','hero5','黑梦');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>盖可</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero6.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，束缚，辅助下拆包</td>
+                                <td style="width: 40%;">技能可以反复回收。拥有可用于下包和拆包，同时干扰敌方行动的皮蛋。闪光技能可反复侦查的丢丢，以及可以提供信息并束缚敌人的大招鲨鲨，是一位优秀的全能型先锋。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=15162469833515308658&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero6','hero6','盖可');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr class="sort">
+                                <td style="width: 100%;" colspan="4">
+                                    <div class="sort_title">
+                                        <span>决斗</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero_sort_2.png" class="video_btn">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>捷风</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero7.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">位移，烟雾</td>
+                                <td style="width: 40%;">捷风拥有灵活的位移突进和强势输出能力。可以用迅疾如风的突进撕扯开阵线，为队友创造突破和进攻的机会，迅速占领战略要点。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=14012682049373777349&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero7','hero7','捷风');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>雷兹</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero8.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">位移，伤害</td>
+                                <td style="width: 40%;">侵略性很强的决斗，所有技能都围绕高伤害和范围打击设计。雷兹能用炸药包迅速接近敌人或摆脱危险，彩雷飞溅以及大招晚安焰火具有极高的杀伤力，可以为队友创造进攻机会。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=14128712619570106938&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero8','hero8','雷兹');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>不死鸟</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero9.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，伤害，复活</td>
+                                <td style="width: 40%;">不死鸟的火既可以对敌人造成伤害也可以自我恢复，闪光技能则是最快速的突破的利器。大招能让不死鸟在被击倒后重回战场，是对局中不可缺少的突破手之一。</td>
+                                <td style="width: 10%;"><a href="JavaScript:TGDialogS('pop_wait');" style="display: block;" onclick="LOLSendClickAT('hero9','hero9','不死鸟');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>芮娜</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero10.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">致盲，自身回复，隐身</td>
+                                <td style="width: 40%;">极具攻击性的决斗，睥睨加噬魂的组合能让芮娜能够将多人混战拆解为多个一对一对枪，极大提升了芮娜的连杀能力和战斗效率，是枪法较好的新手入门的理想选择。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=10788579373178862985&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero10','hero10','芮娜');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>夜露</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero11.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，传送</td>
+                                <td style="width: 40%;">夜露可以利用分身和传送制造战场混乱，闪光技能让夜露出现在敌人视野前往往伴随出其不意的闪光弹完成击杀。夜露适合喜欢个人操作并追求灵活战术的玩家。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=3557100030698130359&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero11','hero11','夜露');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>霓虹</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero12.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">高速移动，震颤</td>
+                                <td style="width: 40%;">以超强的机动性著称，专为突破而生，依靠奔跑和滑行技能快速拉近与敌人的距离，能够在战场上迅速移动，极致拉扯敌方阵线。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=15912099915226183173&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero12','hero12','霓虹');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>壹决</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero13.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">护盾，易损</td>
+                                <td style="width: 40%;">护盾技能让壹绝能够有效抵挡敌人的远程攻击，同时可以通过技能快速冲破敌方阵地。壹决擅长在正面与敌人对抗，并为队友提供掩护，帮助推进战线。</td>
+                                <td style="width: 10%;"><a href="JavaScript:TGDialogS('pop_wait');" style="display: block;" onclick="LOLSendClickAT('hero13','hero13','壹决');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr class="sort">
+                                <td style="width: 100%;" colspan="4">
+                                    <div class="sort_title">
+                                        <span>控场</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero_sort_3.png" class="video_btn">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>幽影</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero14.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">致盲，传送，球形烟</td>
+                                <td style="width: 40%;">灵活的控场角色，能够用多变的烟雾遮蔽敌人视线，并通过短距离传送快速调整位置。幽影擅长在敌人意想不到的地方现身，扰乱敌方布局。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=7184767972891765900&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero14','hero14','幽影');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>炼狱</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero15.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">加速，伤害，球形烟</td>
+                                <td style="width: 40%;">简单好用的控场者。拥有群体增益技能，燃烧榴弹和大招可以对范围内的敌人进行高额持续伤害打击，下烟只需要打开烟雾技能左键点击右键下烟，是新手烟位的最佳伙伴。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=3722590391097172485&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero15','hero15','炼狱');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>蝰蛇</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero16.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">腐蚀，易损，线形烟</td>
+                                <td style="width: 40%;">蝰蛇可以利用毒烟和毒墙削弱敌人并限制其移动范围。蝰蛇的大招能在大范围内持续施加伤害，适合用于封锁关键区域和拖延时间。</td>
+                                <td style="width: 10%;"><a href="JavaScript:TGDialogS('pop_wait');" style="display: block;" onclick="LOLSendClickAT('hero16','hero16','蝰蛇v');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>星礈</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero17.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">震颤，吸引，球形烟</td>
+                                <td style="width: 40%;">上手难度较高但是控场能力极强的烟位。技能无需点位记忆，全图烟雾覆盖能力让星礈成为一些地图必不可少的烟位选择，高手玩家能通过星礈精确掌控整场战局。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=9929923745203656854&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero17','hero17','星礈');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>海神</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero18.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">减速，护盾，线形烟</td>
+                                <td style="width: 40%;">海神能够根据战场需要灵活调整烟雾形态，为队伍创造安全的推进或防守条件。用海盾技能和盖可搭配是无伤下包的绝招。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=1124010598793005190&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero18','hero18','海神');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>暮蝶</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero19.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">自身回复，加速，球形烟</td>
+                                <td style="width: 40%;">可以快速上手的进攻型烟位，即使阵亡后仍能为队友封烟，虹吸可以为其在造成击杀后拥有超强进攻力，暮蝶的大招能够复活自己，在残局中展现出极高容错率。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=8652245510641147&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero19','hero19','暮蝶');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr class="sort">
+                                <td style="width: 100%;" colspan="4">
+                                    <div class="sort_title">
+                                        <span>哨卫</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero_sort_4.png" class="video_btn">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>贤者</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero20.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">治疗，减速，复活</td>
+                                <td style="width: 40%;">安全辅助型哨位，可以用治疗技能恢复队友生命值，用冰墙阻挡敌人推进。贤者的大招能复活阵亡队友，为团队提供翻盘的可能性。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=7255719862595544737&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero20','hero20','暮蝶');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>零</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero21.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">陷阱，侦查</td>
+                                <td style="width: 40%;">防守灵活的哨位英雄，能设置拌线陷阱进行防御，并通过摄像头观察敌方动向。零的终极技能可以获取敌方位置信息，是团队防守的安全屏障。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=17592885547101286295&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero21','hero21','零');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>奇乐</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero22.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">伤害，陷阱，束缚</td>
+                                <td style="width: 40%;">善于通过哨兵机器人和纳米蜂群协助防守，奇乐的技能组可以远距离获取敌人的信息，并为队友创造稳定的进攻或防守空间。适合枪法生疏的新手入门。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=14830878652637634994&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero22','hero22','奇乐');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>尚勃勒</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero23.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">减速，传送，专属武器</td>
+                                <td style="width: 40%;">以枪法为基础的进攻性哨位。E技能的存在让尚勃勒能在对局中站到敌方难以预测的位置，利用快速传送完成免费击杀，非常适合以枪法见长的玩家。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=9921378902281376987&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero23','hero23','尚勃勒');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>钢锁</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero24.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">束缚，震颤，地形构造</td>
+                                <td style="width: 40%;">钢锁可以利用重力捕网可以限制敌人行动，同时窃听器可以阻挠敌方的强势进攻。钢锁的大招能直接束缚敌方，适合需要强力防守的局势。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=16375203955332513553&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero24','hero24','钢锁');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 25%;"><div class="hero_name"><span>维斯</span><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/hero_img/hero25.png" class="hero_img"></div></td>
+                                <td style="width: 25%;">闪光，缴械，地形构造</td>
+                                <td style="width: 40%;">功能多样的哨位，进攻防守时可以通过回收闪光反复获取信息，并且能使用阻隔墙和棘刺陷阱有效限制敌人进攻。</td>
+                                <td style="width: 10%;"><a href="https://val.qq.com/webzone/pages/strategyDetail/index.html?docId=12757105294835826357&sub_ch=13" target="_blank" style="display: block;" onclick="LOLSendClickAT('hero25','hero25','维斯');"><img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/video_btn.png" style="width: 60%;"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+         <!-- 敬请期待弹窗 -->
+         <div class="pop_wait pr bg" id="pop_wait" style="display: none;">
+            <p>敬请期待</p>
+            <a href="javascript:closeDialog();" class="close_btn bg" onclick="LOLSendClickAT('close_btn','close_btn','确定');">确定</a>
+            <a href="javascript:closeDialog();" class="close pa bg" onclick="LOLSendClickAT('close','close','关闭');"></a>
+        </div>
+    </div>
+    <script src="//js.aq.qq.com/js/aq_common.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js" charset='gbk'></script>
+    <script src="//game.gtimg.cn/images/js/milo-next/latest/milo.gbk.min.js"></script>
+    <!-- <script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script> -->
+    <script src="//mlol-file.qpic.cn/mobile/mlol/js/mlol.js" charset="UTF-8"></script>
+    <script src="https://app.val.qq.com/jsapi/mval.js" charset="UTF-8"></script>
+    <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+    <script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js"></script>
+    <script src="//game.gtimg.cn/images/js/eas/eas.js"></script>
+    <script src="//game.gtimg.cn/images/js/plugin/report/atReport.js" charset="UTF-8"></script>
+    <script src="//val.qq.com/js/top.js" charset='gbk'></script>
+    <script src="./js/index.js"></script>
+    <script>
+        //此段代码不能放到外链JS中，
+        var setSite = { //设置网站属性
+        siteType: "a20250102NewUserGuide", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType: "page1_1", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+        project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网或微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+        ingame: false,//选填项:默认根据浏览器类型获取是否属于游戏内，因英雄联盟端游客户端特殊性，所以英雄联盟端游客户端需求需要填写true.
+        autoClick: false,//是否自动上报按钮&a的点击。选填项：默认false。非必要不开启
+        autoAreaStay: false,//是否自动上报dom中填写dt-areaid的区域停留时长。选填项：默认false。非必要不开启
+        };
+        if (typeof LOL_SEND_DATA_FN_AT == 'function') {
+            LOL_SEND_DATA_FN_AT();
+        }
+    </script>
+    <style>
+        #afooter{display:block!important}
+    </style>
+</body>
+</html>

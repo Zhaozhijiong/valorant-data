@@ -1,0 +1,120 @@
+{
+	"data": {
+		"guns": [
+			{
+				"e_name": "Classic",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/classic.png",
+				"id": 1,
+				"name": "标配"
+			},
+			{
+				"e_name": "Shorty",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/shorty.png",
+				"id": 2,
+				"name": "短炮"
+			},
+			{
+				"e_name": "Frenzy",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/frenzy.png",
+				"id": 3,
+				"name": "狂怒"
+			},
+			{
+				"e_name": "Ghost",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/ghost.png",
+				"id": 4,
+				"name": "鬼魅"
+			},
+			{
+				"e_name": "Sheriff",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/sheriff.png",
+				"id": 5,
+				"name": "正义"
+			},
+			{
+				"e_name": "Stinger",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/stinger.png",
+				"id": 6,
+				"name": "蜂刺"
+			},
+			{
+				"e_name": "Spectre",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/spectre.png",
+				"id": 7,
+				"name": "骇灵"
+			},
+			{
+				"e_name": "Bucky",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bucky.png",
+				"id": 8,
+				"name": "雄鹿"
+			},
+			{
+				"e_name": "Judge",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/judge.png",
+				"id": 9,
+				"name": "判官"
+			},
+			{
+				"e_name": "Bulldog",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bulldog.png",
+				"id": 10,
+				"name": "獠犬"
+			},
+			{
+				"e_name": "Guardian",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/guardian.png",
+				"id": 11,
+				"name": "戍卫"
+			},
+			{
+				"e_name": "Phantom",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/phantom.png",
+				"id": 12,
+				"name": "幻影"
+			},
+			{
+				"e_name": "Vandal",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/vandal.png",
+				"id": 13,
+				"name": "狂徒"
+			},
+			{
+				"e_name": "Marshal",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/marshal.png",
+				"id": 14,
+				"name": "飞将"
+			},
+			{
+				"e_name": "Operator",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/operator.png",
+				"id": 15,
+				"name": "冥驹"
+			},
+			{
+				"e_name": "Ares",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/ares.png",
+				"id": 16,
+				"name": "战神"
+			},
+			{
+				"e_name": "Odin",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/odin.png",
+				"id": 17,
+				"name": "奥丁"
+			},
+			{
+				"e_name": "Outlaw",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/outlaw.png",
+				"id": 19,
+				"name": "莽侠"
+			},
+			{
+				"e_name": "Bandit",
+				"icon": "https://game.gtimg.cn/images/val/agamezlk/gun/bandit.png",
+				"id": 20,
+				"name": "追猎"
+			}
+		]
+	}
+}

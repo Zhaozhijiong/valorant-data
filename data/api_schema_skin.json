@@ -1,0 +1,72 @@
+{
+	"data": {
+		"__type": {
+			"fields": [
+				{
+					"name": "accessed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "e_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "guid",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "icon",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "level",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "limited",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "primary_asset",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				}
+			]
+		}
+	}
+}

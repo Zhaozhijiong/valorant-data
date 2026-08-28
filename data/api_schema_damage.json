@@ -1,0 +1,20 @@
+{
+	"data": {
+		"__type": {
+			"fields": [
+				{
+					"name": "body"
+				},
+				{
+					"name": "distance"
+				},
+				{
+					"name": "head"
+				},
+				{
+					"name": "leg"
+				}
+			]
+		}
+	}
+}

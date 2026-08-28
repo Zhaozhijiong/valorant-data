@@ -1,0 +1,50 @@
+{
+	"data": {
+		"__schema": {
+			"queryType": {
+				"fields": [
+					{
+						"description": "QueryAgent",
+						"name": "agent"
+					},
+					{
+						"description": "QueryAgents",
+						"name": "agents"
+					},
+					{
+						"description": "queryGun",
+						"name": "gun"
+					},
+					{
+						"description": "queryGuns",
+						"name": "guns"
+					},
+					{
+						"description": "queryMap",
+						"name": "map"
+					},
+					{
+						"description": "queryMaps",
+						"name": "maps"
+					},
+					{
+						"description": "queryMapsAll",
+						"name": "maps_all"
+					},
+					{
+						"description": "queryGunSkin",
+						"name": "skin"
+					},
+					{
+						"description": "queryGunSkinList",
+						"name": "skin_list"
+					},
+					{
+						"description": "QueryTitle",
+						"name": "title"
+					}
+				]
+			}
+		}
+	}
+}

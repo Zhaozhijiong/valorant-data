@@ -1,0 +1,1333 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="gbk" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta content="游戏资料介绍，英雄介绍，武器枪械介绍，地图介绍，《无畏契约》国服官方网站，又名VALORANT、瓦罗兰特，是《英雄联盟》开发商拳头游戏开发、腾讯代理、风靡全球的PC端战术射击力作。" name="Description" />
+  <meta content="游戏资料,资料,介绍,英雄,武器,枪械,地图,valorant,无畏契约,瓦罗兰特,瓦洛兰特,val,riot,VALORANT官网,特战英豪 " name="Keywords" />
+  <title>游戏资料-VALORANT《无畏契约》官方网站-腾讯游戏</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="css/game-data.css" media="(min-device-width: 1025px)" charset="UTF-8">
+  <link rel="stylesheet" href="css/game-data-m.css" media="(max-device-width: 1024px)" charset="UTF-8">
+
+  <script>
+    //mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+    (function (win, doc, mode) {
+      var std = 750;
+      if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd',
+          '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />'
+        );
+        if (mode == 'px') {
+          if (!win.addEventListener) return;
+          var html = document.documentElement;
+
+          function setFont() {
+            function adaptVP(a) {
+              function c() {
+                var c, d;
+                return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window
+                  .screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window
+                  .devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a
+                  .bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(
+                    /Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(
+                      /Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 ==
+                    d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b
+                      .mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0)
+              }
+
+              function d() {
+                var e, f, g, h, c = "",
+                  d = !1;
+                switch (b.mode) {
+                  case "apple":
+                    f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio;
+                    c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f +
+                      ",maximum-scale=" + f + ",user-scalable=no";
+                    break;
+                  case "android-2.2":
+                    a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ?
+                        375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window
+                      .screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth =
+                        e), b.mode = "android-dpi", d = !0;
+                  case "android-dpi":
+                    f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f +
+                      ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2");
+                    break;
+                  case "android-scale":
+                    c = "width=" + b.uWidth + ", user-scalable=no"
+                }
+                g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g
+                  .name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h
+                  .length > 0 && h[0].appendChild(g)
+              }
+
+              function e() {
+                var a = "";
+                for (key in b) a += key + ": " + b[key] + "; ";
+                alert(a)
+              }
+              if (a) {
+                var b = {
+                  uWidth: 0,
+                  dWidth: 0,
+                  ratio: 1,
+                  mode: "apple",
+                  userAgent: null,
+                  bConsole: !1
+                };
+                c(), d(), b.bConsole && e()
+              }
+            };
+            adaptVP({
+              uWidth: 750
+            });
+          }
+          win.addEventListener('resize', setFont, false)
+          setFont();
+        } else if (mode == 'rem') {
+          var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+            };
+          if (!doc.addEventListener) return;
+          recalc();
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+      }
+    })(window, document, 'px');
+  </script>
+</head>
+
+<body>
+  <!--[if lt IE 9]>
+      <style>
+        .comm-head {
+          top: 40px;
+        }
+      </style>
+      <p class="chromeframe">
+        <span>您使用的IE浏览器版本过低，本站不再支持，</span>
+        <a href="//windows.microsoft.com/">升级您的IE浏览器</a>
+        <span>，或使用</span>
+        <a href="//www.google.cn/chrome/">Google Chrome</a><a>、</a
+        ><a href="//www.firefox.com.cn/download/">Firefox</a>
+        <span>等高级浏览器，将会得到更好的体验！</span>
+      </p>
+    <![endif]-->
+  <!--官网通用页头 start-->
+  <h1 class="hid">游戏资料</h1>
+  <div class="wrapper">
+    <div class="wrap">
+      <div class="page-hero inside-page" dt-areaid="page-hero" style="display: block;">
+        <div class="page-tab">
+          <div class="page-item on">英雄</div>
+          <div class="page-item">枪械</div>
+          <div class="page-item">地图</div>
+        </div>
+        <div class="hero-cont hero-cont1" dt-areaid="hero-cont1">
+          <div class="hero-bg-video pc">
+            <video src="https://game.gtimg.cn/images/val/ag_w/game-data/hero-bg.mp4" loop="loop"
+              preload="true" autoplay="autoplay" muted></video>
+          </div>
+          <div class="hero-cont-box">
+            <div class="hero-name-list swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>01</span>
+                    <p>炼狱</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>02</span>
+                    <p>不死鸟</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>03</span>
+                    <p>贤者</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>04</span>
+                    <p>奇乐</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>05</span>
+                    <p>零</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero-name">
+                    <span>06</span>
+                    <p>芮娜</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-img-box">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/hero-img.png" alt="">
+            </div>
+            <div class="hero-desc">
+              <h4 class="hero-name h5">炼狱</h4>
+              <div class="hero-location">
+                <span>// 角色定位</span>
+                <p class="hero-occupation hero-occupation1">控场者</p>
+              </div>
+              <div class="hero-text">
+                <span>// 简介</span>
+                <p>身為南韓代表，婕提身手矯捷，能使出他人所不能的精妙險招。交戰時她能把所有人耍得團團轉，以迅雷不及掩耳的速度秒殺敵人</p>
+              </div>
+              <div class="line-icon"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-cont hero-cont2" dt-areaid="hero-cont2">
+          <div class="cont-box">
+            <div class="title  title-ani">专属技能</div>
+            <div class="skill-panel">
+              <div class="skill-tab">
+                <!-- 选中添加on -->
+                <div class="skill-item on">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/TX_Sage_C.png" alt="">
+                </div>
+                <div class="skill-item">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/TX_Sage_Q.png" alt="">
+                </div>
+                <div class="skill-item">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/TX_Sage_E.png" alt="">
+                </div>
+                <div class="skill-item">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/TX_Sage_X.png" alt="">
+                </div>
+              </div>
+              <div class="skill-desc">
+                <h2 class="skill-heading">Q - 爆破包</h2>
+                <p class="skill-text">
+                  立即丟出一個會黏在表面的爆破包。部署完成後「重施技能」來引爆，對擊中的東西造成位移及傷害。芮茲並不會受此技能波及而受到傷害，但她若被炸到高空，則會受到落地傷害。
+                </p>
+              </div>
+            </div>
+            <div class="skill-demo">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/skill-demo.jpg" alt="">
+              <div class="skill-video" id="skill-video"></div>
+            </div>
+          </div>
+          <div class="line pc"></div>
+          <div class="line2 pc"></div>
+        </div>
+        <div class="hero-cont hero-cont3" dt-areaid="hero-cont3" style="display: none;">
+          <div class="cont-box">
+            <div class="title title-ani">英雄契约</div>
+            <div class="hero-contract-cont">
+              <div class="scroll-tips h5">向左滑动查看更多</div>
+              <div class="hero-contract-list swiper">
+                <div class="swiper-wrapper">
+                  <div class="scroll-tips pc">向左滑动查看更多</div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">01</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">02</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">03</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">04</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">05</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">06</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">07</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="contract-item">
+                      <div class="contract-no">08</div>
+                      <img src="https://game.gtimg.cn/images/val/ag_w/game-data/contract-img.png" alt=""
+                        class="contract-img">
+                      <div class="contract-desc">
+                        <h2 class="contract-name">王权在我</h2>
+                        <p class="contract-exp"><span>135,451</span>经验</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-cont hero-cont4" dt-areaid="hero-cont4" style="display: none;">
+          <div class="cont-box">
+            <div class="title title-ani">英雄攻略</div>
+            <div class="strategy-list">
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-cont hero-cont5" dt-areaid="hero-cont5" style="display: none;">
+          <div class="cont-box">
+            <div class="title">相关内容</div>
+            <div class="relevant-cont">
+              <div class="hero-relevant-pagination swiper-pagination"></div>
+              <div class="hero-relevant-list relevant-list swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">01</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">02</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">03</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">04</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">05</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">06</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">07</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">08</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-cut-off hero-cut-off1 pc"></div>
+      </div>
+      <div class="page-ordnance inside-page" dt-areaid="page-ordnance" style="display: none;">
+        <div class="page-tab">
+          <div class="page-item on">英雄</div>
+          <div class="page-item">枪械</div>
+          <div class="page-item">地图</div>
+        </div>
+        <div class="ordnance-cont1" dt-areaid="ordnance-cont1">
+          <div class="firearms">
+            <div class="guns-type-nav h5">
+              <span class="guns-type-name">冲锋枪</span>
+              <a href="javascript:;" class="show-guns-type">查看更多</a>
+            </div>
+            <div class="swiper firearms-swiper">
+              <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide">
+                  <p class="classify-name">随身武器</p>
+                  <div class="guns active">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">制式手枪</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">狂弑</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">鬼魅</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">短管</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">神射</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="classify-name">冲锋枪</p>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">刺针</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">恶灵</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="classify-name">霰弹枪</p>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">重炮</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">判官</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="classify-name">步枪</p>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">斗牛犬</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">捍卫者</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">幻想</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">暴徒</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="classify-name">狙击枪</p>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">警长</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">间谍</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p class="classify-name">重型武器</p>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">战神</p>
+                  </div>
+                  <div class="guns">
+                    <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img.png" class="guns-img">
+                    <p class="guns-name">奥丁</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="swiper-pagination">
+              <!-- <p class="active">随身武器</p>
+              <p>冲锋枪</p>
+              <p>霰弹枪</p>
+              <p>步枪</p>
+              <p>狙击枪</p>
+              <p>重型武器</p> -->
+            </div>
+            <div class="firearms-title">
+              <p class="firearms-name">刺针</p>
+              <p class="price">500</p>
+              <div class="firearms-type-name">
+                <p>冲锋枪</p>
+                <div class="firearms-type">
+                  <p><i class="type-icon1"></i><span>半自动</span></p>
+                  <p><i class="type-icon2"></i><span>中</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="firearms-img-box">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/guns/gun-type1-bigimg.png">
+            </div>
+            <div class="firearms-attribute">
+              <div class="attribute-box">
+                <div class="attribute">
+                  <p class="attribute-name">射速</p>
+                  <p class="attribute-data">
+                    <span class="num">6.75</span>
+                    <span>发/每秒</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="attribute">
+                  <p class="attribute-name">跑速</p>
+                  <p class="attribute-data">
+                    <span class="num">5.23</span>
+                    <span>公尺/每秒</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="attribute">
+                  <p class="attribute-name">装备速度</p>
+                  <p class="attribute-data">
+                    <span class="num">0.75</span>
+                    <span>秒</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="attribute">
+                  <p class="attribute-name">首发弹道偏移</p>
+                  <p class="attribute-data">
+                    <span class="num">0.3</span>
+                    <span>偏移度（腰射/开镜）</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="attribute">
+                  <p class="attribute-name">填弹速度</p>
+                  <p class="attribute-data">
+                    <span class="num">1.5</span>
+                    <span>秒</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+                <div class="attribute">
+                  <p class="attribute-name">弹匣</p>
+                  <p class="attribute-data">
+                    <span class="num">25</span>
+                    <span>发</span>
+                  </p>
+                  <div class="progress-line">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="harm-datum">
+                <p class="harm-title"><span>伤害</span><strong><span>0-30公尺</span><span>30-50公尺</span></strong></p>
+                <p class="harm-data"><span>// 头部</span><strong><span>105</span><span>87</span></strong></p>
+                <p class="harm-data"><span>// 身部</span><strong><span>105</span><span>87</span></strong></p>
+                <p class="harm-data"><span>// 腿部</span><strong><span>105</span><span>87</span></strong></p>
+              </div>
+              <div class="guns-describe">
+                <p class="guns-describe-title">功能</p>
+                <p class="guns-describe-text">敌人看不到弹道显示</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ordnance-cont2" dt-areaid="ordnance-cont2">
+          <h4 class="ordnance-cont2-title">枪械皮肤</h4>
+          <div class="guns-skin-box swiper">
+            <div class="swiper-wrapper">
+              <div class="guns-skin swiper-slide">
+                <p class="no">01</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/guns/gun-type1-bigimg-skin1.png"
+                  class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div>
+              <!-- <div class="guns-skin swiper-slide">
+                <p class="no">02</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img1.png" class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div>
+              <div class="guns-skin swiper-slide">
+                <p class="no">03</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img1.png" class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div>
+              <div class="guns-skin swiper-slide">
+                <p class="no">04</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img1.png" class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div>
+              <div class="guns-skin swiper-slide">
+                <p class="no">05</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img1.png" class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div>
+              <div class="guns-skin swiper-slide">
+                <p class="no">06</p>
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/gun-type1-img1.png" class="gun-img">
+                <p class="gun-name">紫菱之光</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="guns-skin-btn swiper-button-prev"></div>
+          <div class="guns-skin-btn swiper-button-next"></div>
+        </div>
+        <div class="ordnance-cont3" dt-areaid="ordnance-cont3" style="display: none;">
+          <h4 class="ordnance-cont3-title">英雄攻略</h4>
+          <div class="strategy-list">
+            <div class="strategy-item">
+              <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+              <div class="img-box">
+                <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                  alt="">
+              </div>
+              <div class="strategy-info">
+                <div class="strategy-publish">
+                  <p class="strategy-title">观看2023WCG联赛</p>
+                  <p class="strategy-author">无畏契约官方</p>
+                </div>
+                <div class="view">135,451</div>
+              </div>
+            </div>
+            <div class="strategy-item">
+              <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+              <div class="img-box">
+                <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                  alt="">
+              </div>
+              <div class="strategy-info">
+                <div class="strategy-publish">
+                  <p class="strategy-title">观看2023WCG联赛</p>
+                  <p class="strategy-author">无畏契约官方</p>
+                </div>
+                <div class="view">135,451</div>
+              </div>
+            </div>
+            <div class="strategy-item">
+              <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+              <div class="img-box">
+                <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                  alt="">
+              </div>
+              <div class="strategy-info">
+                <div class="strategy-publish">
+                  <p class="strategy-title">观看2023WCG联赛</p>
+                  <p class="strategy-author">无畏契约官方</p>
+                </div>
+                <div class="view">135,451</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ordnance-cont4" dt-areaid="ordnance-cont4" style="display: none;">
+          <div class="ordnance-relevant">
+            <h4 class="relevant-title">相关内容</h4>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">01</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">02</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">03</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">04</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">05</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">06</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">07</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="ordnance-img">
+                  <h4 class="ordnance-nub">08</h4>
+                  <p class="ordnance-time">2023.03.01</p>
+                  <p class="ordnance-caption">观看2023WCG联赛</p>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-map inside-page" dt-areaid="page-map" style="display: none;">
+        <div class="page-tab">
+          <div class="page-item">英雄</div>
+          <div class="page-item">枪械</div>
+          <div class="page-item on">地图</div>
+        </div>
+        <div class="map-cont map-cont1" dt-areaid="map-cont1">
+          <div class="map-swiper swiper">
+            <div class="cont-mask"></div>
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                <div class="map-desc">
+                  <div class="map-desc-name">莲华古城</div>
+                  <div class="map-desc-text">
+                    這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="map-swiper-pagination swiper-pagination"></div>
+          </div>
+
+          <div class="map-swiper2-box">
+            <div class="map-swiper2-title h5">地图</div>
+            <div class="map-swiper2 swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="view-pic"></div>
+                  <div class="tag-num">01</div>
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <div class="view-pic"></div>
+                  <div class="tag-num">02</div>
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <div class="view-pic"></div>
+                  <div class="tag-num">03</div>
+                  <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="map-cont map-cont2" dt-areaid="map-cont2" style="display: none;">
+          <div class="cont-box">
+            <div class="title">地图攻略</div>
+            <div class="strategy-list">
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+              <div class="strategy-item">
+                <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                <div class="img-box">
+                  <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg" class="newsinfo-img"
+                    alt="">
+                </div>
+                <div class="strategy-info">
+                  <div class="strategy-publish">
+                    <p class="strategy-title">观看2023WCG联赛</p>
+                    <p class="strategy-author">无畏契约官方</p>
+                  </div>
+                  <div class="view">135,451</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-cont map-cont3" dt-areaid="map-cont3" style="display: none;">
+          <div class="cont-box">
+            <div class="title">相关内容</div>
+            <div class="relevant-cont">
+              <div class="map-relevant-pagination swiper-pagination"></div>
+              <div class="map-relevant-list relevant-list swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">01</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">02</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">03</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">04</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">05</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">06</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">07</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="relevant-item">
+                      <a href="javascript:;" class="her-link" onclick="LOLSendClickAT('her','her-link','英雄攻略')"></a>
+                      <div class="img-box">
+                        <img src="https://game.gtimg.cn/images/val/ag_w/main/news-thumb1.jpg"
+                          class="newsinfo-img" alt="">
+                      </div>
+                      <div class="relevant-info">
+                        <div class="item-no">08</div>
+                        <div class="des">
+                          <p class="time">2023.06.07</p>
+                          <p class="heading">观看2023WCG联赛</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-cut-off map-cut-off1 pc"></div>
+        <div class="map-page-icon1 pc"></div>
+      </div>
+      <!-- footer -->
+      <div id="common-footer"></div>
+      <!-- footer -->
+    </div>
+
+    <!-- 英雄页底部导航 -->
+    <div class="heropage-bottom-nav hide">
+      <div class="nav-switch">
+        <span class="sp1">收起英雄列表</span>
+        <span class="sp2">展开英雄列表</span>
+      </div>
+      <div class="heronav-swiper swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide heronav-item on">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide heronav-item">
+            <div class="heronav-img">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/heronav.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="heropage-btn">
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- 弹窗 -->
+    <!-- 地图弹窗 -->
+    <div class="dialog map-dialog" id="mapDia">
+      <div class="dia-con">
+        <div class=""></div>
+        <div class="map-info">
+          <div class="map-big-title pc"><span>莲华古城</span></div>
+          <div class="map-desc">
+            <div class="map-info-name">莲华古城</div>
+            <div class="map-info-text">
+              這座玄妙的建築內，有著一個散發古老力量的星界蓮道。巨大的石門促成眾多移動方式，通往三座神祕的據點。
+            </div>
+          </div>
+        </div>
+        <div class="map-dia-swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://game.gtimg.cn/images/val/ag_w/game-data/map-img.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <a class="dialog-close" href="javascript:closeDialog();" onclick="LOLSendClickAT('btn','btn-close','关闭')"></a>
+    </div>
+  </div>
+
+  </div>
+  <script>
+    window.resetStringMatch = function(ele) {
+        if(typeof ele == 'string') {
+            if(ele.match(/[\u4e00-\u9fa5]/)) {
+                return ele.match(/[\u4e00-\u9fa5]/).index;
+            }else {
+                return ele.length;
+            }
+        }
+        return false;
+    }
+  </script>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/top.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/superplayer.js" charset="UTF-8"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/game-data.js"></script>
+  <script>
+    if (!/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+      document.querySelector('.wrapper').style.height = document.getElementsByClassName('wrap')[0].offsetHeight * window
+        .innerWidth / 1920 + 'px';
+      document.documentElement.style.setProperty('--scale', window.innerWidth / 1920);
+      $(window).on('load resize', function () {
+        document.querySelector('.wrapper').style.height = document.getElementsByClassName('wrap')[0].offsetHeight *
+          window.innerWidth / 1920 + 'px';
+        document.documentElement.style.setProperty('--scale', window.innerWidth / 1920);
+      })
+    } else {
+      $('.firearms-swiper').css('height', window.innerHeight - 124 - 234);
+      $(window).on('laod resize', function () {
+        $('.firearms-swiper').css('height', window.innerHeight - 124 - 234);
+      })
+    }
+  </script>
+  <script src="//game.gtimg.cn/images/js/plugin/report/atReport.js" charset="UTF-8"></script>
+  <script>
+    if (typeof (pgvMain) == 'function') pgvMain(); //千万不能忘记！
+    var setSite = {
+      siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "main", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+      project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+      autoClick: true, //是否自动上报button或者a标签的点击。选填项：默认false
+      autoAreaStay: true, //是否自动上报dom中填写dt-areaid的区域停留时长。选填项：默认false
+    };
+    if (typeof LOL_SEND_DATA_FN_AT == 'function') {
+      LOL_SEND_DATA_FN_AT();
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+	"data": null,
+	"errors": [
+		{
+			"message": "Cannot query field \"keyword\" on type \"Agent\".",
+			"locations": [
+				{
+					"line": 7,
+					"column": 5
+				}
+			]
+		},
+		{
+			"message": "Cannot query field \"keywords\" on type \"Agent\".",
+			"locations": [
+				{
+					"line": 8,
+					"column": 5
+				}
+			]
+		},
+		{
+			"message": "Cannot query field \"tags\" on type \"Agent\". Did you mean \"tabs\"?",
+			"locations": [
+				{
+					"line": 9,
+					"column": 5
+				}
+			]
+		}
+	]
+}

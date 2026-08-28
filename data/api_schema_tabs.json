@@ -1,0 +1,32 @@
+{
+	"data": {
+		"__type": {
+			"fields": [
+				{
+					"name": "is_default_tab",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Boolean",
+						"ofType": null
+					}
+				},
+				{
+					"name": "scheme_url",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "title",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				}
+			]
+		}
+	}
+}

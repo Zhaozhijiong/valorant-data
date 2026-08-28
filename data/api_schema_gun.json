@@ -1,0 +1,292 @@
+{
+	"data": {
+		"__type": {
+			"fields": [
+				{
+					"name": "backup_size",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "cli_size",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "damage",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "damage",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "desc",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "e_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "equipping_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "firing_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "gicp_tags",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "guid",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "gun_url",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "icon",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "icon_out",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "id",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "intent",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "loading_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "main_firing_mode",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "mark_status",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "mark_update_time_stamp",
+					"type": {
+						"kind": "SCALAR",
+						"name": "Int",
+						"ofType": null
+					}
+				},
+				{
+					"name": "moving_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "penetration",
+					"type": {
+						"kind": "ENUM",
+						"name": "penetrationEnumType",
+						"ofType": null
+					}
+				},
+				{
+					"name": "penetration_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "price",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "skin",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "skin",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "special",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "sup_desc",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "sup_firing_mode",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "sup_firing_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "sup_moving_speed",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "sup_trajectory_deflection",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "tabs",
+					"type": {
+						"kind": "LIST",
+						"name": null,
+						"ofType": {
+							"kind": "OBJECT",
+							"name": "tabs",
+							"ofType": null
+						}
+					}
+				},
+				{
+					"name": "trajectory_deflection",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				},
+				{
+					"name": "type",
+					"type": {
+						"kind": "ENUM",
+						"name": "gunEnumType",
+						"ofType": null
+					}
+				},
+				{
+					"name": "type_name",
+					"type": {
+						"kind": "SCALAR",
+						"name": "String",
+						"ofType": null
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,4459 @@
+{
+  "1": {
+    "contract": [
+      {
+        "award": "KO",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/1.png",
+        "level": 1
+      },
+      {
+        "award": "KO",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 铁臂",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 铁臂",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/2.png",
+        "level": 2
+      },
+      {
+        "award": "震天撼地",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/3.png",
+        "level": 3
+      },
+      {
+        "award": "震天撼地",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/3.png",
+        "level": 3
+      },
+      {
+        "award": "大秀身手",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/4.gif",
+        "level": 4
+      },
+      {
+        "award": "大秀身手",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/4.gif",
+        "level": 4
+      },
+      {
+        "award": "铁臂",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/5.png",
+        "level": 5
+      },
+      {
+        "award": "铁臂",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/5.png",
+        "level": 5
+      },
+      {
+        "award": "重锤来袭",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/6.png",
+        "level": 6
+      },
+      {
+        "award": "重锤来袭",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/6.png",
+        "level": 6
+      },
+      {
+        "award": "铁臂",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/7.png",
+        "level": 7
+      },
+      {
+        "award": "铁臂",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/7.png",
+        "level": 7
+      },
+      {
+        "award": "毁天灭地",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/8.png",
+        "level": 8
+      },
+      {
+        "award": "毁天灭地",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/8.png",
+        "level": 8
+      },
+      {
+        "award": "发财日",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/9.png",
+        "level": 9
+      },
+      {
+        "award": "发财日",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/9.png",
+        "level": 9
+      },
+      {
+        "award": "诸神狂欢 狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/10.png",
+        "level": 10
+      },
+      {
+        "award": "诸神狂欢 狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/01/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "生化改造人“铁臂”来自北欧波罗的海西岸，他能够使用定向爆破和动能冲击从敌阵中强行打开一条通道。他从来不跟敌人讲道理，火力和爆破就是硬道理。",
+    "e_name": "Breach",
+    "name": "铁臂",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备聚变炸药。按【射击】即可透过墙壁引发一次延时生效的爆破。该冲击会对作用范围内的所有人造成严重伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/01_c.png",
+        "keypad": "C",
+        "name": "剧震余波",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "d1281bb8ozm"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备【致盲】炸药。按【射击】即可在墙壁的另一侧引发一次爆破，【致盲】所有目击爆破点的玩家。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/01_q.png",
+        "keypad": "Q",
+        "name": "闪点爆破",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "l1281e1f9fv"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备震波冲击器。【按住射击】可增加射程，【松开】便可引发震荡，使直线范围内的玩家受到【震荡】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/01_e.png",
+        "keypad": "E",
+        "name": "山崩地陷",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "u1281tooc6x"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备震波炸药。按【射击】在巨大的锥形范围内发出一道穿越地形、层层递进的地震波，击飞和【震荡】受波及的玩家。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/01_x.png",
+        "keypad": "X",
+        "name": "惊雷卷地",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "j1281cbsfc2"
+        }
+      }
+    ]
+  },
+  "2": {
+    "contract": [
+      {
+        "award": "身手矫捷",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/1.png",
+        "level": 1
+      },
+      {
+        "award": "身手矫捷",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/1.png",
+        "level": 1
+      },
+      {
+        "award": "看招！",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/2.png",
+        "level": 2
+      },
+      {
+        "award": "看招！",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 捷风",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/3.png",
+        "level": 3
+      },
+      {
+        "award": "Valorant 捷风",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/3.png",
+        "level": 3
+      },
+      {
+        "award": "赶场天后",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/4.png",
+        "level": 4
+      },
+      {
+        "award": "赶场天后",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/4.png",
+        "level": 4
+      },
+      {
+        "award": "跑吧孩子",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/5.png",
+        "level": 5
+      },
+      {
+        "award": "跑吧孩子",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/5.png",
+        "level": 5
+      },
+      {
+        "award": "口袋小刀",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/6.png",
+        "level": 6
+      },
+      {
+        "award": "口袋小刀",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/6.png",
+        "level": 6
+      },
+      {
+        "award": "捷风",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/7.png",
+        "level": 7
+      },
+      {
+        "award": "捷风",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/7.png",
+        "level": 7
+      },
+      {
+        "award": "风驰电掣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/8.png",
+        "level": 8
+      },
+      {
+        "award": "风驰电掣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/8.png",
+        "level": 8
+      },
+      {
+        "award": "镜影刀锋",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/9.png",
+        "level": 9
+      },
+      {
+        "award": "镜影刀锋",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/9.png",
+        "level": 9
+      },
+      {
+        "award": "游戏结束 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/10.png",
+        "level": 10
+      },
+      {
+        "award": "游戏结束 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/02/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“捷风”是新罗人的后代，她灵活机动的战斗风格使她能够采取比常人更激进和冒险的策略。她可以在战场上肆意纵横，将敌人逐个击破，或是把他们打个措手不及。",
+    "e_name": "Jett",
+    "name": "捷风",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "投掷一个发射物，其在触碰后可扩展成一朵能短暂阻挡视线的云雾。按住技能键能扭曲云雾至准星的方向。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/02_c.png",
+        "keypad": "C",
+        "name": "瞬云",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "v12819hekto"
+        }
+      },
+      {
+        "cost": "150",
+        "desc": "立即腾空直上，高高跃起。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/02_q.png",
+        "keypad": "Q",
+        "name": "凌空",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "u1281lmubqf"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "【激活】即可在限定时间内刮起阵风。【再次使用】该技能可朝移动方向突进。若站立不动，则向面朝的方向突进。每击败两名敌人，可重置【逐风】的充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/02_e.png",
+        "keypad": "E",
+        "name": "逐风",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "v1281ycfc2x"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备一组飞刀，按【射击】向目标掷出一把飞刀，击败敌人即可重新充能所有飞刀。按【辅助射击】向你的目标抛掷所有剩余的飞刀，但这样做无法通过击败敌人获得充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/02_x.png",
+        "keypad": "X",
+        "name": "飓刃",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "b12817tll99"
+        }
+      },
+      {
+        "cost": "/",
+        "desc": "在坠下的时候按住跳跃键可以让捷风在空中滑翔",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/02_space.png",
+        "keypad": "SPACE",
+        "name": "飘移",
+        "type": 1,
+        "type_name": "被动技能",
+        "video": {
+          "vid": "w128144j1d2"
+        }
+      }
+    ]
+  },
+  "3": {
+    "contract": [
+      {
+        "award": "嘭爆满天",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/1.png",
+        "level": 1
+      },
+      {
+        "award": "嘭爆满天",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 雷兹",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 雷兹",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/2.png",
+        "level": 2
+      },
+      {
+        "award": "好战头脑",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/3.png",
+        "level": 3
+      },
+      {
+        "award": "好战头脑",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/3.png",
+        "level": 3
+      },
+      {
+        "award": "重磅炸弹",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/4.png",
+        "level": 4
+      },
+      {
+        "award": "重磅炸弹",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/4.png",
+        "level": 4
+      },
+      {
+        "award": "雷兹",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/5.png",
+        "level": 5
+      },
+      {
+        "award": "雷兹",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/5.png",
+        "level": 5
+      },
+      {
+        "award": "爆燃撞针",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/6.png",
+        "level": 6
+      },
+      {
+        "award": "爆燃撞针",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/6.png",
+        "level": 6
+      },
+      {
+        "award": "雷兹",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/7.png",
+        "level": 7
+      },
+      {
+        "award": "雷兹",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/7.png",
+        "level": 7
+      },
+      {
+        "award": "狂轰滥炸",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/8.png",
+        "level": 8
+      },
+      {
+        "award": "狂轰滥炸",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/8.png",
+        "level": 8
+      },
+      {
+        "award": "崛地而起",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/9.png",
+        "level": 9
+      },
+      {
+        "award": "崛地而起",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/9.png",
+        "level": 9
+      },
+      {
+        "award": "小枪仔 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/10.png",
+        "level": 10
+      },
+      {
+        "award": "小枪仔 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/03/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“雷兹”轰轰烈烈地离开了亚马逊平原。她的性情就跟其武器一样火爆，她的作战风格简单粗暴、爆发力十足。无论是攻坚战还是狭小空间的遭遇战，都是她的拿手好戏。",
+    "e_name": "Raze",
+    "name": "雷兹",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "装备爆弹机器人。按【射击】即可部署机器人，它在地上沿直线行进，并会在碰到墙体后弹开。爆弹机器人会锁定任何在其锥形范围内的敌人并追逐他们，一旦追上便会引爆并造成严重伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/03_c.png",
+        "keypad": "C",
+        "name": "花车巡游",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "z1281vmkmua"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "投掷一个可粘在物体表面的炸药包。完成部署后，【再次按技能 键】该技能即可将其引爆，对目标造成伤害和击飞。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/03_q.png",
+        "keypad": "Q",
+        "name": "惊喜翻腾",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "x1281vfz4lk"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备集束手雷。按【射击】投掷手雷，手雷爆炸后会生成子榴 弹，每颗对范围内所有人造成伤害。按【辅助射击】可轻抛。每 击败两名敌人，可重置【彩雷飞溅】的充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/03_e.png",
+        "keypad": "E",
+        "name": "彩雷飞溅",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "n1281ae638n"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备火箭发射器。按【射击】即可发射一枚在与任何物体接触时造成大范围伤害的火箭。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/03_x.png",
+        "keypad": "X",
+        "name": "晚安焰火",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "x12814nthut"
+        }
+      }
+    ]
+  },
+  "4": {
+    "contract": [
+      {
+        "award": "亡命追猎",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/1.png",
+        "level": 1
+      },
+      {
+        "award": "亡命追猎",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 幽影",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 幽影",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/2.png",
+        "level": 2
+      },
+      {
+        "award": "不祥之兆",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/3.png",
+        "level": 3
+      },
+      {
+        "award": "不祥之兆",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/3.png",
+        "level": 3
+      },
+      {
+        "award": "暗黑焦点",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/4.png",
+        "level": 4
+      },
+      {
+        "award": "暗黑焦点",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/4.png",
+        "level": 4
+      },
+      {
+        "award": "幽影",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/5.png",
+        "level": 5
+      },
+      {
+        "award": "幽影",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/5.png",
+        "level": 5
+      },
+      {
+        "award": "愉悦死神",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/6.png",
+        "level": 6
+      },
+      {
+        "award": "愉悦死神",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/6.png",
+        "level": 6
+      },
+      {
+        "award": "幽影",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/7.png",
+        "level": 7
+      },
+      {
+        "award": "幽影",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/7.png",
+        "level": 7
+      },
+      {
+        "award": "不散阴魂",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/8.png",
+        "level": 8
+      },
+      {
+        "award": "不散阴魂",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/8.png",
+        "level": 8
+      },
+      {
+        "award": "死为何物",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/9.png",
+        "level": 9
+      },
+      {
+        "award": "死为何物",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/9.png",
+        "level": 9
+      },
+      {
+        "award": "魂音沉默者 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/10.png",
+        "level": 10
+      },
+      {
+        "award": "魂音沉默者 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/04/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“幽影”是暗影中的狩猎者，关于他的过去只有一段模糊的记忆。他能传送到战场的任意位置，还能剥夺敌人的视野与理智，使其陷入草木皆兵的境地。",
+    "e_name": "Omen",
+    "name": "幽影",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "100",
+        "desc": "装备【践影】技能，查看其范围指示器。按【射击】开始引导，然后传送至标记位置。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/04_c.png",
+        "keypad": "C",
+        "name": "践影",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "x1281z99c2o"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备致盲法球。按【射击】将其向前掷出，可使接触到的玩家短暂【致聋】和【视野收缩】。此投掷物可穿透墙体。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/04_q.png",
+        "keypad": "Q",
+        "name": "暗魇",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "x12810v0q2s"
+        }
+      },
+      {
+        "cost": "第一充能免费，第二充能100",
+        "desc": "装备暗影法球，然后进入相位空间为法球选择目标。按【技能键】即可朝标记位置投掷暗影法球，创造一个长时间持续的暗影球体来遮挡视线。瞄准期间，【按住射击】可将标记移远，【按住辅助射击】可将标记移近。按【装填】即可切换至普通瞄准视野。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/04_e.png",
+        "keypad": "E",
+        "name": "黑瘴",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "m1281dhysoy"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "装备战术地图。按【射击】传送至选定位置，传送期间幽影会变为一团阴影，敌人可通过摧毁阴影来强制取消传送，幽影也能按【装备】来取消传送。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/04_x.png",
+        "keypad": "X",
+        "name": "离魂",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "r128174py18"
+        }
+      }
+    ]
+  },
+  "5": {
+    "contract": [
+      {
+        "award": "战场老手",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/1.png",
+        "level": 1
+      },
+      {
+        "award": "战场老手",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/1.png",
+        "level": 1
+      },
+      {
+        "award": "大家伙",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/2.png",
+        "level": 2
+      },
+      {
+        "award": "大家伙",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 炼狱",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/3.png",
+        "level": 3
+      },
+      {
+        "award": "Valorant 炼狱",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/3.png",
+        "level": 3
+      },
+      {
+        "award": "铁血教头",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/4.png",
+        "level": 4
+      },
+      {
+        "award": "铁血教头",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/4.png",
+        "level": 4
+      },
+      {
+        "award": "健身狂",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/5.png",
+        "level": 5
+      },
+      {
+        "award": "健身狂",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/5.png",
+        "level": 5
+      },
+      {
+        "award": "兵籍狗牌",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/6.png",
+        "level": 6
+      },
+      {
+        "award": "兵籍狗牌",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/6.png",
+        "level": 6
+      },
+      {
+        "award": "炼狱",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/7.png",
+        "level": 7
+      },
+      {
+        "award": "炼狱",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/7.png",
+        "level": 7
+      },
+      {
+        "award": "最高司令",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/8.png",
+        "level": 8
+      },
+      {
+        "award": "最高司令",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/8.png",
+        "level": 8
+      },
+      {
+        "award": "团结一心",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/9.png",
+        "level": 9
+      },
+      {
+        "award": "团结一心",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/9.png",
+        "level": 9
+      },
+      {
+        "award": "安宁守护者 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/10.png",
+        "level": 10
+      },
+      {
+        "award": "安宁守护者 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/05/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“炼狱”来自美洲大陆，他能使用各种轨道武器来为团队提供精确支援和创造战术优势，是前线指挥官的不二人选。",
+    "e_name": "Brimstone",
+    "name": "炼狱",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "立即向前方投掷振奋信标，它在落地后会生成一片增益区域，给予其中的玩家【作战强化】和【加速】效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/05_c.png",
+        "keypad": "C",
+        "name": "振奋信标",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g1281nf98oc"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备燃烧弹发射器。按【射击】发射一枚榴弹，在落地停稳后引爆，生成一片持续燃烧的区域，对进入其中的玩家造成伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/05_q.png",
+        "keypad": "Q",
+        "name": "燃烧榴弹",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "h1281a1fb9c"
+        }
+      },
+      {
+        "cost": "100",
+        "desc": "装备战术地图。按【射击】设定烟幕落地的位置。按【辅助射击】以确认，呼叫历久不散的烟云来阻碍该选定区域的视野。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/05_e.png",
+        "keypad": "E",
+        "name": "空投烟幕",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "c12816fci4l"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备战术地图。按【射击】向选定位置发射轨道激光炮，对区域内的玩家造成高额持续伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/05_x.png",
+        "keypad": "X",
+        "name": "天基光束",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "q1281hvb4qp"
+        }
+      }
+    ]
+  },
+  "6": {
+    "contract": [
+      {
+        "award": "当红炸子鸡",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/1.png",
+        "level": 1
+      },
+      {
+        "award": "当红炸子鸡",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/1.png",
+        "level": 1
+      },
+      {
+        "award": "王权在我",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/2.png",
+        "level": 2
+      },
+      {
+        "award": "王权在我",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 不死鸟",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/3.png",
+        "level": 3
+      },
+      {
+        "award": "Valorant 不死鸟",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/3.png",
+        "level": 3
+      },
+      {
+        "award": "闪光侠",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/4.png",
+        "level": 4
+      },
+      {
+        "award": "闪光侠",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/4.png",
+        "level": 4
+      },
+      {
+        "award": "万众瞩目",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/5.png",
+        "level": 5
+      },
+      {
+        "award": "万众瞩目",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/5.png",
+        "level": 5
+      },
+      {
+        "award": "灼热闪烁",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/6.png",
+        "level": 6
+      },
+      {
+        "award": "灼热闪烁",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/6.png",
+        "level": 6
+      },
+      {
+        "award": "不死鸟",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/7.png",
+        "level": 7
+      },
+      {
+        "award": "不死鸟",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/7.png",
+        "level": 7
+      },
+      {
+        "award": "燎原之星",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/8.png",
+        "level": 8
+      },
+      {
+        "award": "燎原之星",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/8.png",
+        "level": 8
+      },
+      {
+        "award": "星火燎原",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/9.png",
+        "level": 9
+      },
+      {
+        "award": "星火燎原",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/9.png",
+        "level": 9
+      },
+      {
+        "award": "火喷英烈 狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/10.png",
+        "level": 10
+      },
+      {
+        "award": "火喷英烈 狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/06/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "来自不列颠群岛的“不死鸟”举手投足中无处不洋溢着大牌明星风范，他就像一团耀眼的烈焰，动辄燃遍全场。对他来说，有没有后援不重要，冲锋陷阵时的派头更重要。",
+    "e_name": "Phoenix",
+    "name": "不死鸟",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "150",
+        "desc": "装备烈焰屏障。按【射击】向前生成一道火墙，可阻挡视野并伤害穿过它的人。不死鸟不会受到火墙的伤害，反而会获得治疗。【按住射击】可使火墙朝你准星的方向卷曲。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/06_c.png",
+        "keypad": "C",
+        "name": "火冒三丈",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "c1281rb0jgu"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备一颗火球，按【射击】将其掷出，在落地或一定时间后爆炸，生成一片持续燃烧的区域，对进入其中的敌人造成伤害。不死鸟不会受到燃烧区域的伤害，反而会获得治疗。按【辅助射击】可轻抛。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/06_q.png",
+        "keypad": "Q",
+        "name": "火热手感",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g1281k83s5m"
+        }
+      },
+      {
+        "cost": "第一个充能免费，其余250",
+        "desc": "装备一颗闪光球，投掷后，闪光球沿弧线轨迹飞行并在短时间内爆炸。爆炸时，所有视野内可看到闪光球的玩家均会被【致盲】。按【射击】投掷左曲球，按【辅助射击】投掷右曲球。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/06_e.png",
+        "keypad": "E",
+        "name": "闪光曲球",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "g12811s4gm0"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "立即标记不死鸟的位置。如果他在技能激活期间阵亡，或当技能时效结束，他都会返回该位置满血重生，并且保留技能施放时的护甲值。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/06_x.png",
+        "keypad": "X",
+        "name": "再火一回",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "y1281plrv6i"
+        }
+      }
+    ]
+  },
+  "7": {
+    "contract": [
+      {
+        "award": "守望者",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/1.png",
+        "level": 1
+      },
+      {
+        "award": "守望者",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/1.png",
+        "level": 1
+      },
+      {
+        "award": "还不赖",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/2.png",
+        "level": 2
+      },
+      {
+        "award": "还不赖",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 贤者",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/3.png",
+        "level": 3
+      },
+      {
+        "award": "Valorant 贤者",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/3.png",
+        "level": 3
+      },
+      {
+        "award": "启蒙先知",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/4.png",
+        "level": 4
+      },
+      {
+        "award": "启蒙先知",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/4.png",
+        "level": 4
+      },
+      {
+        "award": "生命迹象",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/5.png",
+        "level": 5
+      },
+      {
+        "award": "生命迹象",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/5.png",
+        "level": 5
+      },
+      {
+        "award": "幅能法球",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/6.png",
+        "level": 6
+      },
+      {
+        "award": "幅能法球",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/6.png",
+        "level": 6
+      },
+      {
+        "award": "贤者",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/7.png",
+        "level": 7
+      },
+      {
+        "award": "贤者",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/7.png",
+        "level": 7
+      },
+      {
+        "award": "超凡入圣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/8.png",
+        "level": 8
+      },
+      {
+        "award": "超凡入圣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/8.png",
+        "level": 8
+      },
+      {
+        "award": "试炼之旅",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/9.png",
+        "level": 9
+      },
+      {
+        "award": "试炼之旅",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/9.png",
+        "level": 9
+      },
+      {
+        "award": "终末密室 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/10.png",
+        "level": 10
+      },
+      {
+        "award": "终末密室 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/07/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“贤者”是华夏文明的后代，她可以用超能力阻滞敌方攻势、为队友提供保护和治疗，甚至还能复活队友。有她在的地方，就如同是腥风血雨中的一处避风港。",
+    "e_name": "Sage",
+    "name": "贤者",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "装备屏障法球，按【射击】来布置一道墙壁，【辅助射击】可旋转目标指示器。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/07_c.png",
+        "keypad": "C",
+        "name": "玉城",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "i1281whi5xw"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备减速法球，按【射击】将其掷出，它会在落地时爆开，生成一片持续的【减速】领域，降低其中玩家的移动速度，身处减速区域内的敌人，其冲刺速度将额外降低50%。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/07_q.png",
+        "keypad": "Q",
+        "name": "薄冰",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "y1281udr5ls"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备治疗法球。按【射击】并用准星对准受伤队友以持续对其进行【治疗】。当贤者受伤时，使用【辅助射击】来【治疗】自己。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/07_e.png",
+        "keypad": "E",
+        "name": "逢春",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "b1281t4jxea"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "装备复活技能。瞄准一名倒下的队友按下【射击】，即可在短暂引导后使其满血复活。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/07_x.png",
+        "keypad": "X",
+        "name": "再起",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "x128130fqtx"
+        }
+      }
+    ]
+  },
+  "8": {
+    "contract": [
+      {
+        "award": "冰原猎手",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/1.png",
+        "level": 1
+      },
+      {
+        "award": "冰原猎手",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/1.png",
+        "level": 1
+      },
+      {
+        "award": "起飞咯",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/2.png",
+        "level": 2
+      },
+      {
+        "award": "起飞咯",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 猎枭",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/3.png",
+        "level": 3
+      },
+      {
+        "award": "Valorant 猎枭",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/3.png",
+        "level": 3
+      },
+      {
+        "award": "百步穿杨",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/4.png",
+        "level": 4
+      },
+      {
+        "award": "百步穿杨",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/4.png",
+        "level": 4
+      },
+      {
+        "award": "正中目标",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/5.png",
+        "level": 5
+      },
+      {
+        "award": "正中目标",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/5.png",
+        "level": 5
+      },
+      {
+        "award": "猫头鹰护符",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/6.png",
+        "level": 6
+      },
+      {
+        "award": "猫头鹰护符",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/6.png",
+        "level": 6
+      },
+      {
+        "award": "猎枭",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/7.png",
+        "level": 7
+      },
+      {
+        "award": "猎枭",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/7.png",
+        "level": 7
+      },
+      {
+        "award": "死亡准星",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/8.png",
+        "level": 8
+      },
+      {
+        "award": "死亡准星",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/8.png",
+        "level": 8
+      },
+      {
+        "award": "穿梭镜界",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/9.png",
+        "level": 9
+      },
+      {
+        "award": "穿梭镜界",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/9.png",
+        "level": 9
+      },
+      {
+        "award": "守护者 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/10.png",
+        "level": 10
+      },
+      {
+        "award": "守护者 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/08/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "”猎枭“生长于终年严寒的北方冻原。他能够精准而高效地追踪、锁定和歼灭敌人。凭借一把特制战弓和无与伦比的侦察能力，他能让猎物无所遁形、无处可逃。",
+    "e_name": "Sova",
+    "name": "猎枭",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "400",
+        "desc": "装备枭型无人机，按【射击】即可部署并操作无人机，在操作期间按【射击】可发射定位镖，【揭露】所命中目标的位置。枭型无人机可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/08_c.png",
+        "keypad": "C",
+        "name": "枭型无人机",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "t1281pxzmvx"
+        }
+      },
+      {
+        "cost": "150",
+        "desc": "装备弓和雷击箭，按【射击】即可将箭矢向前射出，箭矢在碰撞物体后爆炸，对附近的玩家造成伤害。【按住射击】可延长投射距离。按【辅助射击】可为该弩箭增加一次弹射次数，最多两次。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/08_q.png",
+        "keypad": "Q",
+        "name": "雷击箭",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "b1281u9h3ct"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备弓和寻敌箭，按【射击】即可将箭矢向前射出，箭矢在碰撞物体后激活声纳并【揭露】探测范围内的敌人位置。敌人可摧毁该箭矢。【按住射击】可延长投射距离。按【辅助射击】可为该弩箭增加一次弹射次数，最多两次。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/08_e.png",
+        "keypad": "E",
+        "name": "寻敌箭",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "s128161qt98"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备弓和三发可穿墙的远程能量箭。按【射击】即向猎枭的前方发射一道能量冲击波，对直线上的敌人造成伤害并【揭露】其位置。此技能在计时器结束前可【再次使用】最多两次。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/08_x.png",
+        "keypad": "X",
+        "name": "狂猎之怒",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "c1281s4uxci"
+        }
+      }
+    ]
+  },
+  "9": {
+    "contract": [
+      {
+        "award": "哪种毒自己选",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/1.png",
+        "level": 1
+      },
+      {
+        "award": "哪种毒自己选",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 蝰蛇",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 蝰蛇",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/2.png",
+        "level": 2
+      },
+      {
+        "award": "生化危机",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/3.png",
+        "level": 3
+      },
+      {
+        "award": "生化危机",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/3.png",
+        "level": 3
+      },
+      {
+        "award": "致命猛毒",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/4.png",
+        "level": 4
+      },
+      {
+        "award": "致命猛毒",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/4.png",
+        "level": 4
+      },
+      {
+        "award": "蝰蛇",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/5.png",
+        "level": 5
+      },
+      {
+        "award": "蝰蛇",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/5.png",
+        "level": 5
+      },
+      {
+        "award": "瓶装猛毒",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/6.png",
+        "level": 6
+      },
+      {
+        "award": "瓶装猛毒",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/6.png",
+        "level": 6
+      },
+      {
+        "award": "蝰蛇",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/7.png",
+        "level": 7
+      },
+      {
+        "award": "蝰蛇",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/7.png",
+        "level": 7
+      },
+      {
+        "award": "绝命毒手",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/8.png",
+        "level": 8
+      },
+      {
+        "award": "绝命毒手",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/8.png",
+        "level": 8
+      },
+      {
+        "award": "月黑风高",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/9.png",
+        "level": 9
+      },
+      {
+        "award": "月黑风高",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/9.png",
+        "level": 9
+      },
+      {
+        "award": "致命蛇吻 短管",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/10.png",
+        "level": 10
+      },
+      {
+        "award": "致命蛇吻 短管",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/09/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“蝰蛇”是一位来自美洲大陆的化学家，擅长部署毒性化学装置来控制战场并削弱敌人的视野。即便猎物没倒在她的毒素之下，她也会利用心理战将其击溃。",
+    "e_name": "Viper",
+    "name": "蝰蛇",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备化学品发射器，按【射击】即可射出一个触地即碎的化学容器，碎裂后会留下一滩化学溶液，对范围内的目标造成伤害并施加【易伤】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/09_c.png",
+        "keypad": "C",
+        "name": "蛇吻",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "l1281wn391y"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备气雾喷射器，按【射击】 将其掷出，该装置会一直存在至回合结束。按【辅助射击】 可轻抛。【再次按技能键】 可消耗燃料生成一团化学烟雾。回合开始前，可拾取喷射器，将其【重新部署】。在回合中，此技能可以多次【重复使用】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/09_q.png",
+        "keypad": "Q",
+        "name": "瘴云",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "u128151hr8g"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备可穿越地形的气雾喷射器，按【射击】沿一条直线部署气雾喷射器阵列。【再次按技能键】可消耗燃料产生一道气雾幕墙。此技能可以多次【重复使用】",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/09_e.png",
+        "keypad": "E",
+        "name": "毒幕",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "v1281h1n6e7"
+        }
+      },
+      {
+        "cost": "9点大招点数",
+        "desc": "装备化学喷雾器。按【射击】即可朝蝰蛇的四周喷射化学气雾，产生大片云雾，使范围内的玩家【视野收缩】并使敌人受到【腐坏】效果。【按住技能键】可使气雾提前消散。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/09_x.png",
+        "keypad": "X",
+        "name": "蝰腹",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "k1281mftft8"
+        }
+      }
+    ]
+  },
+  "10": {
+    "contract": [
+      {
+        "award": "眼观六路",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/1.png",
+        "level": 1
+      },
+      {
+        "award": "眼观六路",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 零",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 零",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/2.png",
+        "level": 2
+      },
+      {
+        "award": "监视者",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/3.png",
+        "level": 3
+      },
+      {
+        "award": "监视者",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/3.png",
+        "level": 3
+      },
+      {
+        "award": "逮到你了",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/4.png",
+        "level": 4
+      },
+      {
+        "award": "逮到你了",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/4.png",
+        "level": 4
+      },
+      {
+        "award": "零",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/5.png",
+        "level": 5
+      },
+      {
+        "award": "零",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/5.png",
+        "level": 5
+      },
+      {
+        "award": "白帽",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/6.png",
+        "level": 6
+      },
+      {
+        "award": "白帽",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/6.png",
+        "level": 6
+      },
+      {
+        "award": "零",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/7.png",
+        "level": 7
+      },
+      {
+        "award": "零",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/7.png",
+        "level": 7
+      },
+      {
+        "award": "心灵骇客",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/8.png",
+        "level": 8
+      },
+      {
+        "award": "心灵骇客",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/8.png",
+        "level": 8
+      },
+      {
+        "award": "赎罪愚行",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/9.png",
+        "level": 9
+      },
+      {
+        "award": "赎罪愚行",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/9.png",
+        "level": 9
+      },
+      {
+        "award": "密而不宣 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/10.png",
+        "level": 10
+      },
+      {
+        "award": "密而不宣 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/10/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "情报贩子“零”来自直布罗陀海峡南岸，他堪比人形情报网络，紧密地监视着敌人的一举一动。在他的眼皮底下没有秘密，也没有人能瞒天过海。",
+    "e_name": "Cypher",
+    "name": "零",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备绊线。按【射击】在目标位置与相对的墙体之间形成一条可摧毁的隐蔽绊线。玩家一跨过震慑绊线便会立即受到减速效果。绊线将在0.9秒后激活，若未及时摧毁，或玩家移动至距离触发点4米外，则其位置将被揭露。此装置可被回收并【重新部署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/10_c.png",
+        "keypad": "C",
+        "name": "震慑绊线",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "p1281w45qyv"
+        }
+      },
+      {
+        "cost": "100",
+        "desc": "向前方投掷赛博囚笼。【激活】即可生成一片阻碍视野的区域，敌人通过时会发出提示音。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/10_q.png",
+        "keypad": "Q",
+        "name": "赛博囚笼",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "s1281t5a1fr"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备摄像头，按【射击】即可将其布置于目标位置。【再次按技能键】可切换至监控镜头。在使用监控镜头期间按【射击】可发射定位镖，【揭露】所命中目标的位置。此装置可被回收并【重新部署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/10_e.png",
+        "keypad": "E",
+        "name": "战术监控",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "u128109yuyv"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "对被击败的敌方玩家使用本技能，即可获取敌方队伍的信息。短暂延迟后，【揭露】所有存活敌方玩家的位置两次。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/10_x.png",
+        "keypad": "X",
+        "name": "神经取析",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "j128134ngc8"
+        }
+      }
+    ]
+  },
+  "11": {
+    "contract": [
+      {
+        "award": "邪魅凝视",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/1.png",
+        "level": 1
+      },
+      {
+        "award": "邪魅凝视",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 芮娜",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 芮娜",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/2.png",
+        "level": 2
+      },
+      {
+        "award": "绝代女皇",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/3.png",
+        "level": 3
+      },
+      {
+        "award": "绝代女皇",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/3.png",
+        "level": 3
+      },
+      {
+        "award": "死亡标记",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/4.png",
+        "level": 4
+      },
+      {
+        "award": "死亡标记",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/4.png",
+        "level": 4
+      },
+      {
+        "award": "芮娜",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/5.png",
+        "level": 5
+      },
+      {
+        "award": "芮娜",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/5.png",
+        "level": 5
+      },
+      {
+        "award": "死亡标记",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/6.png",
+        "level": 6
+      },
+      {
+        "award": "死亡标记",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/6.png",
+        "level": 6
+      },
+      {
+        "award": "芮娜",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/7.png",
+        "level": 7
+      },
+      {
+        "award": "芮娜",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/7.png",
+        "level": 7
+      },
+      {
+        "award": "集魂之晶",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/8.png",
+        "level": 8
+      },
+      {
+        "award": "集魂之晶",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/8.png",
+        "level": 8
+      },
+      {
+        "award": "凶蛮成性",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/9.png",
+        "level": 9
+      },
+      {
+        "award": "凶蛮成性",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/9.png",
+        "level": 9
+      },
+      {
+        "award": "生者仇恨",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/10.png",
+        "level": 10
+      },
+      {
+        "award": "生者仇恨",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/11/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“芮娜”的威名铸就于马德雷山脉。虽然初始技能有所限制，但她能在狭路相逢的决斗中变得越来越强，直至觉醒强大的超能力，这使得她的实战表现格外重要。",
+    "e_name": "Reyna",
+    "name": "芮娜",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "250",
+        "desc": "装备一颗可被摧毁的虚灵之眼，【激活】将其向前掷出一段距 离，使看见此眼球的敌人【视野收缩】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/11_c.png",
+        "keypad": "C",
+        "name": "睥睨",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "m1281gwbzu7"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "狩魂:被芮娜造成伤害的3秒内被击败的敌人将留下魂珠，持续 3秒。 噬尽:立即吞噬邻近的一颗魂珠并迅速获得【治疗】。在【女皇 旨令】激活时，此技能将自动施放且不会消耗魂珠。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/11_q.png",
+        "keypad": "Q",
+        "name": "噬尽",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "w12819i8t5o"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "立即吞噬邻近的魂珠，在短时间内变得【无形】。在【女皇旨令】激活时，此技能还会使你【隐形】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/11_e.png",
+        "keypad": "E",
+        "name": "逐散",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "r1281ozg4ql"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "进入狂暴状态，获得【作战强化】效果，大幅度提升射击、装备 与换弹速度，可以不限次数地使用【噬尽】技能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/11_x.png",
+        "keypad": "X",
+        "name": "女皇旨令",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "k1281sm556e"
+        }
+      }
+    ]
+  },
+  "12": {
+    "contract": [
+      {
+        "award": "变数移除",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/1.png",
+        "level": 1
+      },
+      {
+        "award": "变数移除",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 奇乐",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 奇乐",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/2.png",
+        "level": 2
+      },
+      {
+        "award": "机械狂人",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/3.png",
+        "level": 3
+      },
+      {
+        "award": "机械狂人",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/3.png",
+        "level": 3
+      },
+      {
+        "award": "别惹我",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/4.png",
+        "level": 4
+      },
+      {
+        "award": "别惹我",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/4.png",
+        "level": 4
+      },
+      {
+        "award": "奇乐",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/5.png",
+        "level": 5
+      },
+      {
+        "award": "奇乐",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/5.png",
+        "level": 5
+      },
+      {
+        "award": "机器人",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/6.png",
+        "level": 6
+      },
+      {
+        "award": "机器人",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/6.png",
+        "level": 6
+      },
+      {
+        "award": "奇乐",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/7.png",
+        "level": 7
+      },
+      {
+        "award": "奇乐",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/7.png",
+        "level": 7
+      },
+      {
+        "award": "天纵英才",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/8.png",
+        "level": 8
+      },
+      {
+        "award": "天纵英才",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/8.png",
+        "level": 8
+      },
+      {
+        "award": "漫漫长夜",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/9.png",
+        "level": 9
+      },
+      {
+        "award": "漫漫长夜",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/9.png",
+        "level": 9
+      },
+      {
+        "award": "天才少女 短管",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/10.png",
+        "level": 10
+      },
+      {
+        "award": "天才少女 短管",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/12/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“奇乐”是来自莱茵河畔的天才发明家，她擅长使用陷阱、炮台和地雷来控制和防守战场上的关键位置。敌人若是不懂知难而退，便会发现这些装置个头虽小，制造的麻烦却很大。",
+    "e_name": "Killjoy",
+    "name": "奇乐",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备纳米蜂群手雷，按【射击】将其掷出。蜂群手雷会在落地后隐形。按【辅助射击】可轻抛。【激活】纳米蜂群即可部署一群纳米机器人，造成伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/12_c.png",
+        "keypad": "C",
+        "name": "纳米蜂群",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "e1281iz01a3"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备隐形的自动哨兵。按【射击】可部署机器人来追踪进入范围的敌人。机器人会在接触目标后爆炸，造成伤害并施加【易伤】效果。【按住技能键】可召回已部署的机器人。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/12_q.png",
+        "keypad": "Q",
+        "name": "自动哨兵",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "h12815f78gx"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备炮台，按【射击】即可部署，向100度范围内的敌人开火。按【辅助射击】可转换炮台方向。按住【装备】可召回已部署的炮台。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/12_e.png",
+        "keypad": "E",
+        "name": "哨戒炮台",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "p1281mb9u0h"
+        }
+      },
+      {
+        "cost": "9点大招点数",
+        "desc": "装备封锁装置。按【射击】进行部署。在长时间的启动后，束缚有效半径内的所有敌人。该装置可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/12_x.png",
+        "keypad": "X",
+        "name": "全面封锁",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "i12811gifpx"
+        }
+      }
+    ]
+  },
+  "13": {
+    "contract": [
+      {
+        "award": "生态印记",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/1.png",
+        "level": 1
+      },
+      {
+        "award": "生态印记",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 斯凯",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 斯凯",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/2.png",
+        "level": 2
+      },
+      {
+        "award": "开路先锋",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/3.png",
+        "level": 3
+      },
+      {
+        "award": "开路先锋",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/3.png",
+        "level": 3
+      },
+      {
+        "award": "一步一脚印",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/4.png",
+        "level": 4
+      },
+      {
+        "award": "一步一脚印",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/4.png",
+        "level": 4
+      },
+      {
+        "award": "斯凯",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/5.png",
+        "level": 5
+      },
+      {
+        "award": "斯凯",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/5.png",
+        "level": 5
+      },
+      {
+        "award": "鹰宝",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/6.png",
+        "level": 6
+      },
+      {
+        "award": "鹰宝",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/6.png",
+        "level": 6
+      },
+      {
+        "award": "斯凯",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/7.png",
+        "level": 7
+      },
+      {
+        "award": "斯凯",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/7.png",
+        "level": 7
+      },
+      {
+        "award": "自然之怒",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/8.png",
+        "level": 8
+      },
+      {
+        "award": "自然之怒",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/8.png",
+        "level": 8
+      },
+      {
+        "award": "环境战士",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/9.png",
+        "level": 9
+      },
+      {
+        "award": "环境战士",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/9.png",
+        "level": 9
+      },
+      {
+        "award": "飞掠 狂噬",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/10.png",
+        "level": 10
+      },
+      {
+        "award": "飞掠 狂噬",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/13/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“斯凯”来自大洋洲，带着宠物风风火火地穿越敌人领地是她的标志风格。她不仅可以用她的造物牵制敌人，还能治疗队友，是小队中攻守兼备的一员。",
+    "e_name": "Skye",
+    "name": "斯凯",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "150",
+        "desc": "装备治疗雕饰，【按住射击】开始输出，【治疗】技能范围内且在视线内的队友。在治疗池耗尽前，此技能可重复使用。斯凯无法治疗自己。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/13_c.png",
+        "keypad": "C",
+        "name": "愈生之息",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "b1281va6yb3"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备袋狼雕饰，按【射击】放出并控制一只兽形造物，在控制期间按【射击】可向前扑出。兽形造物会在碰撞后引爆，对直接命中的敌人造成【震荡】和伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/13_q.png",
+        "keypad": "Q",
+        "name": "辟林之虎",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "e12811lonut"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备飞鹰雕饰，按【射击】将其放出。【按住射击】可以让飞鹰向准星的方向转弯，【再次按技能键】可以让飞鹰化作闪光弹。闪光弹在飞鹰飞行一小段时间后即可达到最大效能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/13_e.png",
+        "keypad": "E",
+        "name": "引路之隼",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "h1281tlfoba"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备追猎者雕饰。按【射击】即可派出三个追猎之灵，对三名距离最近的敌人进行追踪。如果追寻者接触到目标，即可使其【视野收缩】。追猎之灵可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/13_x.png",
+        "keypad": "X",
+        "name": "追猎之灵",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "m1281oa022w"
+        }
+      }
+    ]
+  },
+  "14": {
+    "contract": [
+      {
+        "award": "下一个是谁",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/1.png",
+        "level": 1
+      },
+      {
+        "award": "下一个是谁",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 夜露",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 夜露",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/2.png",
+        "level": 2
+      },
+      {
+        "award": "不速之客",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/3.png",
+        "level": 3
+      },
+      {
+        "award": "不速之客",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/3.png",
+        "level": 3
+      },
+      {
+        "award": "帅准狠",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/4.png",
+        "level": 4
+      },
+      {
+        "award": "帅准狠",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/4.png",
+        "level": 4
+      },
+      {
+        "award": "夜露",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/5.png",
+        "level": 5
+      },
+      {
+        "award": "夜露",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/5.png",
+        "level": 5
+      },
+      {
+        "award": "次元碎片",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/6.png",
+        "level": 6
+      },
+      {
+        "award": "次元碎片",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/6.png",
+        "level": 6
+      },
+      {
+        "award": "夜露",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/7.png",
+        "level": 7
+      },
+      {
+        "award": "夜露",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/7.png",
+        "level": 7
+      },
+      {
+        "award": "真实面貌",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/8.png",
+        "level": 8
+      },
+      {
+        "award": "真实面貌",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/8.png",
+        "level": 8
+      },
+      {
+        "award": "曝光家室",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/9.png",
+        "level": 9
+      },
+      {
+        "award": "曝光家室",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/9.png",
+        "level": 9
+      },
+      {
+        "award": "死亡之愿 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/10.png",
+        "level": 10
+      },
+      {
+        "award": "死亡之愿 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/14/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "来自东亚的“夜露”能够直接撕裂现实空间，无声无息地渗透敌人的防线。他在战斗中喜欢虚实结合，在敌人尚未猜到他的位置时发动突然袭击。",
+    "e_name": "Yoru",
+    "name": "夜露",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备一个启动时变为夜露外形的回声镜像，【射击】即可激活镜像并令其前进，【辅助射击】则可放置一个未激活的回声镜像，【按下技能键】可激活之前未激活的镜像并使其前进。镜像被敌人摧毁时，会放出【致盲】闪光。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/14_c.png",
+        "keypad": "C",
+        "name": "出其不意",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "m12819rce3u"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "从现实中撕下一块不稳定的空间碎片。按【射击】掷出碎片，在它与坚硬表面碰撞后，会变成一颗闪光弹。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/14_q.png",
+        "keypad": "Q",
+        "name": "攻其不备",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "p12813ieydh"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备裂隙锚索，【射击】使其向前射出，【辅助射击】可放置固定锚索。【激活】此技能可以将自己传送到锚索的位置。按下【使用】可触发佯装传送。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/14_e.png",
+        "keypad": "E",
+        "name": "不请自来",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "l12815gotre"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备一个可穿越位面的面具。按【射击】即可进入夜露的位面，不会被外界的敌人看见或影响。【再次激活】技能即可提前离开夜露的位面。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/14_x.png",
+        "keypad": "X",
+        "name": "神鬼不觉",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "i1281thkllg"
+        }
+      }
+    ]
+  },
+  "15": {
+    "contract": [
+      {
+        "award": "脑洞大开",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/1.png",
+        "level": 1
+      },
+      {
+        "award": "脑洞大开",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 星礈",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 星礈",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/2.png",
+        "level": 2
+      },
+      {
+        "award": "星光四射",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/3.png",
+        "level": 3
+      },
+      {
+        "award": "星光四射",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/3.png",
+        "level": 3
+      },
+      {
+        "award": "星界",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/4.png",
+        "level": 4
+      },
+      {
+        "award": "星界",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/4.png",
+        "level": 4
+      },
+      {
+        "award": "星礈",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/5.png",
+        "level": 5
+      },
+      {
+        "award": "星礈",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/5.png",
+        "level": 5
+      },
+      {
+        "award": "星辰",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/6.png",
+        "level": 6
+      },
+      {
+        "award": "星辰",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/6.png",
+        "level": 6
+      },
+      {
+        "award": "星礈",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/7.png",
+        "level": 7
+      },
+      {
+        "award": "星礈",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/7.png",
+        "level": 7
+      },
+      {
+        "award": "无垠宇宙",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/8.png",
+        "level": 8
+      },
+      {
+        "award": "无垠宇宙",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/8.png",
+        "level": 8
+      },
+      {
+        "award": "宇宙起源",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/9.png",
+        "level": 9
+      },
+      {
+        "award": "宇宙起源",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/9.png",
+        "level": 9
+      },
+      {
+        "award": "月蚀 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/10.png",
+        "level": 10
+      },
+      {
+        "award": "月蚀 鬼魅",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/15/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "来自非洲大陆的“星礈”可以操控宇宙能量来重塑战场。她可以进入星界形态，以超脱凡界的战略眼光洞悉战场，抢在敌人行动之前便占得先机。",
+    "e_name": "Astra",
+    "name": "星礈",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "/",
+        "desc": "进入星界形态（终极技能键）并放置星体。【激活】一颗星体，将其转化为重力之阱。处于该区域内的玩家会被拉向中心点，随后重力之阱引爆，对陷入其中的所有玩家施加【易伤】效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/15_c.png",
+        "keypad": "C",
+        "name": "重力之阱",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "p1281em69le"
+        }
+      },
+      {
+        "cost": "/",
+        "desc": "进入星界形态（终极技能键）并放置星体。￼￼【激活】一颗星体，引发一次新星脉冲。新星脉冲会在短暂充能后爆发，使范围内的所有玩家受到【震荡】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/15_q.png",
+        "keypad": "Q",
+        "name": "新星脉冲",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "p1281caphoh"
+        }
+      },
+      {
+        "cost": "/",
+        "desc": "进入星界形态（终极技能键）并放置星体。 【激活】一颗星体，将其转化为星云（烟雾）。 对星体按【使用】键即可将其驱散和回收，以便在一段时间后重新布置。 驱散星云后，其所在位置仍会短暂存续一片混淆视听的假星云，直至星体回收完毕。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/15_e.png",
+        "keypad": "E",
+        "name": "星云/消散",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g1281mo0w9c"
+        }
+      },
+      {
+        "cost": "第一个充能免费，其余150",
+        "desc": "激活该技能可进入星界形态，在此状态下按【射击】即可放置星体。随后你可重新激活星体，将其转化为【新星脉冲】【星云】或【重力之阱】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/15_x.png",
+        "keypad": "X",
+        "name": "星界形态",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "i12815zqpjt"
+        }
+      },
+      {
+        "cost": "7个大招点数",
+        "desc": "当【宇宙分裂】充能完毕时，你可在星体形态下使用【辅助射击】进行瞄准，然后按【射击】选择两个位置。一道无边无际的宇宙裂隙会在两个位置之间生成，阻挡所有子弹并完全阻隔声音的传播。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/15_xx.png",
+        "keypad": "X",
+        "name": "宇宙分裂",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "l12814sg1rq"
+        }
+      }
+    ]
+  },
+  "16": {
+    "contract": [
+      {
+        "award": "没电了",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/1.png",
+        "level": 1
+      },
+      {
+        "award": "没电了",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant K/O",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant K/O",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/2.png",
+        "level": 2
+      },
+      {
+        "award": "机械战警",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/3.png",
+        "level": 3
+      },
+      {
+        "award": "机械战警",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/3.png",
+        "level": 3
+      },
+      {
+        "award": "训练机器",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/4.png",
+        "level": 4
+      },
+      {
+        "award": "训练机器",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/4.png",
+        "level": 4
+      },
+      {
+        "award": "K/O",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/5.png",
+        "level": 5
+      },
+      {
+        "award": "K/O",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/5.png",
+        "level": 5
+      },
+      {
+        "award": "记忆卡",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/6.png",
+        "level": 6
+      },
+      {
+        "award": "记忆卡",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/6.png",
+        "level": 6
+      },
+      {
+        "award": "K/O",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/7.png",
+        "level": 7
+      },
+      {
+        "award": "K/O",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/7.png",
+        "level": 7
+      },
+      {
+        "award": "天生特异",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/8.png",
+        "level": 8
+      },
+      {
+        "award": "天生特异",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/8.png",
+        "level": 8
+      },
+      {
+        "award": "记忆档",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/9.png",
+        "level": 9
+      },
+      {
+        "award": "记忆档",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/9.png",
+        "level": 9
+      },
+      {
+        "award": "FIRE/ARM 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/10.png",
+        "level": 10
+      },
+      {
+        "award": "FIRE/ARM 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/16/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "K/O是一台战争机器，他被制造出来只有一个目的：消灭源能者。他的能力可以压制敌人的技能，为自己与队友制造战术优势。",
+    "e_name": "KAY/O",
+    "name": "K/O",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备一枚碎片手雷。按【射击】将其掷出。按【辅助射击】可轻抛。手雷会粘在地上并多次引爆，每次爆炸对范围中心造成高额伤害。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/16_c.png",
+        "keypad": "C",
+        "name": "碎片溢出",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "r1281eak9cl"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备闪光榴弹。按【射击】上手投掷。闪光榴弹会在短暂停留后引爆，将拥有视线的所有人【致盲】。按【辅助射击】可轻抛，掷出一颗效力较弱但引爆更快的闪光弹。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/16_q.png",
+        "keypad": "Q",
+        "name": "闪存过载",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "w1281uz7osk"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备一把压制匕首。按【射击】将其掷出。匕首将粘附在碰到的首个表面，在一段引导时间后对其范围内的所有人造成【压制】。匕首可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/16_e.png",
+        "keypad": "E",
+        "name": "零点嗅探",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "k1281vq8i2a"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "立即超载极化源晶能量，从K/O身上发射出大范围的能量脉冲。被脉冲击中的敌人会在短时间内受到【压制】。在超载期间，K/O获得【作战强化】状态，并能在被击倒后重启再战。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/16_x.png",
+        "keypad": "X",
+        "name": "无效命令",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "r1281fbc5tv"
+        }
+      }
+    ]
+  },
+  "17": {
+    "contract": [
+      {
+        "award": "一缕轻烟",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/1.png",
+        "level": 1
+      },
+      {
+        "award": "一缕轻烟",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/1.png",
+        "level": 1
+      },
+      {
+        "award": "Valorant 尚勃勒",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/2.png",
+        "level": 2
+      },
+      {
+        "award": "Valorant 尚勃勒",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/2.png",
+        "level": 2
+      },
+      {
+        "award": "一表人才",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/3.png",
+        "level": 3
+      },
+      {
+        "award": "一表人才",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/3.png",
+        "level": 3
+      },
+      {
+        "award": "分身有术",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/4.png",
+        "level": 4
+      },
+      {
+        "award": "分身有术",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/4.png",
+        "level": 4
+      },
+      {
+        "award": "尚勃勒",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/5.png",
+        "level": 5
+      },
+      {
+        "award": "尚勃勒",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/5.png",
+        "level": 5
+      },
+      {
+        "award": "随时联络我",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/6.png",
+        "level": 6
+      },
+      {
+        "award": "随时联络我",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/6.png",
+        "level": 6
+      },
+      {
+        "award": "尚勃勒",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/7.png",
+        "level": 7
+      },
+      {
+        "award": "尚勃勒",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/7.png",
+        "level": 7
+      },
+      {
+        "award": "金牌杀手",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/8.png",
+        "level": 8
+      },
+      {
+        "award": "金牌杀手",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/8.png",
+        "level": 8
+      },
+      {
+        "award": "合作愉快",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/9.png",
+        "level": 9
+      },
+      {
+        "award": "合作愉快",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/9.png",
+        "level": 9
+      },
+      {
+        "award": "艺高胆大 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/10.png",
+        "level": 10
+      },
+      {
+        "award": "艺高胆大 标配",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/17/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "穿着考究、装备精良的西欧武器设计师“尚勃勒”非常擅长防守阵线。他会利用强大的自制武器从远处逼退妄图进犯的敌人，同时也为自己的撤退和转移准备了体面的应急方案。",
+    "e_name": "Chamber",
+    "name": "尚勃勒",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备一个可以扫描敌人的陷阱。按【射击】将其放置在地面上。非隐形的敌人进入扫描范围时，陷阱将开始倒计时并使周围地面陷入不稳定状态，生成一片持续存在的力场，使范围内所有的玩家【减速】。陷阱可被拾起并【重新部署】",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/17_c.png",
+        "keypad": "C",
+        "name": "贵宾限行",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "k12816g52s6"
+        }
+      },
+      {
+        "cost": "每发子弹150",
+        "desc": "激活后装备一把重型手枪。可使用【辅助射击】开镜瞄准。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/17_q.png",
+        "keypad": "Q",
+        "name": "金牌猎头",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "n1281el03u7"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "放置一个传送锚点。处于锚点范围内的地面上时，【再次激活】技能即可快速传送到锚点处。锚点可被拾起并【重新部署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/17_e.png",
+        "keypad": "E",
+        "name": "闪转自如",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "l1281xhq5i5"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "【激活】技能可召唤一把威力强大的定制狙击枪，命中敌人上半身任何部位均可将其击败。按【辅助射击】可使用瞄准镜。被击败的敌人会留下一片持续存在的力场，使范围内的所有玩家【减速】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/17_x.png",
+        "keypad": "X",
+        "name": "孤高火力",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "z1281vj5zg4"
+        }
+      }
+    ]
+  },
+  "18": {
+    "contract": [
+      {
+        "award": "电你没商量",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/1.png",
+        "level": 1
+      },
+      {
+        "award": "电你没商量",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/1.png",
+        "level": 1
+      },
+      {
+        "award": "无畏契约：霓虹",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/2.png",
+        "level": 2
+      },
+      {
+        "award": "无畏契约：霓虹",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/2.png",
+        "level": 2
+      },
+      {
+        "award": "电力十足",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/3.png",
+        "level": 3
+      },
+      {
+        "award": "电力十足",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/3.png",
+        "level": 3
+      },
+      {
+        "award": "开麦",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/4.png",
+        "level": 4
+      },
+      {
+        "award": "开麦",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/4.png",
+        "level": 4
+      },
+      {
+        "award": "霓虹",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/5.png",
+        "level": 5
+      },
+      {
+        "award": "霓虹",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/5.png",
+        "level": 5
+      },
+      {
+        "award": "过载保护",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/6.png",
+        "level": 6
+      },
+      {
+        "award": "过载保护",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/6.png",
+        "level": 6
+      },
+      {
+        "award": "霓虹",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/7.png",
+        "level": 7
+      },
+      {
+        "award": "霓虹",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/7.png",
+        "level": 7
+      },
+      {
+        "award": "风驰电掣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/8.png",
+        "level": 8
+      },
+      {
+        "award": "风驰电掣",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/8.png",
+        "level": 8
+      },
+      {
+        "award": "风暴之眼",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/9.png",
+        "level": 9
+      },
+      {
+        "award": "风暴之眼",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/9.png",
+        "level": 9
+      },
+      {
+        "award": "火线狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/10.png",
+        "level": 10
+      },
+      {
+        "award": "火线狂怒",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/18/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "来自西太平洋群岛的“霓虹”拥有惊人的速度，可以在运动中产生和释放生物电能量。她擅长利用快速机动，以闪电般的效率把敌人打得措手不及。",
+    "e_name": "Neon",
+    "name": "霓虹",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "向前发射两条能量线，它们随后会变成两道阻挡视线的静电墙。 能量线只能向前延伸一小段距离，且会被墙面阻挡。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/18_c.png",
+        "keypad": "C",
+        "name": "高速通道",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "y1281kkwy45"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "立即掷出一个能量箭，可反弹一次。每次击中表面时，能量箭都会造成【震荡】冲击，同时使其下方的地面通电。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/18_q.png",
+        "keypad": "Q",
+        "name": "闪电弹球",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "w1281604eg4"
+        }
+      },
+      {
+        "cost": "150",
+        "desc": "引导霓虹的力量，立即提升移动速度。充能完毕时，按【辅助射击】即可发动闪电滑行。每击败两名敌人，可重置滑行的充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/18_e.png",
+        "keypad": "E",
+        "name": "充能疾驰",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "e1281apgjuk"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "短时间内释放霓虹的全部力量与速度。按【射击】即可引导她的力量，发射一道高速且精准的闪电光束。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/18_x.png",
+        "keypad": "X",
+        "name": "超限暴走",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "e1281psxhyx"
+        }
+      }
+    ]
+  },
+  "19": {
+    "contract": [
+      {
+        "award": "潜行追踪",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/1.png",
+        "level": 1
+      },
+      {
+        "award": "潜行追踪",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/1.png",
+        "level": 1
+      },
+      {
+        "award": "黑梦",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/2.png",
+        "level": 2
+      },
+      {
+        "award": "黑梦",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/2.png",
+        "level": 2
+      },
+      {
+        "award": "赏金猎手",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/3.png",
+        "level": 3
+      },
+      {
+        "award": "赏金猎手",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/3.png",
+        "level": 3
+      },
+      {
+        "award": "大开眼界",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/4.png",
+        "level": 4
+      },
+      {
+        "award": "大开眼界",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/4.png",
+        "level": 4
+      },
+      {
+        "award": "黑梦",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/5.png",
+        "level": 5
+      },
+      {
+        "award": "黑梦",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/5.png",
+        "level": 5
+      },
+      {
+        "award": "恶魔之眼",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/6.png",
+        "level": 6
+      },
+      {
+        "award": "恶魔之眼",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/6.png",
+        "level": 6
+      },
+      {
+        "award": "黑梦",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/7.png",
+        "level": 7
+      },
+      {
+        "award": "黑梦",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/7.png",
+        "level": 7
+      },
+      {
+        "award": "行走的噩梦",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/8.png",
+        "level": 8
+      },
+      {
+        "award": "行走的噩梦",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/8.png",
+        "level": 8
+      },
+      {
+        "award": "暗潮",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/9.png",
+        "level": 9
+      },
+      {
+        "award": "暗潮",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/9.png",
+        "level": 9
+      },
+      {
+        "award": "梦魇恶魔 短炮",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/10.png",
+        "level": 10
+      },
+      {
+        "award": "梦魇恶魔 短炮",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/19/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“黑梦”是来自小亚细亚地区的赏金猎人，她能够操纵纯粹的噩梦能量，揭开他人心底潜藏的恐惧和秘密。她会如梦魇般对敌人穷追不舍，然后在黑暗中将其摧毁殆尽。",
+    "e_name": "Fade",
+    "name": "黑梦",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "250",
+        "desc": "装备一只黯兽。按【射击】使其向前扑出，【按住射击】可引导黯兽朝准星前进。黯兽将追击它所看到的第一个敌人或追踪恐惧轨迹，并在碰触到敌人时使其【视野收缩】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/19_c.png",
+        "keypad": "C",
+        "name": "黯兽",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "o1281b5d9gv"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "将恐惧之力具象化为一根套索，按【射击】将其掷出。套索会在一段时间后下落，【再次按技能键】可使它提前下落。套索会在碰触到地面后炸裂，将附近的敌人束缚在原地，并对其施加【致聋】和【腐坏】效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/19_q.png",
+        "keypad": "Q",
+        "name": "幽爪",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "c1281y3udey"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备一颗诡眼。按【射击】将其掷出。诡眼会在一段时间后下落，【再次按技能键】 可使它提前下落。诡眼会在碰触到地面后爆裂，【揭露】其视线范围内的所有敌人，并使他们留下恐惧轨迹。诡眼可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/19_e.png",
+        "keypad": "E",
+        "name": "诡眼",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "z1281ntq1a4"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "引导噩梦本源的力量，按【射击】释放出排山倒海般的噩梦能量。被波及的敌人会被恐惧轨迹【标记】、并受到【致聋】和【腐坏】效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/19_x.png",
+        "keypad": "X",
+        "name": "夜临",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "i1281wgrvaf"
+        }
+      }
+    ]
+  },
+  "20": {
+    "contract": [
+      {
+        "award": "六分打",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/1.png",
+        "level": 1
+      },
+      {
+        "award": "六分打",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/1.png",
+        "level": 1
+      },
+      {
+        "award": "无畏契约：海神",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/2.png",
+        "level": 2
+      },
+      {
+        "award": "无畏契约：海神",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/2.png",
+        "level": 2
+      },
+      {
+        "award": "潮人",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/3.png",
+        "level": 3
+      },
+      {
+        "award": "潮人",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/3.png",
+        "level": 3
+      },
+      {
+        "award": "补充水分",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/4.png",
+        "level": 4
+      },
+      {
+        "award": "补充水分",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/4.png",
+        "level": 4
+      },
+      {
+        "award": "海神",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/5.png",
+        "level": 5
+      },
+      {
+        "award": "海神",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/5.png",
+        "level": 5
+      },
+      {
+        "award": "召唤者",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/6.png",
+        "level": 6
+      },
+      {
+        "award": "召唤者",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/6.png",
+        "level": 6
+      },
+      {
+        "award": "海神",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/7.png",
+        "level": 7
+      },
+      {
+        "award": "海神",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/7.png",
+        "level": 7
+      },
+      {
+        "award": "兴风作浪",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/8.png",
+        "level": 8
+      },
+      {
+        "award": "兴风作浪",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/8.png",
+        "level": 8
+      },
+      {
+        "award": "背叛冲击",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/9.png",
+        "level": 9
+      },
+      {
+        "award": "背叛冲击",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/9.png",
+        "level": 9
+      },
+      {
+        "award": "天涯浪客 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/10.png",
+        "level": 10
+      },
+      {
+        "award": "天涯浪客 正义",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/20/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "“海神”来自印度洋沿岸，借助古代科技的力量，他能够灵活地控制水的形态，释放出激流和巨浪来保护队友或击溃敌人。",
+    "e_name": "Harbor",
+    "name": "海神",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "150",
+        "desc": "装备乱涌。按【射击】向前投掷，制造一股具有强大破坏力的漩流，短时间后使漩流内的敌人受到【视野收缩】和【减速】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/20_c.png",
+        "keypad": "C",
+        "name": "乱涌",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "d12810wngo0"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备一道水墙，按【射击】使水墙向前延展，【按住射击】可使水墙朝准星方向卷曲，沿路生成一道可以穿过环境物体的水墙。改变方向时按【辅助射击】可提前结束水流。被命中的玩家将受到【减速】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/20_q.png",
+        "keypad": "Q",
+        "name": "狂潮",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "q1281oc93f2"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备海盾。【激活】后在选定位置形成一道水雾。瞄准期间，【按住射击】可将标记移远，【按住辅助射击】可将标记移近。【换弹】即可切换至瞄准视野。【再次激活】技能即可为水雾生成护盾，阻挡所有命中它的子弹。受护盾保护的水雾可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/20_e.png",
+        "keypad": "E",
+        "name": "海盾",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "j1281vj2cn6"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "装备怒涛。按【射击】释放圣物的全部力量，激起汹涌水流向前奔涌，被水流命中的敌人会受到【视野收缩】和【减速】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/20_x.png",
+        "keypad": "X",
+        "name": "怒涛",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "o1281jal7qs"
+        }
+      }
+    ]
+  },
+  "21": {
+    "contract": [
+      {
+        "award": "凶猛形态",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/1.png",
+        "level": 1
+      },
+      {
+        "award": "凶猛形态",
+        "experience": 20000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/1.png",
+        "level": 1
+      },
+      {
+        "award": "无畏契约：盖可",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/2.png",
+        "level": 2
+      },
+      {
+        "award": "无畏契约：盖可",
+        "experience": 30000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/2.png",
+        "level": 2
+      },
+      {
+        "award": "原始猛兽",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/3.png",
+        "level": 3
+      },
+      {
+        "award": "原始猛兽",
+        "experience": 40000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/3.png",
+        "level": 3
+      },
+      {
+        "award": "搞笑小队",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/4.png",
+        "level": 4
+      },
+      {
+        "award": "搞笑小队",
+        "experience": 50000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/4.png",
+        "level": 4
+      },
+      {
+        "award": "盖可",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/5.png",
+        "level": 5
+      },
+      {
+        "award": "盖可",
+        "experience": 60000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/5.png",
+        "level": 5
+      },
+      {
+        "award": "巡航滑板",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/6.png",
+        "level": 6
+      },
+      {
+        "award": "巡航滑板",
+        "experience": 75000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/6.png",
+        "level": 6
+      },
+      {
+        "award": "盖可",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/7.png",
+        "level": 7
+      },
+      {
+        "award": "盖可",
+        "experience": 100000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/7.png",
+        "level": 7
+      },
+      {
+        "award": "节奏达人",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/8.png",
+        "level": 8
+      },
+      {
+        "award": "节奏达人",
+        "experience": 150000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/8.png",
+        "level": 8
+      },
+      {
+        "award": "一人成军",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/9.png",
+        "level": 9
+      },
+      {
+        "award": "一人成军",
+        "experience": 200000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/9.png",
+        "level": 9
+      },
+      {
+        "award": "好搭档 短炮",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/10.png",
+        "level": 10
+      },
+      {
+        "award": "好搭档 短炮",
+        "experience": 250000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/21/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "西海岸小伙“盖可”随身带着一群调皮捣蛋的小怪兽。这些小跟班们负责冲在战斗的最前方，给敌人制造各种麻烦。等到盖可追上来后，它们还能回到他身边，然后再次出击。",
+    "e_name": "Gekko",
+    "name": "盖可",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "250",
+        "desc": "装备宠物“嗨宝”。按【射击】即可将其掷出。按【辅助射击】可轻抛。落地后，嗨宝会在一大片区域内复制自己，持续造成少量伤害，并在短暂的延迟后爆炸。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/21_c.png",
+        "keypad": "C",
+        "name": "嗨爆全场",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "j12818pvuvb"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备宠物“皮蛋”，按【射击】派皮蛋去前方搜寻敌人。发现首名敌人后，皮蛋将对其发射震荡冲击。瞄准爆能器布署区域或已布署的爆能器后，按下【辅助射击】可以派皮蛋前去布署或拆除爆能器。盖可的物品栏中必须拥有爆能器才能进行布署。技能失效后，皮蛋将变回一颗休眠的球体。与球体【互动】即可将其回收，在短暂的冷却时间后可再次获得顽皮搭档充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/21_q.png",
+        "keypad": "Q",
+        "name": "顽皮搭档",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "b1281b11xf2"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备宠物“丢丢”，按【射击】派它飞向天空。丢丢会对视线范围内的敌人使用电浆冲击。被电浆命中的敌人将被【致盲】。技能失效后，丢丢将变回一颗休眠的球体。与球体【互动】即可将其回收，在短暂的冷却时间后可再次获得炫晕光波充能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/21_e.png",
+        "keypad": "E",
+        "name": "炫晕光波",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "h1281wrkaat"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "装备宠物“鲨鲨”，按【射击】与鲨鲨的意识进行相连，控制她穿越敌人领地。按【激活】即可让鲨鲨向前冲刺并爆炸，【束缚】小范围内的所有玩家。技能失效后，鲨鲨将变回一颗休眠的球体。与球体【互动】即可将其回收，在短暂的冷却时间后可再次获得无敌超鲨充能。鲨鲨仅可被回收一次。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/21_x.png",
+        "keypad": "X",
+        "name": "无敌超鲨",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "u1281dlgonw"
+        }
+      }
+    ]
+  },
+  "22": {
+    "contract": [
+      {
+        "award": "赛博橡树",
+        "experience": 2000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/1.png",
+        "level": 1
+      },
+      {
+        "award": "赛博橡树",
+        "experience": 2000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/1.png",
+        "level": 1
+      },
+      {
+        "award": "无畏契约：钢锁",
+        "experience": 2500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/2.png",
+        "level": 2
+      },
+      {
+        "award": "无畏契约：钢锁",
+        "experience": 2500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/2.png",
+        "level": 2
+      },
+      {
+        "award": "控线高手",
+        "experience": 3000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/3.png",
+        "level": 3
+      },
+      {
+        "award": "控线高手",
+        "experience": 3000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/3.png",
+        "level": 3
+      },
+      {
+        "award": "一团乱麻",
+        "experience": 3500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/4.png",
+        "level": 4
+      },
+      {
+        "award": "一团乱麻",
+        "experience": 3500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/4.png",
+        "level": 4
+      },
+      {
+        "award": "2000王国币",
+        "experience": 0,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/5.png",
+        "level": 5
+      },
+      {
+        "award": "2000王国币",
+        "experience": 0,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/5.png",
+        "level": 5
+      },
+      {
+        "award": "纳米纤维匣",
+        "experience": 4500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/6.png",
+        "level": 6
+      },
+      {
+        "award": "纳米纤维匣",
+        "experience": 4500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/6.png",
+        "level": 6
+      },
+      {
+        "award": "钢锁",
+        "experience": 5500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/7.png",
+        "level": 7
+      },
+      {
+        "award": "钢锁",
+        "experience": 5500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/7.png",
+        "level": 7
+      },
+      {
+        "award": "钢铁猎手",
+        "experience": 6500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/8.png",
+        "level": 8
+      },
+      {
+        "award": "钢铁猎手",
+        "experience": 6500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/8.png",
+        "level": 8
+      },
+      {
+        "award": "潜入地库",
+        "experience": 7500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/9.png",
+        "level": 9
+      },
+      {
+        "award": "潜入地库",
+        "experience": 7500,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/9.png",
+        "level": 9
+      },
+      {
+        "award": "决意 标配",
+        "experience": 8000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/10.png",
+        "level": 10
+      },
+      {
+        "award": "决意 标配",
+        "experience": 8000,
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentcontract/22/10.png",
+        "level": 10
+      }
+    ],
+    "desc": "来自北欧的特工“钢锁”配备着多种尖端纳米纤维武器，她擅长监听战场动态和阻碍对手移动。一旦敌人遭到锁定，将面对她凌厉无情的攻势并难逃一劫。",
+    "e_name": "Deadlock",
+    "name": "钢锁",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "装备屏障网生成器。按【射击】向前掷出。该装置会在落地点周围生成屏障网，阻挡所有角色移动。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/22_c.png",
+        "keypad": "C",
+        "name": "阻域屏障",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "o1281mvucdz"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备声感陷阱。按【射击】进行部署。声感陷阱将在一定范围内监听敌方动态，一旦探测到脚步声、枪声或其它明显噪音，便会自动激活，对区域内所有目标造成【震荡】。此装置可被回收并【重新部署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/22_q.png",
+        "keypad": "Q",
+        "name": "声感陷阱",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "s1281pnbzo3"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备重力捕网手雷。按【射击】投掷，按【辅助射击】可轻抛。手雷会在落地后引爆，迫使范围内的角色蹲下，并减慢其移动速度。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/22_e.png",
+        "keypad": "E",
+        "name": "重力捕网",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "e12811ezdbv"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "装备纳米纤维加速器。按【射击】发出一道纳米纤维脉冲波，把命中的首个敌人包裹在茧里，并拖拽目标沿一条索道移动。如果敌人在抵达终点前未获得解救，则直接被击败。纳米纤维茧可被摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/22_x.png",
+        "keypad": "X",
+        "name": "断魂索道",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "z1281ru6lkj"
+        }
+      }
+    ]
+  },
+  "23": {
+    "contract": [],
+    "desc": "“壹决”是华夏文明的后裔。他是枪斗的艺术家，战斗时仿佛沉浸在自我的心流中，将对手的抵抗悉数瓦解。他还能重构环境中的能量来阻挡子弹。战斗中的他时刻保持专注，并渴望与强敌一决高下。",
+    "e_name": "Iso",
+    "name": "壹决",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "将能量聚合为棱晶形态。按【射击】向前推出一道可以阻挡子弹的能量墙。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/23_c.png",
+        "keypad": "C",
+        "name": "绝对屏障",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "j1281mc21ev"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备扰乱分子结构的能量箭。按【射击】将其向前掷出，对触碰到的所有玩家施加短暂的【易伤】效果。此能量箭可穿透墙壁等固体障碍。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/23_q.png",
+        "keypad": "Q",
+        "name": "稳态剥离",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "e1281xnfxhm"
+        }
+      },
+      {
+        "cost": "150第一个充能免费，其余150",
+        "desc": "集中意念:获得一道护盾，可吸收一次任意来源的伤害，并进入心流状态。在此状态期间，受到你伤害的敌人会在被击败时生成一颗能量球。射击此球体可刷新当前存在的护盾和心流状态，或生成一道新护盾。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/23_e.png",
+        "keypad": "E",
+        "name": "战斗心流",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "j128174rkq9"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "构筑一座异次元竞技场。按【射击】发出一道穿越战场的能量矩阵，将命中的首名敌人拉进竞技场与你一对一决斗。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/23_x.png",
+        "keypad": "X",
+        "name": "决斗通牒",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "c1281m0njkj"
+        }
+      }
+    ]
+  },
+  "24": {
+    "contract": [],
+    "desc": "来自不列颠群岛北部的\"暮蝶\"擅长用自己的招牌恶作剧来捉弄敌人。即便在被击败后，这位年轻的永生者也能继续干扰敌人，甚至出其不意地返场再战。",
+    "e_name": "Clove",
+    "name": "暮蝶",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "100",
+        "desc": "激活后，从被暮蝶击败或助攻的敌人身上吸收生命能量，获得加速和临时生命值。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/24_c.png",
+        "keypad": "C",
+        "name": "虹吸",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "h1281maihgf"
+        }
+      },
+      {
+        "cost": "250",
+        "desc": "装备一块不朽精华碎片。按【射击】将其掷出，短暂延迟后碎片爆炸，对范围内所有目标施加短时间的【腐坏】效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/24_q.png",
+        "keypad": "Q",
+        "name": "整蛊",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "h1281hw3f6s"
+        }
+      },
+      {
+        "cost": "第一个充能免费，其余150",
+        "desc": "装备战场地图。按【射击】选择烟雾的部署位置，按【辅助射击】以确认，在指定地点创造阻隔视线的云雾。暮蝶可以在被击败期间使用此技能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/24_e.png",
+        "keypad": "E",
+        "name": "霞染",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "v1281ydo5m6"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "被击败后，【激活】此技能以复活。复活后，暮蝶必须在限定时间内完成击败或助攻，否则将会回到被击败状态。【再次激活】可提前取消技能。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/24_x.png",
+        "keypad": "X",
+        "name": "化蝶",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "g1281o3o2pd"
+        }
+      }
+    ]
+  },
+  "25": {
+    "contract": [],
+    "desc": "“维斯”是一位高智商金属能力者。她能自由操纵液态金属的形态，为敌人设下重重陷阱和障碍，甚至解除他们的武装。敌人与她对抗，就像在与整个战场为敌。",
+    "e_name": "Vyse",
+    "name": "维斯",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "150",
+        "desc": "装备网状的液态金属。按【射击】将其投射出去。该装置会在落地时隐形。激活后，它会从地面伸出大量剃刀藤蔓，对穿行的所有玩家造成伤害和减速。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/25_c.png",
+        "keypad": "C",
+        "name": "剃刀藤蔓",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "y1281jt54mr"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备条状液态金属。按【射击】放置一道隐藏的隔断陷阱。当有敌人经过时，会在其身后升起一道无法摧毁的屏障墙。墙体将在一段时间后自行瓦解。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/25_q.png",
+        "keypad": "Q",
+        "name": "裁断",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "f1281vbm5mf"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备弧光玫瑰。选择一块墙面，放置隐形的弧光玫瑰，按【辅助射击】可部署到墙的另一侧。【再次按技能键】可致盲所有目击闪爆点的玩家。此技能可回收和【重新布署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/25_e.png",
+        "keypad": "E",
+        "name": "弧光玫瑰",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "i12818ch5wa"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备液态金属荆团。按【射击】在短暂的蓄力后，向四周展开荆棘领域，阻塞敌人的主要武器。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/25_x.png",
+        "keypad": "X",
+        "name": "铁棘禁园",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "f1281mqih1f"
+        }
+      }
+    ]
+  },
+  "26": {
+    "contract": [],
+    "desc": "“钛狐”是来自南美洲的资深情报顾问。他的弹道制导系统可以向敌人施压，迫使其做出选择——要么放弃阵地，要么放弃生命。受到精准打击后，对手往往会失去平衡，被他轻易击败。",
+    "e_name": "Tejo",
+    "name": "钛狐",
+    "position_name": "先锋",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "装备一架潜袭爬虫，按【射击】将爬虫抛向前方，直接控制其移动。再次按【射击】可触发脉冲，压制并揭露被击中的敌人。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/26_c.png",
+        "keypad": "C",
+        "name": "潜袭爬虫",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g12815dbwp3"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "装备一颗粘性榴弹，按【射击】发射。榴弹会粘附击中的首个表面并爆炸，被爆炸波及的所有目标都会受到震荡。按【辅助射击】发射榴弹时，榴弹会在反弹一次后爆炸。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/26_q.png",
+        "keypad": "Q",
+        "name": "特快专递",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "p1281xlt1dx"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备一套战术投送系统。按【射击】在地图上选择最多两个目标位置。按【辅助射击】发射导弹。导弹可自动导航至目标位置，然后引爆。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/26_e.png",
+        "keypad": "E",
+        "name": "精准投放",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "d1281y73yig"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备战术打击地图。按【射击】选择打击起点，【再次按射击键】设置终点并发动无人机空袭，沿所选路径进行地毯式爆破。在地图瞄准期间按【辅助射击】可取消起点设置。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/26_x.png",
+        "keypad": "X",
+        "name": "末日审判",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "y1281zooom4"
+        }
+      }
+    ]
+  },
+  "27": {
+    "contract": [],
+    "desc": "来自暹罗湾北岸的“幻棱”是一名拥有棱晶能力的源能者，可以将自己变幻成光，在战场上穿梭自如，通过棱光碎片将敌人击倒后迅速撤退到安全区。眨眼之间，胜负已分。",
+    "e_name": "Waylay",
+    "name": "幻棱",
+    "position_name": "决斗",
+    "skill": [
+      {
+        "cost": "300",
+        "desc": "装备一道光簇，按【射击】立即投出与地面接触时爆炸，【干扰】附近的玩家，使其受到大幅的移动和武器减速。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/27_q.png",
+        "keypad": "C",
+        "name": "光棱闪爆",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "m12813aoinu"
+        }
+      },
+      {
+        "cost": "300",
+        "desc": "准备进行加速。 按【射击】向前冲刺两次。按【辅助射击】向前冲刺一次。只有第一次冲刺能让你升空。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/27_e.png",
+        "keypad": "Q",
+        "name": "光速飞跃",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "u1281r0hpsu"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "立即在地面上形成一道光束。【再次激活】技能即可让自己化为一颗纯粹的光粒，迅速回到光束的所在位置。穿行时，你将进入【无敌】状态。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/27_c.png",
+        "keypad": "E",
+        "name": "溯流回光",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "g1281gwcyon"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备并汇聚光棱能量。按【射击】创造一个自己的残像，放射一道光线。短暂延迟后你将获得大幅加速效果，同时光线开始扩张，干扰区域内的其他玩家。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/27_x.png",
+        "keypad": "X",
+        "name": "时光修罗场",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "o12814cdqq0"
+        }
+      }
+    ]
+  },
+  "28": {
+    "contract": [],
+    "desc": "来自西非的“禁灭”是一名压制型英雄，因基因突变获得了超凡力量。禁灭打破了既有的战斗规则，无论敌人使出怎样的手段和科技，在他面前都形同虚设。禁灭出现在战场上时，只有枪法才是你唯一的保障。",
+    "e_name": "Veto",
+    "name": "禁灭",
+    "position_name": "哨卫",
+    "skill": [
+      {
+        "cost": "200",
+        "desc": "装备一颗漩涡能量球。按【射击】将其放置于地面。在技能范围内且瞄准漩涡时，【再次激活】技能即可传送至漩涡所在位置。在购买阶段期间，可将能量球回收并【重新部署】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/28_c.png",
+        "keypad": "C",
+        "name": "涡流折跃",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "u1281keitfw"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备一块由异变产生的黏液碎片。按【射击】将其掷出。碎片会在发生碰撞时部署为陷阱，困住经过的敌人。被困敌人将受到【致聋】和【腐坏】效果。陷阱激活前可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/28_e.png",
+        "keypad": "Q",
+        "name": "裂变残片",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g1281ms7790"
+        }
+      },
+      {
+        "cost": "免费",
+        "desc": "装备噬源体。按【射击】将其部署至目标位置。部署后，【再次使用】技能即可激活。激活后，噬源体将摧毁一切能从玩家身上弹开或被枪火自然摧毁的装置。 噬源体可被敌人摧毁。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/28_q.png",
+        "keypad": "E",
+        "name": "噬源体",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "m1281cp8ix2"
+        }
+      },
+      {
+        "cost": "7点大招点数",
+        "desc": "立即进入完全变异形态，获得【作战强化】效果和再生能力，并免疫所有形式的减益效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/28_x.png",
+        "keypad": "X",
+        "name": "完全进化",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "y1281yskfkx"
+        }
+      }
+    ]
+  },
+  "29": {
+    "contract": [],
+    "desc": "来自欧洲中南部的迷核能够操控纯粹的声波能量。凭借极具感染力的激情和独特的音波力量，他率领全队协同作战，定下战场的主导节奏。",
+    "e_name": "Miks",
+    "name": "迷核",
+    "position_name": "控场",
+    "skill": [
+      {
+        "cost": "250",
+        "desc": "装备电音脉冲。按【辅助射击】可在震荡输出与治疗输出之间切换。按【射击】投掷装置。落地时，电音脉冲会释放声波，对玩家造成震荡或治疗效果。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/29_c.png",
+        "keypad": "C",
+        "name": "电音脉冲",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "o12812pi9nj"
+        }
+      },
+      {
+        "cost": "200",
+        "desc": "装备共振谐律。锁定一名队友并按下【射击】，为你和该队友激活【作战强化】效果和速度加成，每次击败都会刷新效果按【辅助射击】让自己获得【作战强化】效果和速度加成。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/29_q.png",
+        "keypad": "Q",
+        "name": "共振谐律",
+        "type": 2,
+        "type_name": "基础技能",
+        "video": {
+          "vid": "g1281t49koc"
+        }
+      },
+      {
+        "cost": "第一个充能免费，其余100",
+        "desc": "装备地图定位仪。按【射击】设定位置。按【辅助射击】在选定位置释放烟雾。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/29_e.png",
+        "keypad": "E",
+        "name": "声波帷幕",
+        "type": 3,
+        "type_name": "招牌技能",
+        "video": {
+          "vid": "y1281kz3buw"
+        }
+      },
+      {
+        "cost": "8点大招点数",
+        "desc": "装备音脉强袭。按【射击】积蓄能量并向前释放音波源光，击退目标，并对其造成【致聋】和【减速】。",
+        "e_name": "",
+        "icon": "https://game.gtimg.cn/images/val/agamezlk/agentskill/29_x.png",
+        "keypad": "X",
+        "name": "音脉强袭",
+        "type": 4,
+        "type_name": "终极技能",
+        "video": {
+          "vid": "z12818uiokn"
+        }
+      }
+    ]
+  }
+}
