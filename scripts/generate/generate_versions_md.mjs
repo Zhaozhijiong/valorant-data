@@ -1,9 +1,14 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 生成版本更新汇总文档（主文档 + docs/versions/ 按版本拆分）
 // 数据源: data/timeline_entries.json + data/news_details.json
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const entries = JSON.parse(readFileSync('../data/timeline_entries.json', 'utf8'));
-const newsMap = JSON.parse(readFileSync('../data/news_details.json', 'utf8'));
+const entries = JSON.parse(readFileSync('../../data/timeline_entries.json', 'utf8'));
+const newsMap = JSON.parse(readFileSync('../../data/news_details.json', 'utf8'));
 const keyIdx = new Map(entries.map((e, i) => [e.key, i]));
 
 // ---------- 工具 ----------
@@ -109,7 +114,7 @@ for (const e of entries) {
 L.push('');
 
 // 按版本生成详情文件
-mkdirSync('../docs/versions', { recursive: true });
+mkdirSync('../../docs/versions', { recursive: true });
 let detailCount = 0;
 for (const e of entries) {
   const idx = keyIdx.get(e.key);
@@ -142,8 +147,8 @@ for (const e of entries) {
   P.push('');
   P.push('[← 返回版本更新汇总](../无畏契约版本更新汇总.md)');
   P.push('');
-  writeFileSync(`../docs/versions/${verFileName(e, idx)}`, P.join('\n'), 'utf8');
+  writeFileSync(`../../docs/versions/${verFileName(e, idx)}`, P.join('\n'), 'utf8');
   if (hasDetail) detailCount++;
 }
-writeFileSync('../docs/无畏契约版本更新汇总.md', L.join('\n'), 'utf8');
+writeFileSync('../../docs/无畏契约版本更新汇总.md', L.join('\n'), 'utf8');
 console.log(`主文档生成完成; 版本详情文件 ${entries.length} 个（含正文 ${detailCount} 个）`);

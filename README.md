@@ -6,23 +6,30 @@
 
 ```
 Valorant/
-├── scripts/                      # 数据提取与生成脚本（Node.js，需 >= v18）
-│   ├── fetch_pages.mjs           # ① 抓取两个目标页面 HTML（经本机代理 127.0.0.1:7897）
-│   ├── fetch_js.mjs              # ② 抓取页面依赖的 JS（game-data.js / common.js）
-│   ├── fetch_api.mjs             # ③ 调用 GraphQL API：英雄列表 + 详情字段探测
-│   ├── fetch_extra.mjs           # ④ 调用 GraphQL API：国籍、位置等扩展字段 + tabs 结构
-│   ├── fetch_schema.mjs          # ⑤ GraphQL introspection：Agent 完整字段结构
-│   ├── fetch_all_agents.mjs      # ⑥ 批量抓取全部英雄详情（技能/契约，6 并发）
-│   ├── fetch_tabs.mjs            # ⑦ 探测 tabs 字段（结果不可用，仅留档）
-│   ├── fetch_guns.mjs            # ⑧ 抓取枪械页 + 枪械列表 + Gun schema + 单枪详情
-│   ├── refetch_guns_full.mjs     # ⑨ 一条查询获取全部枪械完整字段（伤害/属性/皮肤含 guid/limited）
-│   ├── resolve_skin_images.mjs   # ⑩ 全量解析 1254 款皮肤图片 URL（media.valorant-api.com）
-│   ├── generate_md.mjs           # ⑪ 合并数据源，生成英雄主文档 + heroes/ 拆分文件
-│   ├── generate_guns_md.mjs      # ⑫ 生成武器主文档 + guns/ 拆分文件（含皮肤图片表）
-│   ├── fetch_newuser_page2.mjs   # ⑬ 抓取新手站 page2.html（战术进阶-术语科普）
-│   ├── generate_terms_md.mjs     # ⑭ 解析术语科普，生成术语文档
-│   ├── fetch_all_news.mjs        # ⑮ 解析版本时间线 + 批量抓取 64 篇版本更新公告（CMC 接口）
-│   └── generate_versions_md.mjs  # ⑯ 生成版本更新汇总主文档 + versions/ 按版本拆分
+├── scripts/                      # 数据脚本（Node.js，需 >= v18；所有脚本自动锚定自身目录，可从任意位置运行）
+│   ├── fetch/                    # ① 抓取原始数据（网络请求 → data/）
+│   │   ├── fetch_pages.mjs       #   抓取游戏资料页-英雄/枪械（经本机代理 127.0.0.1:7897）
+│   │   ├── fetch_js.mjs          #   抓取页面依赖的 JS（game-data.js / common.js）
+│   │   ├── fetch_api.mjs         #   英雄列表 GraphQL 查询 + 详情字段探测
+│   │   ├── fetch_extra.mjs       #   英雄扩展字段（国籍/位置）+ tabs 结构
+│   │   ├── fetch_schema.mjs      #   GraphQL introspection：Agent 完整字段结构
+│   │   ├── fetch_all_agents.mjs  #   批量抓取全部英雄详情（技能/契约，6 并发）
+│   │   ├── fetch_tabs.mjs        #   探测 tabs 字段（结果不可用，仅留档）
+│   │   ├── fetch_guns.mjs        #   枪械页 + 枪械列表 + Gun schema + 单枪详情
+│   │   ├── refetch_guns_full.mjs #   全部枪械完整字段（伤害/属性/皮肤含 guid/limited）
+│   │   ├── resolve_skin_images.mjs # 解析 1254 款皮肤图片 URL（media.valorant-api.com）
+│   │   ├── fetch_newuser_page2.mjs # 抓取新手站 page2.html（战术进阶-术语科普）
+│   │   ├── fetch_all_news.mjs    #   解析版本时间线 + 批量抓取 64 篇版本更新公告（CMC 接口）
+│   │   └── fetch_news_detail.mjs #   抓取单篇新闻详情（CMC 接口，MD5 签名）
+│   ├── generate/                 # ② 生成文档 / 结构化数据（data/ → docs/、data/structured/）
+│   │   ├── generate_md.mjs       #   英雄主文档 + heroes/ 拆分文件
+│   │   ├── generate_guns_md.mjs  #   武器主文档 + guns/ 拆分文件（含皮肤图片表）
+│   │   ├── generate_terms_md.mjs #   术语科普 → 术语文档
+│   │   ├── generate_versions_md.mjs # 版本更新汇总 + versions/ 拆分文件
+│   │   └── generate_db_json.mjs  #   结构化 JSON（heroes/weapons/skins/terms/versions）
+│   └── util/                     # ③ 辅助工具（解析 / 验证）
+│       ├── parse_timeline.mjs    #   解析 VersionTimeline.js 并输出条目清单
+│       └── verify_db_json.mjs    #   校验结构化 JSON 数据
 ├── data/                         # 抓取的原始数据（留档，可重新抓取覆盖）
 │   ├── page1_gamedata.html       #   游戏资料页-英雄（GBK 原始 + UTF-8 转换版）
 │   ├── page1_gamedata_p2.html    #   游戏资料页-枪械（GBK 原始 + UTF-8 转换版）
@@ -33,7 +40,14 @@ Valorant/
 │   ├── VersionTimeline.js(.utf8) #   版本时间线数据文件（72 条版本节点）
 │   ├── timeline_entries.json     #   解析后的时间线条目
 │   ├── news_details.json         #   64 篇版本更新公告正文
-│   └── api_*.json                #   GraphQL API 返回数据（英雄/枪械）
+│   ├── api_*.json                #   GraphQL API 返回数据（英雄/枪械）
+│   └── structured/               # 结构化 JSON（可直接导入数据库）
+│       ├── heroes.json           #   29 位英雄（含技能数组）
+│       ├── weapons.json          #   19 把枪械（含属性/伤害）
+│       ├── skins.json            #   1235 款皮肤（外键 gun_id）
+│       ├── terms.json            #   92 条术语
+│       ├── versions.json         #   72 个版本（64 条含完整公告）
+│       └── SCHEMA.md             #   字段/类型/关系说明（数据库导入参考）
 └── docs/
     ├── 无畏契约英雄数据汇总.md    # 英雄主文档：总览表 + 按角色索引（英雄名均链接至详情文件）
     ├── heroes/                    # 按英雄拆分：每位英雄一个独立文件（便于以英雄为单位扩展）
@@ -67,20 +81,26 @@ Valorant/
 ## 重新生成步骤
 
 ```bash
-# 在 scripts/ 目录下依次执行（抓取步骤可跳过，直接用 data/ 已有数据）
-node fetch_pages.mjs        # 抓取两个页面（需本机代理 127.0.0.1:7897 可用）
-node fetch_js.mjs           # 抓取页面 JS
-node fetch_api.mjs          # 英雄列表
-node fetch_extra.mjs        # 扩展字段
-node fetch_all_agents.mjs   # 全部英雄详情
-node refetch_guns_full.mjs  # 全部枪械完整详情（含皮肤 guid/limited）
-node resolve_skin_images.mjs # 解析全部皮肤图片 URL（生成 data/api_skin_images.json）
-node generate_md.mjs        # 生成 docs/ 英雄主文档 + docs/heroes/ 下每位英雄的独立文件
-node generate_guns_md.mjs   # 生成 docs/ 武器主文档 + docs/guns/ 下每把枪的独立文件
-node fetch_newuser_page2.mjs # 抓取新手站 page2（术语来源，GBK 需转 UTF-8）
-node generate_terms_md.mjs  # 生成 docs/ 无畏契约术语汇总.md
-node fetch_all_news.mjs     # 解析时间线 + 抓取全部版本更新公告
-node generate_versions_md.mjs # 生成 docs/ 版本更新汇总 + versions/ 拆分文件
+# 在 scripts/ 目录下执行（脚本会自动锚定自身目录，从任意位置运行均可）
+# ① 抓取（可跳过，直接用 data/ 已有数据）
+node fetch/fetch_pages.mjs         # 抓取游戏资料页（需本机代理 127.0.0.1:7897 可用）
+node fetch/fetch_js.mjs            # 抓取页面 JS
+node fetch/fetch_api.mjs           # 英雄列表
+node fetch/fetch_extra.mjs         # 英雄扩展字段
+node fetch/fetch_all_agents.mjs    # 全部英雄详情
+node fetch/refetch_guns_full.mjs   # 全部枪械完整详情（含皮肤 guid/limited）
+node fetch/resolve_skin_images.mjs # 解析全部皮肤图片 URL（生成 data/api_skin_images.json）
+node fetch/fetch_newuser_page2.mjs # 抓取新手站 page2（术语来源，GBK 需转 UTF-8）
+node fetch/fetch_all_news.mjs      # 解析时间线 + 抓取全部版本更新公告
+
+# ② 生成文档
+node generate/generate_md.mjs          # 英雄主文档 + heroes/ 拆分
+node generate/generate_guns_md.mjs     # 武器主文档 + guns/ 拆分
+node generate/generate_terms_md.mjs    # 术语文档
+node generate/generate_versions_md.mjs # 版本更新汇总 + versions/ 拆分
+
+# ③ 结构化数据（数据库导入用）
+node generate/generate_db_json.mjs     # data/structured/ 下 5 个 JSON
 ```
 
 > 说明：`data/` 下 `.utf8` 后缀文件为 GBK 原文件的 UTF-8 转换版；脚本解析时使用 UTF-8 版。

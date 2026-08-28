@@ -1,7 +1,12 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 解析 VersionTimeline.js 并输出条目清单
 import { readFileSync } from 'node:fs';
 
-const js = readFileSync('../data/VersionTimeline.js.utf8', 'utf8');
+const js = readFileSync('../../data/VersionTimeline.js.utf8', 'utf8');
 // 稳健提取 return {...}; 对象字面量
 const m = js.match(/return (\{[\s\S]*?\};)/);
 if (!m) { console.error('未找到时间线对象'); process.exit(1); }

@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync, readFileSync } = await import('node:fs');
 
@@ -49,7 +54,7 @@ try {
 } catch (e) { console.log('tabs err', e.message); }
 
 // fetch all 29 agents in parallel (limit 6 concurrent)
-const agents = JSON.parse(readFileSync('../data/api_agents.json', 'utf8')).data.agents;
+const agents = JSON.parse(readFileSync('../../data/api_agents.json', 'utf8')).data.agents;
 const results = {};
 let i = 0;
 async function worker() {
@@ -71,5 +76,5 @@ async function worker() {
 }
 await Promise.all([worker(), worker(), worker(), worker(), worker(), worker()]);
 
-writeFileSync('../data/api_all_agents.json', JSON.stringify(results, null, 2));
+writeFileSync('../../data/api_all_agents.json', JSON.stringify(results, null, 2));
 console.log('DONE, count =', Object.keys(results).length);

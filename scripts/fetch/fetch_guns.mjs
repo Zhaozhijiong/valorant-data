@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
 const API = 'https://api.val.qq.com/go/agame/graphql/graphiQL';
@@ -23,13 +28,13 @@ async function gql(query, outFile) {
 }
 
 // 1) pageType=2 页面
-await fetchViaProxy('https://val.qq.com/game-data.html?pageType=2', '../data/page1_gamedata_p2.html');
+await fetchViaProxy('https://val.qq.com/game-data.html?pageType=2', '../../data/page1_gamedata_p2.html');
 
 // 2) guns 列表
-await gql(`{ guns { id name e_name icon } }`, '../data/api_guns.json');
+await gql(`{ guns { id name e_name icon } }`, '../../data/api_guns.json');
 
 // 3) Gun 类型 schema（发现所有可用字段）
-await gql(`{ __type(name: "Gun") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }`, '../data/api_schema_gun.json');
+await gql(`{ __type(name: "Gun") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }`, '../../data/api_schema_gun.json');
 
 // 4) 单个枪械详情（rich）
 await gql(`{
@@ -39,4 +44,4 @@ await gql(`{
     damage { body distance head leg }
     skin { e_name icon level name }
   }
-}`, '../data/api_gun1_rich.json');
+}`, '../../data/api_gun1_rich.json');

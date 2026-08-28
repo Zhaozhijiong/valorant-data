@@ -1,8 +1,13 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 全量测试 1254 个皮肤的图片 URL 解析，保存映射表
 const PROXY = 'http://127.0.0.1:7897';
 const { readFileSync, writeFileSync } = await import('node:fs');
 
-const raw = JSON.parse(readFileSync('../data/api_guns_skin_ext.json', 'utf8'));
+const raw = JSON.parse(readFileSync('../../data/api_guns_skin_ext.json', 'utf8'));
 const guns = raw.data.guns;
 const skins = [];
 for (const g of guns) for (const s of g.skin || []) skins.push({ gun_id: g.id, gun: g.name, name: s.name, e_name: s.e_name, guid: s.guid, icon: s.icon, level: s.level, limited: s.limited });
@@ -36,5 +41,5 @@ async function worker() {
   }
 }
 await Promise.all(Array.from({ length: 12 }, () => worker()));
-writeFileSync('../data/api_skin_images.json', JSON.stringify(results, null, 2));
+writeFileSync('../../data/api_skin_images.json', JSON.stringify(results, null, 2));
 console.log(`完成: ${skins.length} 个, 成功 ${ok}, 失败 ${skins.length - ok}`);

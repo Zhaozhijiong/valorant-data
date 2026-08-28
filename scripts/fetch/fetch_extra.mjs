@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
 const API = 'https://api.val.qq.com/go/agame/graphql/graphiQL';
@@ -10,7 +15,7 @@ async function gql(query) {
 
 // tabs type schema
 const tabsSchema = await gql(`{ __type(name: "tabs") { fields { name type { kind name ofType { kind name } } } } }`);
-writeFileSync('../data/api_schema_tabs.json', tabsSchema);
+writeFileSync('../../data/api_schema_tabs.json', tabsSchema);
 console.log('TABS SCHEMA:', tabsSchema.slice(0, 1500));
 
 // all agents with extra fields
@@ -26,5 +31,5 @@ const q = `{
   }
 }`;
 const text = await gql(q);
-writeFileSync('../data/api_agents_extra.json', text);
+writeFileSync('../../data/api_agents_extra.json', text);
 console.log('\nAGENTS EXTRA:', text.slice(0, 3000));

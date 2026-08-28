@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
 
@@ -19,5 +24,5 @@ async function fetchViaProxy(url, outFile, extraHeaders = {}) {
   console.log(`SAVED: ${outFile} (${buf.length} bytes)`);
 }
 
-await fetchViaProxy('https://val.qq.com/js/game-data.js', '../data/js_game_data.js');
-await fetchViaProxy('https://val.qq.com/js/common.js', '../data/js_common.js');
+await fetchViaProxy('https://val.qq.com/js/game-data.js', '../../data/js_game_data.js');
+await fetchViaProxy('https://val.qq.com/js/common.js', '../../data/js_common.js');

@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 重新抓取全部枪械完整字段（含皮肤 guid/limited/primary_asset）
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
@@ -32,7 +37,7 @@ const resp = await fetch(url, {
   headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://val.qq.com/game-data.html?pageType=2', 'Accept': 'application/json' }
 });
 const text = await resp.text();
-writeFileSync('../data/api_guns_full.json', text);
+writeFileSync('../../data/api_guns_full.json', text);
 const json = JSON.parse(text);
 console.log('STATUS:', resp.status, 'GUNS:', json.data.guns.length);
 const sample = json.data.guns[0].skin[0];

@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 通过 CMC 新闻 API 抓取新闻详情（common.js 的 readerNews 逻辑）
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
@@ -21,4 +26,4 @@ async function fetchNews(docid, outFile) {
   return text;
 }
 
-await fetchNews('6110935804327569671', '../data/news_v12.11.json');
+await fetchNews('6110935804327569671', '../../data/news_v12.11.json');

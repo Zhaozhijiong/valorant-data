@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 解析时间线并保存为 JSON，然后批量抓取全部版本的新闻详情
 const PROXY = 'http://127.0.0.1:7897';
 const { readFileSync, writeFileSync } = await import('node:fs');
@@ -6,7 +11,7 @@ const { createHash } = await import('node:crypto');
 const md5 = s => createHash('md5').update(s).digest('hex');
 
 // ---------- 1) 解析时间线 ----------
-const js = readFileSync('../data/VersionTimeline.js.utf8', 'utf8');
+const js = readFileSync('../../data/VersionTimeline.js.utf8', 'utf8');
 const m = js.match(/return (\{[\s\S]*?\};)/);
 const data = JSON.parse(m[1].slice(0, -1));
 const entries = Object.entries(data).map(([k, v]) => ({
@@ -21,7 +26,7 @@ const entries = Object.entries(data).map(([k, v]) => ({
   docid: (v.link || '').match(/docid=(\d+)/)?.[1] || '',
 }));
 entries.sort((a, b) => a.key - b.key);
-writeFileSync('../data/timeline_entries.json', JSON.stringify(entries, null, 2));
+writeFileSync('../../data/timeline_entries.json', JSON.stringify(entries, null, 2));
 console.log('时间线条目:', entries.length, '含 docid:', entries.filter(e => e.docid).length);
 
 // ---------- 2) 批量抓取新闻详情 ----------
@@ -61,5 +66,5 @@ console.log(`抓取完成: 成功 ${ok} 失败 ${fail}`);
 
 const newsMap = {};
 for (const [docid, r] of results) newsMap[docid] = r;
-writeFileSync('../data/news_details.json', JSON.stringify(newsMap, null, 2));
+writeFileSync('../../data/news_details.json', JSON.stringify(newsMap, null, 2));
 console.log('已保存 news_details.json');

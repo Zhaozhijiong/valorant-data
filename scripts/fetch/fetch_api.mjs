@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 const PROXY = 'http://127.0.0.1:7897';
 const { writeFileSync } = await import('node:fs');
 
@@ -15,7 +20,7 @@ async function gql(query, label) {
   });
   const text = await resp.text();
   console.log(`[${label}] STATUS: ${resp.status} LEN: ${text.length}`);
-  writeFileSync(`../data/api_${label}.json`, text);
+  writeFileSync(`../../data/api_${label}.json`, text);
   return text;
 }
 

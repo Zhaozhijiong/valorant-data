@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 合并数据源并生成 Markdown（v2：总览按ID排序，详情按角色分组）
 // 数据源1: api_agents.json - 英雄列表 (id, name, e_name, icon)
 // 数据源2: api_agents_extra.json - 英雄扩展 (nationality, position_desc)
@@ -7,7 +12,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 // ---------- 解析新手站 HTML ----------
-const html = readFileSync('../data/page2_newuser_utf8.html', 'utf8');
+const html = readFileSync('../../data/page2_newuser_utf8.html', 'utf8');
 
 const rows = [];
 const rowRe = /<div class="hero_name"><span>([^<]+)<\/span><img[^>]*hero(\d+)\.png[^>]*><\/div><\/td>\s*<td[^>]*>([^<]*)<\/td>\s*<td[^>]*>([^<]*)<\/td>\s*<td[^>]*><a href="([^"]*)"[^>]*>/g;
@@ -30,9 +35,9 @@ for (let g = 0; g < roleOrder.length; g++) {
 console.log('新手站英雄数:', newUser.size);
 
 // ---------- 加载 API 数据 ----------
-const list = JSON.parse(readFileSync('../data/api_agents.json', 'utf8')).data.agents;
-const extra = JSON.parse(readFileSync('../data/api_agents_extra.json', 'utf8')).data.agents;
-const details = JSON.parse(readFileSync('../data/api_all_agents.json', 'utf8'));
+const list = JSON.parse(readFileSync('../../data/api_agents.json', 'utf8')).data.agents;
+const extra = JSON.parse(readFileSync('../../data/api_agents_extra.json', 'utf8')).data.agents;
+const details = JSON.parse(readFileSync('../../data/api_all_agents.json', 'utf8'));
 const extraMap = new Map(extra.map(a => [a.id, a]));
 
 const heroes = list.map(a => {
@@ -172,11 +177,11 @@ for (const role of roleOrder) {
 
 // ---------- 写文件 ----------
 import { mkdirSync } from 'node:fs';
-mkdirSync('../docs/heroes', { recursive: true });
+mkdirSync('../../docs/heroes', { recursive: true });
 let heroCount = 0;
 for (const h of heroes) {
-  writeFileSync(`../docs/heroes/${heroFileName(h)}`, renderHero(h), 'utf8');
+  writeFileSync(`../../docs/heroes/${heroFileName(h)}`, renderHero(h), 'utf8');
   heroCount++;
 }
-writeFileSync('../docs/无畏契约英雄数据汇总.md', L.join('\n'), 'utf8');
+writeFileSync('../../docs/无畏契约英雄数据汇总.md', L.join('\n'), 'utf8');
 console.log(`主文档生成完成, 英雄文件数: ${heroCount}, 主文档长度: ${L.join('\n').length}`);

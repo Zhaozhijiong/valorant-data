@@ -1,8 +1,13 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 解析新手站 page2.html 术语科普数据，生成术语文档
 // 数据源: data/page2_newuser_page2_utf8.html
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const html = readFileSync('../data/page2_newuser_page2_utf8.html', 'utf8');
+const html = readFileSync('../../data/page2_newuser_page2_utf8.html', 'utf8');
 
 // 分类定义（按官方顺序）
 const CATS = [
@@ -116,5 +121,5 @@ for (const g of groups.slice(4)) {
   L.push('');
 }
 
-writeFileSync('../docs/无畏契约术语汇总.md', L.join('\n'), 'utf8');
+writeFileSync('../../docs/无畏契约术语汇总.md', L.join('\n'), 'utf8');
 console.log('术语文档生成完成, 长度:', L.join('\n').length);

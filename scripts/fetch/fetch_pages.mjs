@@ -1,3 +1,8 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // Fetch the two val.qq.com pages through the local proxy using Node's OpenSSL-based TLS
 const PROXY = 'http://127.0.0.1:7897';
 
@@ -25,12 +30,12 @@ const url1 = 'https://val.qq.com/game-data.html?pageType=1&&heroId=1';
 const url2 = 'https://val.qq.com/act/a20250102NewUserGuide/page1_1.html';
 
 try {
-  await fetchViaProxy(url1, '../data/page1_gamedata.html');
+  await fetchViaProxy(url1, '../../data/page1_gamedata.html');
 } catch (e) {
   console.log(`PAGE1 ERROR: ${e.message}`);
 }
 try {
-  await fetchViaProxy(url2, '../data/page2_newuser.html');
+  await fetchViaProxy(url2, '../../data/page2_newuser.html');
 } catch (e) {
   console.log(`PAGE2 ERROR: ${e.message}`);
 }

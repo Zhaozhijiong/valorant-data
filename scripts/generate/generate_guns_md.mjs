@@ -1,16 +1,21 @@
+﻿// 锚定工作目录到脚本所在目录（保证相对路径与运行目录无关）
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import { chdir } from 'node:process';
+chdir(dirname(fileURLToPath(import.meta.url)));
 // 生成武器数据文档（主文档 + 按枪械拆分）
 // 数据源: data/api_guns_full.json (GraphQL guns 完整字段)
 //         data/api_skin_images.json (皮肤图片 URL 映射，由 resolve_skin_images.mjs 生成)
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const raw = JSON.parse(readFileSync('../data/api_guns_full.json', 'utf8'));
+const raw = JSON.parse(readFileSync('../../data/api_guns_full.json', 'utf8'));
 const guns = raw.data.guns;
 guns.sort((a, b) => a.id - b.id);
 
 // 皮肤图片映射（guid -> image url）
 let skinImages = new Map();
 try {
-  const imgs = JSON.parse(readFileSync('../data/api_skin_images.json', 'utf8'));
+  const imgs = JSON.parse(readFileSync('../../data/api_skin_images.json', 'utf8'));
   for (const s of imgs) skinImages.set(s.guid, s.image);
   console.log('皮肤图片映射已加载:', skinImages.size, '条');
 } catch (e) {
@@ -171,11 +176,11 @@ for (const t of typeOrder) {
 }
 
 // ---------- 写文件 ----------
-mkdirSync('../docs/guns', { recursive: true });
+mkdirSync('../../docs/guns', { recursive: true });
 let count = 0;
 for (const g of guns) {
-  writeFileSync(`../docs/guns/${gunFileName(g)}`, renderGun(g), 'utf8');
+  writeFileSync(`../../docs/guns/${gunFileName(g)}`, renderGun(g), 'utf8');
   count++;
 }
-writeFileSync('../docs/无畏契约武器数据汇总.md', L.join('\n'), 'utf8');
+writeFileSync('../../docs/无畏契约武器数据汇总.md', L.join('\n'), 'utf8');
 console.log(`武器主文档生成完成, 枪械文件数: ${count}`);
