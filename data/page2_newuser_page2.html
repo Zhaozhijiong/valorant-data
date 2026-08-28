@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="《无畏契约》国服官方网站，又名VALORANT、瓦罗兰特，是《英雄联盟》开发商拳头游戏开发、腾讯代理、风靡全球的PC端战术射击力作。">
+<meta name="Keywords" content="valorant,无畏契约,瓦罗兰特,瓦洛兰特,val,riot,VALORANT官网,特战英豪 ">
+<title>无畏契约官方新手站-战术进阶</title>
+<link rel="stylesheet" href="css/index.css" media="screen and (min-device-width: 1025px)">
+<link rel="stylesheet" href="css/index-m.css" media="screen and (max-device-width: 1024px)">
+<link rel="stylesheet" href="css/top.css">
+<script>
+    //mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+    (function (win, doc, mode) {
+        var std = 750;
+        if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+        if (mode == 'px') {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+            function adaptVP(a) { function c() { var c, d; return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window.screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window.devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a.bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(/Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(/Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 == d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b.mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0) } function d() { var e, f, g, h, c = "", d = !1; switch (b.mode) { case "apple": f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio; c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f + ",maximum-scale=" + f + ",user-scalable=no"; break; case "android-2.2": a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ? 375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window.screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth = e), b.mode = "android-dpi", d = !0; case "android-dpi": f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f + ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2"); break; case "android-scale": c = "width=" + b.uWidth + ", user-scalable=no" }g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g.name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h.length > 0 && h[0].appendChild(g) } function e() { var a = ""; for (key in b) a += key + ": " + b[key] + "; "; alert(a) } if (a) { var b = { uWidth: 0, dWidth: 0, ratio: 1, mode: "apple", userAgent: null, bConsole: !1 }; c(), d(), b.bConsole && e() } }; adaptVP({ uWidth: 750 });
+            }
+            win.addEventListener('resize', setFont, false)
+            setFont();
+        }
+        else if (mode == 'rem') {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+            };
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+        }
+    })(window, document, 'rem');
+</script>
+</head>
+<body>
+    <div class="wrapper page2">
+        <div class="header bg">
+            <a class="back_btn" href="./index.html" onclick="LOLSendClickAT('page2_back','page2_back','返回');">返回</a>
+            <p class="title">战术进阶</p>
+            <p class="sub_tit">相信你对于无畏契约已经有了一定的了解，现在我们一起学习更多游戏内有效的实战技巧和沟通策略。</p>
+        </div>
+        <div class="content bg">
+            <div class="part1">
+                <div class="tit_cont">
+                    <p class="tit">术语科普</p>
+                    <i class="tit_deco bg"></i>
+                </div>
+                <p class="sub_tit">不知道大家在说什么?来看看瓦的“词典”吧</p>
+                <div class="cont_wrapper">
+                    <div class="cont1_wrapper">
+                        <div class="select_cont bg">
+                            <a href="javascript:;" class="select_btn1 bg on" onclick="LOLSendClickAT('select_btn1','btn1','战术术语');">战术术语</a>
+                            <a href="javascript:;" class="select_btn2 bg" onclick="LOLSendClickAT('select_btn2','btn2','交流术语');">交流术语</a>
+                            <a href="javascript:;" class="select_btn3 bg" onclick="LOLSendClickAT('select_btn3','btn3','操作术语');">操作术语</a>
+                            <a href="javascript:;" class="select_btn4 bg" onclick="LOLSendClickAT('select_btn4','btn4','地图术语');">地图术语</a>
+                        </div>
+                        <div class="term_cont bg">
+                            <!-- 战术术语 -->
+                            <div class="term_cont1">
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg6 centre" data-term-id="1" onclick="LOLSendClickAT('term1','term1','默认');">默认</a>
+                                    <a href="javascript:;" class="term_btn bg bg8 centre" data-term-id="2" onclick="LOLSendClickAT('term2','term2','转点');">转点</a>
+                                    <a href="javascript:;" class="term_btn bg bg5 centre" data-term-id="3" onclick="LOLSendClickAT('term3','term3','爆弹');">爆弹</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg7 centre" data-term-id="4" onclick="LOLSendClickAT('term4','term4','Fake');">Fake</a>
+                                    <a href="javascript:;" class="term_btn bg bg3 centre" data-term-id="5" onclick="LOLSendClickAT('term5','term5','静音接触');">静音接触</a>
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="6" onclick="LOLSendClickAT('term6','term6','单摸');">单摸</a>
+                                    <a href="javascript:;" class="term_btn bg bg10 centre" data-term-id="7" onclick="LOLSendClickAT('term7','term7','绕后');">绕后</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg9 centre" data-term-id="8" onclick="LOLSendClickAT('term8','term8','双拉');">双拉</a>
+                                    <a href="javascript:;" class="term_btn bg bg1 centre" data-term-id="9" onclick="LOLSendClickAT('term9','term9','拉人');">拉人</a>    
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg11 centre" data-term-id="10" onclick="LOLSendClickAT('term10','term10','封烟');">封烟</a>
+                                    <a href="javascript:;" class="term_btn bg bg4 centre" data-term-id="11" onclick="LOLSendClickAT('term11','term11','丢闪');">丢闪</a>
+                                </div>
+                            </div>
+                            <!-- 交流术语 -->
+                            <div class="term_cont2" style="display: none;">
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg3 centre" data-term-id="12" onclick="LOLSendClickAT('term12','term12','ns');">ns</a>
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="13" onclick="LOLSendClickAT('term13','term13','nt');">nt</a>
+                                    <a href="javascript:;" class="term_btn bg bg3 centre" data-term-id="14" onclick="LOLSendClickAT('term14','term14','AFK');">AFK</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg7 centre" data-term-id="15" onclick="LOLSendClickAT('term15','term15','GLHF');">GLHF</a>
+                                    <a href="javascript:;" class="term_btn bg bg11 centre" data-term-id="16" onclick="LOLSendClickAT('term16','term16','ECO/经济局');">ECO/经济局</a>
+                                    <a href="javascript:;" class="term_btn bg bg5 centre" data-term-id="17" onclick="LOLSendClickAT('term17','term17','保枪');">保枪</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg8 centre" data-term-id="18" onclick="LOLSendClickAT('term18','term18','手枪局');">手枪局</a>    
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg5 centre" data-term-id="19" onclick="LOLSendClickAT('term19','term19','纯e');">纯e</a>
+                                    <a href="javascript:;" class="term_btn bg bg10 centre" data-term-id="20" onclick="LOLSendClickAT('term20','term20','半起局');">半起局</a>
+                                </div>
+                            </div>
+                            <!-- 操作术语 -->
+                            <div class="term_cont3" style="display: none;">
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="21" onclick="LOLSendClickAT('term21','term21','peek');">peek</a>
+                                    <a href="javascript:;" class="term_btn bg bg3 centre" data-term-id="22" onclick="LOLSendClickAT('term22','term22','swing/大拉');">swing/大拉</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg7 centre" data-term-id="23" onclick="LOLSendClickAT('term23','term23','蹲拉');">蹲拉</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg1 centre" data-term-id="24" onclick="LOLSendClickAT('term24','term24','近大远小');">近大远小</a>    
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="25" onclick="LOLSendClickAT('term24','term24','广角');">广角</a>    
+                                    <a href="javascript:;" class="term_btn bg bg1 centre" data-term-id="26" onclick="LOLSendClickAT('term25','term25','旋转跳');">旋转跳</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg5 centre" data-term-id="27" onclick="LOLSendClickAT('term26','term26','晃身');">晃身</a>
+                                </div>
+                            </div>
+                            <!-- 地图术语 -->
+                            <div class="term_cont4" style="display: none;">
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="28" onclick="LOLSendClickAT('term28','term28','X大/长');">X大/长</a>
+                                    <a href="javascript:;" class="term_btn bg bg3 centre" data-term-id="29" onclick="LOLSendClickAT('term29','term29','X小');">X小</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg7 centre" data-term-id="30" onclick="LOLSendClickAT('term30','term30','中路');">中路</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg8 centre" data-term-id="31" onclick="LOLSendClickAT('term31','term31','XY连通');">XY连通</a>    
+                                    <a href="javascript:;" class="term_btn bg bg2 centre" data-term-id="32" onclick="LOLSendClickAT('term32','term32','死点');">死点</a>
+                                </div>
+                                <div class="term_box">
+                                    <a href="javascript:;" class="term_btn bg bg5 centre" data-term-id="33" onclick="LOLSendClickAT('term33','term33','攻/守重生点');">攻/守重生点</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont2_wrapper bg"  style="display: none;">
+                        <a class="back_btn" onclick="LOLSendClickAT('back','back','返回');">返回</a>
+                        <!-- 战术术语描述 -->
+                        <div class="term_wrapper" data-term-id="1" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">默认</span>
+                                <div class="term_des">对于进攻方来说：开局各自分派进攻队员盯防对方的非常规前压，并且可由人多的一侧利用可恢复道具进行银幕消失后区域的抢夺。对于防守方来说：可以利用开局烟雾以及可恢复道具短暂控制中立区域，干扰进攻方的意图。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="2" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">转点</span>
+                                <div class="term_des">在遇到防守重侧或包点难进的情况下，进攻方转而对另一个点发起进攻，寻找机会。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="3" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">爆弹</span>
+                                <div class="term_des">也叫提点、rush，以最快的速度冲进包点，形成包点局部的多打少，寻求击杀以及下包。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="4" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">Fake</span>
+                                <div class="term_des">也叫假打，进攻方对一个点使用少量技能骗防守人员回防，同时另一边的队友进攻防守弱势点位。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="5" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">静音接触</span>
+                                <div class="term_des">进攻方在不使用技能和道具的情况下进行静音侦查，避免泄露行动信息以寻求出其不意的击杀。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="6" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">单摸</span>
+                                <div class="term_des">玩家独自进行搜索、收集信息或寻求击杀的行为。限制对方的可活动范围，分担队友压力。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="7" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">绕后</span>
+                                <div class="term_des">玩家抓住对方的防守漏洞，目的在绕到敌人的背后或侧翼进行出其不意的攻击。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id7">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="8" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">双拉</span>
+                                <div class="term_des">和队友两个人同时走出掩体和对面对枪。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id8">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="9" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">拉人</span>
+                                <div class="term_des">贤者利用大招复活队友，或者拉起开启无效指令倒地的KO</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id9">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="10" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">封烟</span>
+                                <div class="term_des">烟位使用烟雾技能封锁敌人视线、分割战场，有效地控制敌人的行动，掩护队友提供进攻或撤退。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id10">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="11" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">丢闪</span>
+                                <div class="term_des">使用闪光弹或类似技能来暂时致盲敌人，以便发起进攻或掩护队友。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id11">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 交流术语描述 -->
+                        <div class="term_wrapper" data-term-id="12" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">ns</span>
+                                <div class="term_des">“Nice Shot"，即“好枪”</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id12.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="13" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">nt</span>
+                                <div class="term_des">"Nice Try"，即“好尝试”，多用残局中未能获胜的情况</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id13.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="14" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">AFK</span>
+                                <div class="term_des">"Away From Keyboard"，玩家在游戏中挂机或离开键盘</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id14.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="15" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">GLHF</span>
+                                <div class="term_des">“Good Luck, Have Fun”，“祝你好运，游戏愉快”，通常在游戏开局使用，表达对队友和对手的良好祝愿。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id15.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="16" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">ECO/经济局</span>
+                                <div class="term_des">不购买或仅购买手枪和少量防具节省资金，确保下一回合能拥有足够的资金。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id16.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="17" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">保枪</span>
+                                <div class="term_des">残局时，回防路线几乎全被封死，玩家选择保持存活而不冒险进行战斗，避免枪械损失，保证下回合的枪械装备。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id17">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="18" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">手枪局</span>
+                                <div class="term_des">每个半场的第一回合，队伍资金有限，只能选择手枪和小甲的对局回合。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id18.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="19" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">纯e</span>
+                                <div class="term_des">完全不购买任何装备，仅用标配进行游戏的对局。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id19.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="20" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">半起局</span>
+                                <div class="term_des">保证下一回合一定能起出全甲道具的同时，部分队友购买枪和装备，部分队友不进行购买。节省资金的同时，依然保持一定的战斗力。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id20.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 操作术语描述 -->
+                        <div class="term_wrapper" data-term-id="21" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">peek</span>
+                                <div class="term_des">从掩体以小身位拉出，查看敌人位置或对枪</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id21">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="22" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">swing/大拉</span>
+                                <div class="term_des">面对对方可能存在的预瞄枪位，直接选择快速的跑出掩体，拉出大身位，干扰对面的预瞄枪线</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id22">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="23" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">蹲拉</span>
+                                <div class="term_des">蹲着拉出掩体进行对枪</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id23">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="24" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">近大远小</span>
+                                <div class="term_des">对枪的劣势枪位。指游戏中在靠近交战掩体时，玩家的视野会被掩体遮挡，而离掩体较远的玩家则可以看到更多的区域。因此，玩家在搜点时应尽量远离掩体，以获得更广阔的视野。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id24">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="25" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">广角</span>
+                                <div class="term_des">对枪时远离近距离掩体，向后或者侧边移动，避免近大远小。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id25">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="26" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">旋转跳</span>
+                                <div class="term_des">peek时快速旋转跳跃，瞬间躲入掩体，拿取敌方信息或骗敌人开枪。</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id26">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="27" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">晃身</span>
+                                <div class="term_des">在掩体后连续快速的小身位peek</div>
+                            </div>
+                            <div class="right_cont">
+                                <div class="video_wrapper">
+                                    <div class="video" id="term_id27">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 地图术语描述 -->
+                        <!-- 地图通用术语描述 -->
+                        <div class="term_wrapper" data-term-id="28" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">X大/长</span>
+                                <div class="term_des">通常指地图通往X包点的较为宽敞、主要的进攻路径，适合快速推进和大规模交火。例如莲华古城A大。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id28.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="29" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">X小</span>
+                                <div class="term_des">指通往X包点相对狭窄、次要的路径，可能更适合进行偷袭或侧翼包抄。例如亚海悬城A小。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id29.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="30" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">中路</span>
+                                <div class="term_des">地图中央，通常可以快速连通A，B包点的区域。例如霓虹町中路。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id30.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="31" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">XY连通</span>
+                                <div class="term_des">任意两个包点连通的部分。例如隐世修所AB连。</div>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id31.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="32" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">死点</span>
+                                <div class="term_des">不靠侦察道具难以通过搜点排清的点位。例如莲华古城二楼下方，源工重镇二楼入口左侧。</div>
+                            </div>
+                            <div class="right_cont wid">
+                                <div class="img_wra">
+                                    <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id32.png" alt="">
+                                </div>
+                                <div class="img_wra">
+                                    <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id32_2.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="33" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">攻/守重生点</span>
+                                <div class="term_des">攻/守方每回合开始玩家所在的地方，以幽邃地窟为例。</div>
+                            </div>
+                            <div class="right_cont wid">
+                                <div class="img_wra">
+                                    <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id33.png" alt="">
+                                </div>
+                                <div class="img_wra">
+                                    <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id33_2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 地图特殊术语描述 -->
+                        <!-- 亚海悬城 -->
+                        <div class="term_wrapper" data-term-id="34" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">酒窖</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id34.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="35" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">铁箱</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id35.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="36" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">花园</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/term_img/id36.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="37" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">披萨</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="38" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">一道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="39" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">二道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="40" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">市场/market</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="41" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">船坞</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="42" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">开关门</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 莲华古城 -->
+                        <div class="term_wrapper" data-term-id="43" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">碎石</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="44" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">树屋</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="45" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">石门/A连</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="46" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">凹槽</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="47" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A死点</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 裂变峡谷 -->
+                        <div class="term_wrapper" data-term-id="48" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">下水道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="49" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">卫星</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="50" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">高低差</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="51" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">沙地</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="52" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">B二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 森寒冬港 -->
+                        <div class="term_wrapper" data-term-id="53" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">厨房</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="54" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">黄箱</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="55" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">雪人</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="56" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">橘区</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="57" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A前点/管道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 深海明珠 -->
+                        <div class="term_wrapper" data-term-id="58" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">Art/画架</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="59" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">凹槽</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="60" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">底线</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="61" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">中门</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="62" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A小</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="63" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">下水道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="64" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">屏幕</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="65" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">花店</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 微风岛屿 -->
+                        <div class="term_wrapper" data-term-id="66" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="67" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">VIP</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 隐士修所 -->
+                        <div class="term_wrapper" data-term-id="68" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">车库</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="69" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">屏风</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 源工重镇 -->
+                        <div class="term_wrapper" data-term-id="70" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">Hookah/水烟</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="71" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">Elbow</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="72" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">u hall/黑屋</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="73" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">浴室</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 日落之城 -->
+                        <div class="term_wrapper" data-term-id="74" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">奶茶店</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="75" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">Elbow/管道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="76" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">市场</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="77" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">红砖</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 霓虹町 -->
+                        <div class="term_wrapper" data-term-id="78" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">电梯房</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="79" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">铁板</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="80" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">下水道</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="81" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="82" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">B二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="83" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">阅览室</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <!-- 幽邃地窟 -->
+                        <div class="term_wrapper" data-term-id="84" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">通风管</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="85" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">高台</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="86" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">B二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="87" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">图书馆</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="88" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">A二楼</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="89" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">保安室</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="90" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">悬崖</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="91" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">B窗口</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="term_wrapper" data-term-id="92" style="display: none;">
+                            <div class="left_cont">
+                                <span class="term_name">矮桥</span>
+                            </div>
+                            <div class="right_cont">
+                                <img src="//game.gtimg.cn/images/val/act/a20250102NewUserGuide/temp_img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="tit_cont">
+                    <p class="tit">进阶教程</p>
+                    <i class="tit_deco bg"></i>
+                </div>
+                <div class="btn_cont">
+                    <a href="./page2_1.html" class="btn1 bg" onclick="LOLSendClickAT('btn1','btn1','新人必看');">
+                        <p class="btn_name">新人必看</p>
+                        <!-- <p class="tips">（重置版）</p> -->
+                        <p class="view_details">查看详情</p>
+                    </a>
+                    <a href="javascript:TGDialogS('pop_wait');" class="btn2 bg" onclick="LOLSendClickAT('btn2','btn2','点位科普');">
+                        <p class="btn_name">点位科普</p>
+                        <p class="view_details">查看详情</p>
+                    </a>
+                    <a href="./page2_2.html" class="btn3 bg" onclick="LOLSendClickAT('btn3','btn3','玩法系统解答');">
+                        <p class="btn_name">玩法系统解答</p>
+                        <!-- <p class="tips">（科普）</p> -->
+                        <p class="view_details">查看详情</p>
+                    </a>
+                    <a href="https://val.qq.com/videos.html" target="_blank" class="btn4 bg" onclick="LOLSendClickAT('btn4','btn4','其他教程');">
+                        <p class="btn_name">其他教程</p>
+                        <p class="view_details">查看详情</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 敬请期待弹窗 -->
+        <div class="pop_wait pr bg" id="pop_wait" style="display: none;">
+            <p>敬请期待</p>
+            <a href="javascript:closeDialog();" class="close_btn bg" onclick="LOLSendClickAT('close_btn','close_btn','确定');">确定</a>
+            <a href="javascript:closeDialog();" class="close pa bg" onclick="LOLSendClickAT('close','close','关闭');"></a>
+        </div>
+    </div>
+    <script src="//js.aq.qq.com/js/aq_common.js"></script>
+    <script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js" charset='gbk'></script>
+    <script src="//game.gtimg.cn/images/js/milo-next/latest/milo.gbk.min.js"></script>
+    <!-- <script src="//ossweb-img.qq.com/images/js/milo_bundle/milo.js"></script> -->
+    <script src="//mlol-file.qpic.cn/mobile/mlol/js/mlol.js" charset="UTF-8"></script>
+    <script src="https://app.val.qq.com/jsapi/mval.js" charset="UTF-8"></script>
+    <script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+    <script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js"></script>
+    <script src="//game.gtimg.cn/images/js/eas/eas.js"></script>
+    <script src="//game.gtimg.cnimages/js/plugin/report/atReport.js" charset="UTF-8"></script>
+    <script src="//val.qq.com/js/top.js" charset='gbk'></script>
+    <script src="./js/index.js"></script>
+    <script>
+        //此段代码不能放到外链JS中，
+        var setSite = { //设置网站属性
+        siteType: "a20250102NewUserGuide", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType: "page2", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+        project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网或微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+        ingame: false,//选填项:默认根据浏览器类型获取是否属于游戏内，因英雄联盟端游客户端特殊性，所以英雄联盟端游客户端需求需要填写true.
+        autoClick: false,//是否自动上报按钮&a的点击。选填项：默认false。非必要不开启
+        autoAreaStay: false,//是否自动上报dom中填写dt-areaid的区域停留时长。选填项：默认false。非必要不开启
+        };
+        if (typeof LOL_SEND_DATA_FN_AT == 'function') {
+            LOL_SEND_DATA_FN_AT();
+        }
+    </script>
+    <style>
+        #afooter{display:block!important}
+    </style>
+</body>
+</html>

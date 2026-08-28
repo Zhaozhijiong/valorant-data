@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="gbk" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta content="新闻详情，《无畏契约》国服官方网站，又名VALORANT、瓦罗兰特，是《英雄联盟》开发商拳头游戏开发、腾讯代理、风靡全球的PC端战术射击力作。" name="Description" />
+  <meta content="新闻详情,新闻,详情,valorant,无畏契约,瓦罗兰特,瓦洛兰特,val,riot,VALORANT官网,特战英豪 " name="Keywords" />
+  <title>新闻详情-VALORANT《无畏契约》官方网站-腾讯游戏</title>
+  <!-- 微信QQ分享时候的展示标题 -->
+  <link rel="stylesheet" href="///val.qq.com/css/swiper.css">
+  <link rel="stylesheet" href="//val.qq.com/css/common.css">
+  <link rel="stylesheet" href="//val.qq.com/css/newsdetails.css" media="(min-device-width: 1025px)" charset="UTF-8">
+  <link rel="stylesheet" href="//val.qq.com/css/newsdetails-m.css" media="(max-device-width: 1024px)" charset="UTF-8">
+  <!-- 页面设计：cp | 页面制作：cp | 创建：2023-03-01 -->
+  <script>
+    //mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+    (function (win, doc, mode) {
+      var std = 750;
+      if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd',
+          '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />'
+        );
+        if (mode == 'px') {
+          if (!win.addEventListener) return;
+          var html = document.documentElement;
+
+          function setFont() {
+            function adaptVP(a) {
+              function c() {
+                var c, d;
+                return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window
+                  .screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window
+                  .devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a
+                  .bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(
+                    /Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(
+                      /Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 ==
+                    d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b
+                      .mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0)
+              }
+
+              function d() {
+                var e, f, g, h, c = "",
+                  d = !1;
+                switch (b.mode) {
+                  case "apple":
+                    f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio;
+                    c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f +
+                      ",maximum-scale=" + f + ",user-scalable=no";
+                    break;
+                  case "android-2.2":
+                    a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ?
+                        375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window
+                      .screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth =
+                        e), b.mode = "android-dpi", d = !0;
+                  case "android-dpi":
+                    f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f +
+                      ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2");
+                    break;
+                  case "android-scale":
+                    c = "width=" + b.uWidth + ", user-scalable=no"
+                }
+                g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g
+                  .name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h
+                  .length > 0 && h[0].appendChild(g)
+              }
+
+              function e() {
+                var a = "";
+                for (key in b) a += key + ": " + b[key] + "; ";
+                alert(a)
+              }
+              if (a) {
+                var b = {
+                  uWidth: 0,
+                  dWidth: 0,
+                  ratio: 1,
+                  mode: "apple",
+                  userAgent: null,
+                  bConsole: !1
+                };
+                c(), d(), b.bConsole && e()
+              }
+            };
+            adaptVP({
+              uWidth: 750
+            });
+          }
+          win.addEventListener('resize', setFont, false)
+          setFont();
+        } else if (mode == 'rem') {
+          var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+            };
+          if (!doc.addEventListener) return;
+          recalc();
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+      }
+    })(window, document, 'px');
+  </script>
+</head>
+
+<body>
+  <!--[if lt IE 9]>
+      <style>
+        .comm-head {
+          top: 40px;
+        }
+      </style>
+      <p class="chromeframe">
+        <span>您使用的IE浏览器版本过低，本站不再支持，</span>
+        <a href="//windows.microsoft.com/">升级您的IE浏览器</a>
+        <span>，或使用</span>
+        <a href="//www.google.cn/chrome/">Google Chrome</a><a>、</a
+        ><a href="//www.firefox.com.cn/download/">Firefox</a>
+        <span>等高级浏览器，将会得到更好的体验！</span>
+      </p>
+    <![endif]-->
+  <!--官网通用页头 start-->
+  <h1 class="hid">新闻详情</h1>
+  <div class="wrapper">
+    <!-- 返回新闻页 -->
+    <a href="javascript:;" class="gobacknews"><span>回到新闻页面</span></a>
+    <!-- 回到顶部 -->
+    <a href="javascript:document.querySelector('.wrap').scrollIntoView({behavior: 'smooth'});" class="gotop"
+      style="display: none;"><span class="h5">返回顶部</span></a>
+    <div class="wrap">
+      <div class="cont1" dt-areaid="cont1">
+        <img src="">
+      </div>
+      <div class="cont2" dt-areaid="cont2">
+        <div class="news-message">
+          <p class="news-time">23/03/01</p>
+          <p class="news-type">游戏更新</p>
+        </div>
+        <h3 class="news-title">6.03版本更新公告</h3>
+        <div class="share-other">
+          <p>分享</p>
+          <a href="javascript:;" class="share-wx" onclick="LOLSendClickAT('btn','share-wx','分享到微信')"></a>
+          <a href="javascript:;" class="share-qq" onclick="LOLSendClickAT('btn','share-wx','分享到QQ')"></a>
+          <a href="javascript:;" class="share-wb" onclick="LOLSendClickAT('btn','share-wx','分享到微博')"></a>
+        </div>
+        <div class="news-text">
+
+        </div>
+        <div class="news-tags">
+          <p>标签</p>
+          <p class="news-tag">公告</p>
+          <p class="news-tag">更新信息</p>
+        </div>
+        <a href="javascript:;" class="goback-news">返回新闻页面</a>
+        <div class="news-relevant">
+          <h4 class="relevant-title title title-ani">相关内容</h4>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">01</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+                <a href="javascript:;" class="go-details"></a>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">02</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">03</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">04</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">05</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">06</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">07</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://game.gtimg.cn/images/val/ag_w/news/news-thumb1.jpg" class="news-img">
+                <h4 class="news-nub">08</h4>
+                <p class="news-time">2023.03.01</p>
+                <p class="news-caption">观看2023WCG联赛</p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cut-off cut-off1"></div>
+      <div class="cut-off cut-off2"></div>
+      <!-- footer -->
+      <div id="common-footer"></div>
+      <!-- footer -->
+    </div>
+  </div>
+  <script src="//val.qq.com/js/jquery.min.js"></script>
+  <script src="//val.qq.com/js/top.js"></script>
+  <script>
+    if (!/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+      document.querySelector('.wrapper').style.height = document.getElementsByClassName('wrap')[0].offsetHeight * window
+        .innerWidth / 1920 + 'px';
+      document.documentElement.style.setProperty('--scale', window.innerWidth / 1920);
+      $(window).on('load resize', function () {
+        document.querySelector('.wrapper').style.height = document.getElementsByClassName('wrap')[0].offsetHeight *
+          window.innerWidth / 1920 + 'px';
+        document.documentElement.style.setProperty('--scale', window.innerWidth / 1920);
+      })
+    }
+  </script>
+  <script src="//val.qq.com/js/swiper.min.js"></script>
+  <script src="//val.qq.com/js/common.js"></script>
+  <script>
+    //加载js
+    function loadScripts(t, e) {
+      function a() {
+        var o = document.createElement("script");
+        o.type = "text/javascript";
+        var c = -1 == t[n].indexOf("?") ? t[n] + "?d=" + Math.random() : t[n] + "&d=" + Math.random();
+        o.src = c, document.body.appendChild(o), n++, o.readyState ? o.onreadystatechange = function () {
+          ("loaded" == o.readyState || "complete" == o.readyState) && (o.onreadystatechange = null, d++, d < t
+            .length ? a() : e && e())
+        } : o.onload = function () {
+          d++, d < t.length ? a() : e && e()
+        }
+      }
+      e = e || function () {};
+      var n = 0,
+        d = 0;
+      a()
+    }
+  </script>
+  <script>
+    if(window.location.href.split('goback=').length>1&&window.location.href.split('goback=')[1].split("&")[0] !== '') {
+        var gobackUrl = window.location.href.split('goback=')[1].split("&")[0];
+    }else {
+        var gobackUrl = 'news';
+    }
+    var pageName = '';
+    switch (gobackUrl) {
+      case 'main':
+        pageName = '回到首页';
+        break;
+      case 'news':
+        pageName = '回到新闻页';
+        break;
+      default:
+        break;
+    }
+    $('.gobacknews span').text(pageName);
+    $('.gobacknews').attr('href', `./${gobackUrl}.html`);
+    $('.goback-news').text(pageName);
+    $('.goback-news').attr('href', `./${gobackUrl}.html`);
+
+    if (gobackUrl === 'news') {
+      $('.goback-news').attr('href', `javascript:;`).on('click', function () {
+        window.history.go(-1);
+      });
+      $('.gobacknews').attr('href', `javascript:;`).on('click', function () {
+        window.history.go(-1);
+      });
+    }
+
+    if (!/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+      // PC逻辑
+      window.newsSwiper = new Swiper('.news-relevant .swiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 29,
+        slidesPerGroup: 4,
+        init: false,
+        pagination: {
+          el: '.swiper-pagination',
+          bulletElement: 'li',
+          clickable: true,
+        }
+      })
+      // 滚动隐藏
+      $(window).on('scroll', function () {
+        if (document.documentElement.scrollTop > 300) {
+          $('.gotop').fadeIn();
+        } else {
+          $('.gotop').fadeOut();
+        }
+      })
+    } else {
+      // H5逻辑
+      window.newsSwiper = new Swiper('.news-relevant .swiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 200,
+        centeredSlides: true,
+        init: false,
+        pagination: {
+          el: '.swiper-pagination',
+          bulletElement: 'li',
+          clickable: true,
+        }
+      })
+    }
+  </script>
+  <script src="//game.gtimg.cn/images/js/plugin/report/atReport.js" charset="UTF-8"></script>
+  <script>
+    if (typeof (pgvMain) == 'function') pgvMain(); //千万不能忘记！
+    var setSite = {
+      siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+      pageType: "newsdetails", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+      project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+      autoClick: true, //是否自动上报button或者a标签的点击。选填项：默认false
+      autoAreaStay: true, //是否自动上报dom中填写dt-areaid的区域停留时长。选填项：默认false
+    };
+    if (typeof LOL_SEND_DATA_FN_AT == 'function') {
+      LOL_SEND_DATA_FN_AT();
+    }
+  </script>
+</body>
+
+</html>

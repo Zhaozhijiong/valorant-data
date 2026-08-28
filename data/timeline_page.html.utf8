@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport"
+content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Description" content="《无畏契约》国服官方网站，又名VALORANT、瓦罗兰特，是《英雄联盟》开发商拳头游戏开发、腾讯代理、风靡全球的PC端战术射击力作。">
+<meta name="Keywords" content="valorant,无畏契约,瓦罗兰特,瓦洛兰特,val,riot,VALORANT官网,特战英豪 ">
+<title>版本专区-VALORANT《无畏契约》官方网站-腾讯游戏</title>
+<link rel="stylesheet" href="css/index.css" media="screen and (min-device-width: 1025px)">
+<link rel="stylesheet" href="css/index-m.css" media="screen and (max-device-width: 1024px)">
+<link rel="stylesheet" href="css/swiper-bundle.css">
+<script>
+//mode  移动端的适配方式 按需 传参  目前只有两种 px和rem
+(function (win, doc, mode) {
+    var std = 750;
+    if (/(iPhone|iPad|iPod|iOS|Android|Windows Phone|BlackBerry|SymbianOS)/i.test(navigator.userAgent)) {
+        var h = document.getElementsByTagName("head")[0];
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-status-bar-style" content="black">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="format-detection" content="telephone=no">');
+        h.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />');
+        if (mode == 'px') {
+            if (!win.addEventListener) return;
+            var html = document.documentElement;
+            function setFont() {
+                function adaptVP(a) { function c() { var c, d; return b.uWidth = a.uWidth ? a.uWidth : 750, b.dWidth = a.dWidth ? a.dWidth : window.screen.width || window.screen.availWidth, b.ratio = window.devicePixelRatio ? window.devicePixelRatio : 1, b.userAgent = navigator.userAgent, b.bConsole = a.bConsole ? a.bConsole : !1, a.mode ? (b.mode = a.mode, void 0) : (c = b.userAgent.match(/Android/i), c && (b.mode = "android-2.2", d = b.userAgent.match(/Android\s(\d+.\d+)/i), d && (d = parseFloat(d[1])), 2.2 == d || 2.3 == d ? b.mode = "android-2.2" : 4.4 > d ? b.mode = "android-dpi" : d >= 4.4 && (b.mode = b.dWidth > b.uWidth ? "android-dpi" : "android-scale")), void 0) } function d() { var e, f, g, h, c = "", d = !1; switch (b.mode) { case "apple": f = (window.screen.availWidth * b.ratio / b.uWidth) / b.ratio; c = "width=" + b.uWidth + ",initial-scale=" + f + ",minimum-scale=" + f + ",maximum-scale=" + f + ",user-scalable=no"; break; case "android-2.2": a.dWidth || (b.dWidth = 2 == b.ratio ? 720 : 1.5 == b.ratio ? 480 : 1 == b.ratio ? 375 : .75 == b.ratio ? 240 : 480), e = window.screen.width || window.screen.availWidth, 375 == e ? b.dWidth = b.ratio * e : 750 > e && (b.dWidth = e), b.mode = "android-dpi", d = !0; case "android-dpi": f = 160 * b.uWidth / b.dWidth * b.ratio, c = "target-densitydpi=" + f + ", width=" + b.uWidth + ", user-scalable=no", d && (b.mode = "android-2.2"); break; case "android-scale": c = "width=" + b.uWidth + ", user-scalable=no" }g = document.querySelector("meta[name='viewport']") || document.createElement("meta"), g.name = "viewport", g.content = c, h = document.getElementsByTagName("head"), h.length > 0 && h[0].appendChild(g) } function e() { var a = ""; for (key in b) a += key + ": " + b[key] + "; "; alert(a) } if (a) { var b = { uWidth: 0, dWidth: 0, ratio: 1, mode: "apple", userAgent: null, bConsole: !1 }; c(), d(), b.bConsole && e() } }; adaptVP({ uWidth: 750 });
+            }
+            win.addEventListener('resize', setFont, false)
+            setFont();
+        }
+        else if (mode == 'rem') {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / std) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            recalc();
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        }
+    }
+})(window, document, 'rem');
+</script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<p style="background:#3e1f10;color:#fbf5e7;padding:10px 0;text-align:center;width:100%;font-size:14px;position:fixed;z-index:99999;top:0;left:0;">您使用的IE浏览器版本过低，本站不再支持，<a href="//support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads" style="color:#F13C35">升级您的IE浏览器</a>，或使用<a href="//www.google.cn/chrome/"  style="color:#F13C35">Google Chrome</a>等高级浏览器，将会得到更好的体验！</p>
+<![endif]-->
+<div class="wrapper">
+<div class="bg main">
+    <div class="swiper mySwiper" id="mySwiper_scrollTop">
+        <div class="swiper-wrapper" id="Time_line_list">
+            <!-- <div class="swiper-slide slide_a"><div class="date"><span class="d_l">8月28日</span><span class="d_r">2024</span></div><div class="bg img img1"><a href="https://val.qq.com/act/a20240820ver/index.html" target="_blank" onclick="LOLSendClickAT('btn','link1','维斯上线');"><p class="name">第九季第二幕 新英雄“维斯”上线</p></a></div><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=3678991975135230779&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link2','905版本');"><span class="m_time">9月12日</span><em>v9.05版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=8012353535739368782&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link3','906版本');"><span class="m_time">9月26日</span><em>v9.06版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=16823574045739343199&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link4','907版本');"><span class="m_time">10月10日</span><em>v9.07版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            
+            <div class="swiper-slide slide_a"><div class="date"><span class="d_l">10月24日</span></div><div class="bg img img2"><a href="https://val.qq.com/newsdetails.html?docid=13868556549652114674&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link5','乱次元上线');"><p class="name">第九季第三幕 新团队乱斗地图“乱次元”上线</p></a></div><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=18240078949784014827&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link6','909版本');"><span class="m_time">11月7日</span><em>v9.09版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=11901540742878936355&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link7','910版本');"><span class="m_time">11月21日</span><em>v9.10版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=9168187755260941574&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link8','911版本');"><span class="m_time">12月12日</span><em>v9.11版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_a"><div class="date"><span class="d_l">1月9日</span><span class="d_r">2025</span></div><div class="bg img img3"><a href="https://val.qq.com/act/a20240108ver/index.html" target="_blank" onclick="LOLSendClickAT('btn','link9','钛狐上线');"><p class="name">V25赛季第一幕 新英雄“钛狐”上线</p></a></div><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=14879270990788648149&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link10','1001版本');"><span class="m_time">1月24日</span><em>v10.01版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=17500394048936292766&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link11','1002版本');"><span class="m_time">2月6日</span><em>v10.02版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_b"><a href="https://val.qq.com/newsdetails.html?docid=16534154207103018652&goback=news" target="_blank" onclick="LOLSendClickAT('btn','link12','1003版本');"><span class="m_time">2月21日</span><em>v10.03版本</em></a><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div>
+            <div class="swiper-slide slide_a"><div class="date"><span class="d_l">3月6日</span></div><div class="bg img img4"><a href="https://val.qq.com/act/a20250304ver/index.html" target="_blank" onclick="LOLSendClickAT('btn','link13','幻棱登场');"><p class="name">V25赛季第二幕 新英雄“幻棱”登场</p></a></div><div class="info"><p>新英雄新英雄</p><p>新英雄新英雄</p><p>新英雄新英雄</p></div></div> -->
+          </div>
+      </div>
+      <div class="pa prev_btn"></div>
+      <div class="pa next_btn"></div>
+</div>
+</div>
+<div class="versions-container"></div>
+<script src="//js.aq.qq.com/js/aq_common.js"></script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.11.3.min.js" charset='gbk'></script>
+<script src="//game.gtimg.cn/images/js/milo-next/latest/milo.gbk.min.js"></script>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js"></script>
+<script src="//val.qq.com/lib/js/topbar.js"></script>
+<script src="//game.gtimg.cn/images/js/plugin/report/atReport.js" charset="UTF-8"></script>
+<script src="//val.qq.com/act/AutoCMS/publish/VALWeb/VersionTimeline/VersionTimeline.js" charset="UTF-8"></script>
+<!-- <script src="js/VersionTimeline.js" charset="UTF-8"></script> -->
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+const getTimeLineData = window.VersionTimeline_List;
+var TimeLine_html='';
+var slider_a=0;
+var slider_b=0;
+ 
+$.each(getTimeLineData, function(key, value) {
+    
+    var v_link=getTimeLineData[key].link;
+    //链接为空的情况
+    if(v_link==''){
+        v_link="javascript:;";
+    }else{
+        v_link=getTimeLineData[key].link
+    };
+//onclick="LOLSendClickAT('btn','link`+key+`','`+getTimeLineData[key].title+`');open_page('`+v_link+`')"
+    //大版本
+    if(getTimeLineData[key].isMajor==1){
+        TimeLine_html+=`
+        <div class="swiper-slide slide_a"><div class="date"><span class="d_l">`+getTimeLineData[key].date+`</span><span class="d_r">`+getTimeLineData[key].year+`</span></div><div class="bg img" style='background-image:url(`+getTimeLineData[key].pic+`)'><a class="link`+key+`" href="`+v_link+`" target="_blank" onclick="LOLSendClickAT('btn','link`+key+`','`+getTimeLineData[key].title+`')"><p class="name">`+getTimeLineData[key].title+`</p></a></div>
+        <i class="icon"></i><div class="time">`+getTimeLineData[key].date+`</div><div class="info"><p>`+getTimeLineData[key].desc1+`</p><p>`+getTimeLineData[key].desc2+`</p><p>`+getTimeLineData[key].desc3+`</p></div></div>`;
+        slider_a++;
+    }
+    //小版本
+    else{
+       TimeLine_html+=`<div class="swiper-slide slide_b"><a class="link`+key+`" href="`+v_link+`" target="_blank" onclick="LOLSendClickAT('btn','link`+key+`','`+getTimeLineData[key].title+`')"><span class="m_time">`+getTimeLineData[key].date+`</span><em>`+getTimeLineData[key].title+`</em></a><i class="icon"></i><div class="time">`+getTimeLineData[key].date+`</div><div class="info"><p>`+getTimeLineData[key].desc1+`</p><p>`+getTimeLineData[key].desc2+`</p><p>`+getTimeLineData[key].desc3+`</p></div></div>`;
+       slider_b++
+    };
+});
+
+//计算长度 swiper-wrapper
+var swiper_width=195*slider_b+917*slider_a+30*(slider_b+slider_a);
+$('.swiper-wrapper').css('width',swiper_width+'px');
+
+
+$('#Time_line_list').html(TimeLine_html);
+
+if(isPC()){
+    var swiper = new Swiper(".mySwiper", {
+    observer: true, 
+    observeParents: true, 
+    slidesPerView:"auto",
+    freeMode: true,    
+    navigation: {
+        nextEl: ".next_btn",
+        prevEl: ".prev_btn",
+      },
+});
+swiper.update();          // 更新幻灯片数量?:ml-citation{ref="4,5" data="citationList"}
+// var right_w=swiper_width-($(document.body).width()-200);
+// $('#Time_line_list').css('transform','translateX(-'+right_w+'px)')
+swiper.slideTo(swiper.slides.length - 2, 0)
+} 
+//此段代码不能放到外链JS中，
+var setSite = { //设置网站属性
+    siteType: "a20250228timeline", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+    pageType: "index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN,不支持点(.)、下划线(_)
+    project: "base", //选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;官网或微社区base;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;皮肤skin;默认other;
+    ingame: false,//选填项:默认根据浏览器类型获取是否属于游戏内，因英雄联盟端游客户端特殊性，所以英雄联盟端游客户端需求需要填写true.
+    autoClick: false,//是否自动上报按钮&a的点击。选填项：默认false。非必要不开启
+    autoAreaStay: false,//是否自动上报dom中填写dt-areaid的区域停留时长。选填项：默认false。非必要不开启
+};
+if (typeof LOL_SEND_DATA_FN_AT == 'function') {
+    LOL_SEND_DATA_FN_AT();
+};//千万不能忘记！
+</script>
+<style>#afooter{display:block!important}</style>
+</body>
+</html>
